@@ -51,7 +51,12 @@ projects[file_entity][version] = "2.0-alpha2"
 
 projects[flag][version] = "2.0"
 
-projects[formblock][version] = "2d94c83"
+projects[formblock][type] = "module"
+projects[formblock][subdir] = "contrib"
+projects[formblock][download][type] = "git"
+projects[formblock][download][url] = "http://git.drupal.org/project/formblock.git"
+projects[formblock][download][revision] = "2d94c83"
+
 
 projects[geocoder][version] = "1.2"
 
@@ -75,14 +80,25 @@ projects[libraries][version] = "2.1"
 
 projects[link][version] = "1.1"
 
-projects[media][version] = "c3cda2b"
+projects[media][version] = "2d94c83"
+projects[media][type] = "module"
+projects[media][subdir] = "contrib"
+projects[media][download][type] = "git"
+projects[media][download][url] = "http://git.drupal.org/project/media.git"
+projects[media][download][revision] = "8754c6b395637c6243efd2741a77b3890cad7059"
+
 
 projects[media_vimeo][version] = "2.0-rc1"
 
-projects[media_youtube][version] = "ca46aba"
-projects[media_youtube][patches][] = "http://drupal.org/files/issues/provide-access-wrapper-1823376-6.patch"
 
-projects[menu_block][version] = "32ab1cf08b729c93302455d67dd05f64ad2fc056"
+projects[media_youtube][type]           = "module"
+projects[media_youtube][subdir]         = "contrib"
+projects[media_youtube][download][type] = "git"
+projects[media_youtube][download][url]  = "http://git.drupal.org/project/media_youtube.git"
+projects[media_youtube][download][revision]  = "ca46aba"
+projects[media_youtube][download][patches] = "http://drupal.org/files/issues/provide-access-wrapper-1823376-6.patch"
+
+projects[menu_block][revision] = "32ab1cf08b729c93302455d67dd05f64ad2fc056"
 projects[menu_block][patches][] = "http://drupal.org/files/menu_block-ctools-693302-96.patch"
 
 projects[menu_breadcrumb][version] = "1.3"
@@ -123,8 +139,12 @@ projects[rules][version] = "2.3"
 
 projects[scheduler][version] = "1.1"
 
-projects[secure_permissions][version] = "ef5eec5"
-projects[secure_permissions][patches][] = "http://drupal.org/files/issues/2188491-features-multilingual-2.patch"
+projects[secure_permissions][type]           = "module"
+projects[secure_permissions][subdir]         = "contrib"
+projects[secure_permissions][download][type] = "git"
+projects[secure_permissions][download][url]  = "http://git.drupal.org/project/secure_permissions.git"
+projects[secure_permissions][download][revision]  = "ef5eec5"
+projects[secure_permissions][download][patches] = "http://drupal.org/files/issues/2188491-features-multilingual-2.patch"
 
 projects[securepages][version] = "1.0-beta2"
 
@@ -164,18 +184,18 @@ projects[ding_base][download][url] = "git@github.com:ding2tal/ding_base.git"
 projects[ding_base][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_content][type] = "module"
-projects[ding_content][download][type] = "gi"
+projects[ding_content][download][type] = "git"
 projects[ding_content][download][url] = "git@github.com:ding2tal/ding_content.git"
 projects[ding_content][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_event][type] = "module"
 projects[ding_event][download][type] = "git"
-projects[ding_event][download][url] = " git@github.com:ding2tal/ding_event.git"
+projects[ding_event][download][url] = "git@github.com:ding2tal/ding_event.git"
 projects[ding_event][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_frontend][type] = "module"
 projects[ding_frontend][download][type] = "git"
-projects[ding_frontend][download][url] = " git@github.com:ding2tal/ding_frontend.git"
+projects[ding_frontend][download][url] = "git@github.com:ding2tal/ding_frontend.git"
 projects[ding_frontend][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_frontpage][type] = "module"
