@@ -520,3 +520,9 @@ libraries[leaflet][download][type] = "git"
 libraries[leaflet][download][url] = "http://git.drupal.org/project/leaflet.git"
 libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][download][branch] = "7.x-1.x"
+
+; easyDDB
+projects[ding_bibliotek_info][type]             = "module"
+projects[ding_bibliotek_info][download][type]   = "git"
+projects[ding_bibliotek_info][download][url]    = "git@github.com:easyting/ding_bibliotek_info.git"
+projects[ding_bibliotek_info][download][branch] = "develop"
