@@ -252,12 +252,12 @@ projects[ding_content][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_event][type] = "module"
 projects[ding_event][download][type] = "git"
-projects[ding_event][download][url] = "git@github.com:ding2tal/ding_event.git"
+projects[ding_event][download][url] = " git@github.com:ding2tal/ding_event.git"
 projects[ding_event][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_frontend][type] = "module"
 projects[ding_frontend][download][type] = "git"
-projects[ding_frontend][download][url] = "git@github.com:ding2tal/ding_frontend.git"
+projects[ding_frontend][download][url] = " git@github.com:ding2tal/ding_frontend.git"
 projects[ding_frontend][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_frontpage][type] = "module"
@@ -300,10 +300,10 @@ projects[ding_user_frontend][download][type] = "git"
 projects[ding_user_frontend][download][url] = "git@github.com:ding2tal/ding_user_frontend.git"
 projects[ding_user_frontend][download][tag] = "7.x-1.0-rc5"
 
-; ToDo find out why ding_varnish is dependent from this project but it's not present in original ding2tal
-;projects[ding_user_roles][download][type] = ""
-;projects[ding_user_roles][download][url] = ""
-;projects[ding_user_roles][type] = "module"
+projects[ding_user_roles][type] = "module"
+projects[ding_user_roles][download][type] = "git"
+projects[ding_user_roles][download][url] = "git@github.com:ding2tal/ding_varnish.git"
+projects[ding_user_roles][download][tag] = "7.x-1.0-rc5"
 
 projects[ting_material_details][type] = "module"
 projects[ting_material_details][download][type] = "git"
@@ -489,6 +489,16 @@ projects[ting_sfx][type] = "module"
 projects[ting_sfx][download][type] = "git"
 projects[ting_sfx][download][url] = "git@github.com:ding2tal/ting_sfx.git"
 projects[ting_sfx][download][tag] = "7.x-1.0-rc5"
+
+projects[alma][type] = "module"
+projects[alma][download][type] = "git"
+projects[alma][download][url] = "git@github.com:ding2tal/alma.git"
+projects[alma][download][tag] = "7.x-1.0-rc5"
+
+projects[openruth][type] = "module"
+projects[openruth][download][type] = "git"
+projects[openruth][download][url] = "git@github.com:ding2tal/openruth.git"
+projects[openruth][download][tag] = "7.x-1.0-rc5"
 
 ; Themes
 projects[ddbasic][type] = "theme"
