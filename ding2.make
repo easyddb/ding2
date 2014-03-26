@@ -252,12 +252,12 @@ projects[ding_content][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_event][type] = "module"
 projects[ding_event][download][type] = "git"
-projects[ding_event][download][url] = " git@github.com:ding2tal/ding_event.git"
+projects[ding_event][download][url] = "git@github.com:ding2tal/ding_event.git"
 projects[ding_event][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_frontend][type] = "module"
 projects[ding_frontend][download][type] = "git"
-projects[ding_frontend][download][url] = " git@github.com:ding2tal/ding_frontend.git"
+projects[ding_frontend][download][url] = "git@github.com:ding2tal/ding_frontend.git"
 projects[ding_frontend][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_frontpage][type] = "module"
