@@ -4,177 +4,239 @@ api = 2
 ; Contribution modules
 
 projects[views_bulk_operations][version] = "3.1"
+projects[views_bulk_operations][subdir] = "contrib"
 
 projects[addressfield][version] = "1.0-beta5"
+projects[addressfield][subdir] = "contrib"
 
 projects[autosave][version] = "2.2"
+projects[autosave][subdir] = "contrib"
 
 projects[ctools][version] = "1.4"
+projects[ctools][subdir] = "contrib"
 
 projects[cache_actions][version] = "2.0-alpha5"
+projects[cache_actions][subdir] = "contrib"
 
 projects[node_clone][version] = "1.0-rc2"
+projects[node_clone][subdir] = "contrib"
 
 projects[dibs][version] = "1.0"
+projects[dibs][subdir] = "contrib"
 projects[dibs][patches][] = "http://drupal.org/files/dibs-2107389-2.patch"
 
 projects[conditional_styles][version] = "2.2"
+projects[conditional_styles][subdir] = "contrib"
 
 projects[cookiecontrol][version] = "1.6"
+projects[cookiecontrol][subdir] = "contrib"
 projects[cookiecontrol][patches][] = "http://drupal.org/files/issues/translatable_link_title-2174955-1.patch"
 
 projects[cs_adaptive_image][version] = "1.0"
+projects[cs_adaptive_image][subdir] = "contrib"
 
 projects[date][version] = "2.6"
+projects[date][subdir] = "contrib"
 
 projects[dynamic_background][version] = "2.0-rc4"
+projects[dynamic_background][subdir] = "contrib"
 
 projects[email][version] = "1.2"
+projects[email][subdir] = "contrib"
 
 projects[entity][version] = "1.3"
+projects[entity][subdir] = "contrib"
 
 projects[entitycache][version] = "1.1"
+projects[entitycache][subdir] = "contrib"
 projects[entitycache][patches][] = "http://drupal.org/files/issues/2146543-ensure-entity-inserts-clears-caches.1.patch"
 
 projects[entityreference][version] = "1.1"
+projects[entityreference][subdir] = "contrib"
 
 projects[expire][version] = "1.0-beta1"
+projects[expire][subdir] = "contrib"
 projects[expire][patches][] = "https://drupal.org/files/issues/expire-2183995-1.patch"
 
 projects[features_extra][version] = "1.0-beta1"
+projects[features_extra][subdir] = "contrib"
 
 projects[features][version] = "2.0-beta2"
+projects[features][subdir] = "contrib"
 
 projects[field_group][version] = "1.1"
+projects[field_group][subdir] = "contrib"
 
 projects[file_entity][version] = "2.0-alpha2"
+projects[file_entity][subdir] = "contrib"
 
 projects[flag][version] = "2.0"
+projects[flag][subdir] = "contrib"
 
 projects[formblock][type] = "module"
 projects[formblock][subdir] = "contrib"
-projects[formblock][download][type] = "git"
-projects[formblock][download][url] = "http://git.drupal.org/project/formblock.git"
-projects[formblock][download][revision] = "2d94c83"
-
+projects[formblock][download][type] = "get"
+projects[formblock][download][url] = "http://drupalcode.org/project/formblock.git/snapshot/2d94c8323b2095e4c3e6470d31aa49063688dff6.tar.gz"
 
 projects[geocoder][version] = "1.2"
+projects[geocoder][subdir] = "contrib"
 
 projects[geofield][version] = "1.1"
+projects[geofield][subdir] = "contrib"
 
 projects[geophp][version] = "1.7"
+projects[geophp][subdir] = "contrib"
 
 projects[i18n][version] = "1.8"
+projects[i18n][subdir] = "contrib"
 
 projects[image_resize_filter][version] = "1.14"
+projects[image_resize_filter][subdir] = "contrib"
 
 projects[jquery_update][version] = "2.3"
+projects[jquery_update][subdir] = "contrib"
 
 projects[l10n_update][version] = "1.0-beta3"
+projects[l10n_update][subdir] = "contrib"
 
 projects[languageicons][version] = "1.0"
+projects[languageicons][subdir] = "contrib"
 
 projects[leaflet][version] = "1.1"
+projects[leaflet][subdir] = "contrib"
 
 projects[libraries][version] = "2.1"
+projects[libraries][subdir] = "contrib"
 
 projects[link][version] = "1.1"
+projects[link][subdir] = "contrib"
 
-projects[media][version] = "2d94c83"
 projects[media][type] = "module"
 projects[media][subdir] = "contrib"
-projects[media][download][type] = "git"
-projects[media][download][url] = "http://git.drupal.org/project/media.git"
-projects[media][download][revision] = "8754c6b395637c6243efd2741a77b3890cad7059"
-
+projects[media][download][type] = "get"
+projects[media][download][url] = "http://drupalcode.org/project/media.git/snapshot/c3cda2b.tar.gz"
 
 projects[media_vimeo][version] = "2.0-rc1"
+projects[media_vimeo][subdir] = "contrib"
 
+projects[media_youtube][type] = "module"
+projects[media_youtube][download][type] = "get"
+projects[media_youtube][download][url] = "http://drupalcode.org/project/media_youtube.git/snapshot/ca46aba.tar.gz"
+projects[media_youtube][subdir] = "contrib"
+projects[media_youtube][patches][] = "http://drupal.org/files/issues/provide-access-wrapper-1823376-6.patch"
 
-projects[media_youtube][type]           = "module"
-projects[media_youtube][subdir]         = "contrib"
-projects[media_youtube][download][type] = "git"
-projects[media_youtube][download][url]  = "http://git.drupal.org/project/media_youtube.git"
-projects[media_youtube][download][revision]  = "ca46aba"
-projects[media_youtube][download][patches] = "http://drupal.org/files/issues/provide-access-wrapper-1823376-6.patch"
-
-projects[menu_block][revision] = "32ab1cf08b729c93302455d67dd05f64ad2fc056"
+projects[menu_block][type] = "module"
+projects[menu_block][subdir] = "contrib"
+projects[menu_block][download][type] = "get"
+projects[menu_block][download][url] = "http://drupalcode.org/project/menu_block.git/snapshot/32ab1cf08b729c93302455d67dd05f64ad2fc056.tar.gz"
 projects[menu_block][patches][] = "http://drupal.org/files/menu_block-ctools-693302-96.patch"
 
 projects[menu_breadcrumb][version] = "1.3"
+projects[menu_breadcrumb][subdir] = "contrib"
 
 projects[menu_position][version] = "1.1"
+projects[menu_position][subdir] = "contrib"
 
 projects[module_filter][version] = "1.7"
+projects[module_filter][subdir] = "contrib"
 
 projects[nanosoap][version] = "1.0"
+projects[nanosoap][subdir] = "contrib"
 
 projects[nodequeue][version] = "2.0-beta1"
+projects[nodequeue][subdir] = "contrib"
 
 projects[og][version] = "2.5"
+projects[og][subdir] = "contrib"
 
 projects[og_menu][version] = "3.0-rc4"
+projects[og_menu][subdir] = "contrib"
 
 projects[opening_hours][version] = "1.4-beta1"
+projects[opening_hours][subdir] = "contrib"
 projects[opening_hours][patches][] = "http://drupal.org/files/node-type-test-isset-2011684-2.patch"
 
 projects[panels][version] = "3.3"
+projects[panels][subdir] = "contrib"
 projects[panels][patches][] = "http://drupal.org/files/1649046-form-wrapper-is-where-form-is-now.patch"
 
 projects[panels_breadcrumbs][version] = "2.0"
+projects[panels_breadcrumbs][subdir] = "contrib"
 
 projects[panels_everywhere][version] = "1.0-rc1"
+projects[panels_everywhere][subdir] = "contrib"
 
 projects[pathauto][version] = "1.2"
+projects[pathauto][subdir] = "contrib"
 
 projects[pm_existing_pages][version] = "1.4"
+projects[pm_existing_pages][subdir] = "contrib"
 
 projects[profile2][version] = "1.3"
+projects[profile2][subdir] = "contrib"
 
 projects[relation][version] = "1.0-rc4"
+projects[relation][subdir] = "contrib"
 
 projects[role_delegation][version] = "1.1"
+projects[role_delegation][subdir] = "contrib"
 
 projects[rules][version] = "2.3"
+projects[rules][subdir] = "contrib"
 
 projects[scheduler][version] = "1.1"
+projects[scheduler][subdir] = "contrib"
 
-projects[secure_permissions][type]           = "module"
-projects[secure_permissions][subdir]         = "contrib"
-projects[secure_permissions][download][type] = "git"
-projects[secure_permissions][download][url]  = "http://git.drupal.org/project/secure_permissions.git"
-projects[secure_permissions][download][revision]  = "ef5eec5"
-projects[secure_permissions][download][patches] = "http://drupal.org/files/issues/2188491-features-multilingual-2.patch"
+
+projects[secure_permissions][type] = "module"
+projects[secure_permissions][subdir] = "contrib"
+projects[secure_permissions][download][type] = "get"
+projects[secure_permissions][download][url] = "http://drupalcode.org/project/secure_permissions.git/snapshot/ef5eec5.tar.gz"
+projects[secure_permissions][patches][] = "http://drupal.org/files/issues/2188491-features-multilingual-2.patch"
 
 projects[securepages][version] = "1.0-beta2"
+projects[securepages][subdir] = "contrib"
 
 projects[similarterms][version] = "2.3"
+projects[similarterms][subdir] = "contrib"
 
 projects[strongarm][version] = "2.0"
+projects[strongarm][subdir] = "contrib"
 
 projects[taxonomy_menu][version] = "1.4"
+projects[taxonomy_menu][subdir] = "contrib"
 projects[taxonomy_menu][patches][] = "http://drupal.org/files/issues/taxonomy_menu-variable-and-array-check.patch"
 
 projects[tipsy][version] = "1.0-rc1"
+projects[tipsy][subdir] = "contrib"
 
 projects[token][version] = "1.5"
+projects[token][subdir] = "contrib"
 
 projects[transliteration][version] = "3.1"
+projects[transliteration][subdir] = "contrib"
 
 projects[variable][version] = "2.2"
+projects[variable][subdir] = "contrib"
 
 projects[varnish][version] = "1.0-beta2"
+projects[varnish][subdir] = "contrib"
 projects[varnish][patches][] = "http://drupal.org/files/issues/notification_level_settings-2169271-3.patch"
 
 projects[views][version] = "3.7"
+projects[views][subdir] = "contrib"
 
 projects[views_responsive_grid][version] = "1.3"
+projects[views_responsive_grid][subdir] = "contrib"
 
 projects[virtual_field][version] = "1.1"
+projects[virtual_field][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"
+projects[workbench][subdir] = "contrib"
 
 projects[wysiwyg][version] = "2.2"
+projects[wysiwyg][subdir] = "contrib"
 
 
 ; Ding2tal core modules
@@ -184,7 +246,7 @@ projects[ding_base][download][url] = "git@github.com:ding2tal/ding_base.git"
 projects[ding_base][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_content][type] = "module"
-projects[ding_content][download][type] = "git"
+projects[ding_content][download][type] = "gi"
 projects[ding_content][download][url] = "git@github.com:ding2tal/ding_content.git"
 projects[ding_content][download][tag] = "7.x-1.0-rc5"
 
