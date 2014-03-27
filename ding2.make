@@ -293,7 +293,7 @@ projects[ding_tabroll][download][tag] = "7.x-1.0-rc5"
 projects[ding_ting_frontend][type] = "module"
 projects[ding_ting_frontend][download][type] = "git"
 projects[ding_ting_frontend][download][url] = "git@github.com:easyddb/ding_ting_frontend.git"
-projects[ding_ting_frontend][download][tag] = "development"
+projects[ding_ting_frontend][download][branch] = "development"
 
 projects[ding_user_frontend][type] = "module"
 projects[ding_user_frontend][download][type] = "git"
