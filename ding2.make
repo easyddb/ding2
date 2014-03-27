@@ -531,3 +531,9 @@ projects[ding_bibliotek_info][type]             = "module"
 projects[ding_bibliotek_info][download][type]   = "git"
 projects[ding_bibliotek_info][download][url]    = "git@github.com:easyting/ding_bibliotek_info.git"
 projects[ding_bibliotek_info][download][branch] = "develop"
+
+; Visual effects for ting collection
+projects[ding_search_collection][type]             = "module"
+projects[ding_search_collection][download][type]   = "git"
+projects[ding_search_collection][download][url]    = "git@github.com:easyddb/ding_search_collection.git"
+projects[ding_search_collection][download][branch] = "develop"
