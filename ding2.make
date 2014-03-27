@@ -522,6 +522,11 @@ libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][download][branch] = "7.x-1.x"
 
 ; easyDDB
+projects[alma_reminder_service][type]           = "module"
+projects[alma_reminder_service][download][type] = "git"
+projects[alma_reminder_service][download][url]  = "git@github.com:easyddb/alma_reminder_service.git"
+projects[alma_reminder_service][download][tag]  = "develop"
+
 projects[ding_bibliotek_info][type]             = "module"
 projects[ding_bibliotek_info][download][type]   = "git"
 projects[ding_bibliotek_info][download][url]    = "git@github.com:easyting/ding_bibliotek_info.git"
