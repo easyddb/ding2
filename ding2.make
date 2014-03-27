@@ -537,3 +537,8 @@ projects[ding_bibliotek_info][type]             = "module"
 projects[ding_bibliotek_info][download][type]   = "git"
 projects[ding_bibliotek_info][download][url]    = "git@github.com:easyting/ding_bibliotek_info.git"
 projects[ding_bibliotek_info][download][branch] = "develop"
+
+projects[ting_null_covers][type] = "module"
+projects[ting_null_covers][download][type] = "git"
+projects[ting_null_covers][download][url] = "git@github.com:easyddb/ting_null_covers.git"
+projects[ting_null_covers][download][branch] = "develop"
