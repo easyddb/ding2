@@ -525,7 +525,7 @@ libraries[leaflet][download][branch] = "7.x-1.x"
 projects[alma_reminder_service][type]           = "module"
 projects[alma_reminder_service][download][type] = "git"
 projects[alma_reminder_service][download][url]  = "git@github.com:easyddb/alma_reminder_service.git"
-projects[alma_reminder_service][download][tag]  = "develop"
+projects[alma_reminder_service][download][branch]  = "develop"
 
 projects[ding_bibliotek_info][type]             = "module"
 projects[ding_bibliotek_info][download][type]   = "git"
