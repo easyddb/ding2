@@ -246,7 +246,7 @@ projects[ding_base][download][url] = "git@github.com:ding2tal/ding_base.git"
 projects[ding_base][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_content][type] = "module"
-projects[ding_content][download][type] = "gi"
+projects[ding_content][download][type] = "git"
 projects[ding_content][download][url] = "git@github.com:ding2tal/ding_content.git"
 projects[ding_content][download][tag] = "7.x-1.0-rc5"
 
