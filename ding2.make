@@ -500,6 +500,12 @@ projects[openruth][download][type] = "git"
 projects[openruth][download][url] = "git@github.com:ding2tal/openruth.git"
 projects[openruth][download][tag] = "7.x-1.0-rc5"
 
+; Adds customizable help in user profile form
+projects[ding_user_profile][type] = "module"
+projects[ding_user_profile][download][type] = "git"
+projects[ding_user_profile][download][url] = "git@github.com:easyddb/ding_user_profile.git"
+projects[ding_user_profile][download][branch] = "develop"
+
 ; Themes
 projects[ddbasic][type] = "theme"
 projects[ddbasic][download][type] = "git"
@@ -531,3 +537,8 @@ projects[ding_bibliotek_info][type]             = "module"
 projects[ding_bibliotek_info][download][type]   = "git"
 projects[ding_bibliotek_info][download][url]    = "git@github.com:easyting/ding_bibliotek_info.git"
 projects[ding_bibliotek_info][download][branch] = "develop"
+
+projects[ting_null_covers][type] = "module"
+projects[ting_null_covers][download][type] = "git"
+projects[ting_null_covers][download][url] = "git@github.com:easyddb/ting_null_covers.git"
+projects[ting_null_covers][download][branch] = "develop"
