@@ -542,3 +542,9 @@ projects[ting_null_covers][type] = "module"
 projects[ting_null_covers][download][type] = "git"
 projects[ting_null_covers][download][url] = "git@github.com:easyddb/ting_null_covers.git"
 projects[ting_null_covers][download][branch] = "develop"
+
+; Visual effects for ting collection
+projects[ding_search_collection][type]             = "module"
+projects[ding_search_collection][download][type]   = "git"
+projects[ding_search_collection][download][url]    = "git@github.com:easyddb/ding_search_collection.git"
+projects[ding_search_collection][download][branch] = "develop"
