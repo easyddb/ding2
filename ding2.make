@@ -528,8 +528,10 @@ libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][download][branch] = "7.x-1.x"
 
 ; easyDDB
-projects[features_override][version] = "7.x-2.0-rc1"
-projects[features_override][subdir]  = "contrib"
+projects[features_override][type]           = "module"
+projects[features_override][subdir]         = "contrib"
+projects[features_override][download][type] = "get"
+projects[features_override][download][url]  = "http://drupalcode.org/project/features_override.git/snapshot/92fea0738050e65f3bbaed7cf329e3bac55ab55d.tar.gz"
 
 projects[alma_reminder_service][type]           = "module"
 projects[alma_reminder_service][download][type] = "git"
