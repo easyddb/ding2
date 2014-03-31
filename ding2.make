@@ -246,18 +246,18 @@ projects[ding_base][download][url] = "git@github.com:ding2tal/ding_base.git"
 projects[ding_base][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_content][type] = "module"
-projects[ding_content][download][type] = "gi"
+projects[ding_content][download][type] = "git"
 projects[ding_content][download][url] = "git@github.com:ding2tal/ding_content.git"
 projects[ding_content][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_event][type] = "module"
 projects[ding_event][download][type] = "git"
-projects[ding_event][download][url] = " git@github.com:ding2tal/ding_event.git"
+projects[ding_event][download][url] = "git@github.com:ding2tal/ding_event.git"
 projects[ding_event][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_frontend][type] = "module"
 projects[ding_frontend][download][type] = "git"
-projects[ding_frontend][download][url] = " git@github.com:ding2tal/ding_frontend.git"
+projects[ding_frontend][download][url] = "git@github.com:ding2tal/ding_frontend.git"
 projects[ding_frontend][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_frontpage][type] = "module"
@@ -292,8 +292,8 @@ projects[ding_tabroll][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_ting_frontend][type] = "module"
 projects[ding_ting_frontend][download][type] = "git"
-projects[ding_ting_frontend][download][url] = "git@github.com:easyddb/ding_ting_frontend.git"
-projects[ding_ting_frontend][download][tag] = "development"
+projects[ding_ting_frontend][download][url] = "git@github.com:ding2tal/ding_ting_frontend.git"
+projects[ding_ting_frontend][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_user_frontend][type] = "module"
 projects[ding_user_frontend][download][type] = "git"
@@ -500,6 +500,12 @@ projects[openruth][download][type] = "git"
 projects[openruth][download][url] = "git@github.com:ding2tal/openruth.git"
 projects[openruth][download][tag] = "7.x-1.0-rc5"
 
+; Adds customizable help in user profile form
+projects[ding_user_profile][type] = "module"
+projects[ding_user_profile][download][type] = "git"
+projects[ding_user_profile][download][url] = "git@github.com:easyddb/ding_user_profile.git"
+projects[ding_user_profile][download][branch] = "develop"
+
 ; Themes
 projects[ddbasic][type] = "theme"
 projects[ddbasic][download][type] = "git"
@@ -522,7 +528,23 @@ libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][download][branch] = "7.x-1.x"
 
 ; easyDDB
+projects[alma_reminder_service][type]           = "module"
+projects[alma_reminder_service][download][type] = "git"
+projects[alma_reminder_service][download][url]  = "git@github.com:easyddb/alma_reminder_service.git"
+projects[alma_reminder_service][download][branch]  = "develop"
+
 projects[ding_bibliotek_info][type]             = "module"
 projects[ding_bibliotek_info][download][type]   = "git"
 projects[ding_bibliotek_info][download][url]    = "git@github.com:easyting/ding_bibliotek_info.git"
 projects[ding_bibliotek_info][download][branch] = "develop"
+
+projects[ting_null_covers][type] = "module"
+projects[ting_null_covers][download][type] = "git"
+projects[ting_null_covers][download][url] = "git@github.com:easyddb/ting_null_covers.git"
+projects[ting_null_covers][download][branch] = "develop"
+
+; Visual effects for ting collection
+projects[ding_search_collection][type]             = "module"
+projects[ding_search_collection][download][type]   = "git"
+projects[ding_search_collection][download][url]    = "git@github.com:easyddb/ding_search_collection.git"
+projects[ding_search_collection][download][branch] = "develop"
