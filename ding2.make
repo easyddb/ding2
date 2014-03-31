@@ -528,6 +528,9 @@ libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][download][branch] = "7.x-1.x"
 
 ; easyDDB
+projects[features_override][version] = "7.x-2.0-rc1"
+projects[features_override][subdir]  = "contrib"
+
 projects[alma_reminder_service][type]           = "module"
 projects[alma_reminder_service][download][type] = "git"
 projects[alma_reminder_service][download][url]  = "git@github.com:easyddb/alma_reminder_service.git"
