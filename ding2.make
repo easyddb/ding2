@@ -540,7 +540,7 @@ projects[alma_reminder_service][download][branch]  = "develop"
 
 projects[ding_bibliotek_info][type]             = "module"
 projects[ding_bibliotek_info][download][type]   = "git"
-projects[ding_bibliotek_info][download][url]    = "git@github.com:easyting/ding_bibliotek_info.git"
+projects[ding_bibliotek_info][download][url]    = "git@github.com:easyddb/ding_bibliotek_info.git"
 projects[ding_bibliotek_info][download][branch] = "develop"
 
 projects[ting_null_covers][type] = "module"
