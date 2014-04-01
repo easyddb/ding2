@@ -308,7 +308,7 @@ projects[ding_user_roles][download][tag] = "7.x-1.0-rc5"
 projects[ting_material_details][type] = "module"
 projects[ting_material_details][download][type] = "git"
 projects[ting_material_details][download][url] = "git@github.com:ding2tal/ting_material_details.git"
-projects[ting_material_details][download][tag] = "7.x-1.0-rc5"
+projects[ting_material_details][download][tag] = "7.x-1.0-beta1"
 
 projects[ting_reference][type] = "module"
 projects[ting_reference][download][type] = "git"
