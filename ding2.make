@@ -553,3 +553,8 @@ projects[ding_search_collection][type]             = "module"
 projects[ding_search_collection][download][type]   = "git"
 projects[ding_search_collection][download][url]    = "git@github.com:easyddb/ding_search_collection.git"
 projects[ding_search_collection][download][branch] = "develop"
+
+projects[artesis_facebookshare][type]             = "module"
+projects[artesis_facebookshare][download][type]   = "git"
+projects[artesis_facebookshare][download][url]    = "git@github.com:easyting/artesis_facebookshare.git"
+projects[artesis_facebookshare][download][branch] = "develop"
