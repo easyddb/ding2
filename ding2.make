@@ -440,10 +440,20 @@ projects[ding_webtrends][download][type] = "git"
 projects[ding_webtrends][download][url] = "git@github.com:ding2tal/ding_webtrends.git"
 projects[ding_webtrends][download][tag] = "7.x-1.0-rc5"
 
+projects[ding_varnish][type] = "module"
+projects[ding_varnish][download][type] = "git"
+projects[ding_varnish][download][url] = "git@github.com:ding2tal/ding_varnish.git"
+projects[ding_varnish][download][tag] = "7.x-1.0-rc6"
+
 projects[ting][type] = "module"
 projects[ting][download][type] = "git"
 projects[ting][download][url] = "git@github.com:ding2tal/ting.git"
 projects[ting][download][tag] = "7.x-1.0-rc5"
+
+libraries[ting-client][destination]      = "modules/ting/lib"
+libraries[ting-client][download][type]   = "git"
+libraries[ting-client][download][url]    = "git@github.com:ding2tal/ting-client.git"
+libraries[ting-client][download][branch] = "v1.1.0beta4"
 
 projects[ting_covers][type] = "module"
 projects[ting_covers][download][type] = "git"
