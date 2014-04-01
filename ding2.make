@@ -302,7 +302,7 @@ projects[ding_user_frontend][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_user_roles][type] = "module"
 projects[ding_user_roles][download][type] = "git"
-projects[ding_user_roles][download][url] = "git@github.com:ding2tal/ding_varnish.git"
+projects[ding_user_roles][download][url] = "git@github.com:ding2tal/ding_user_roles.git"
 projects[ding_user_roles][download][tag] = "7.x-1.0-rc5"
 
 projects[ting_material_details][type] = "module"
