@@ -509,8 +509,8 @@ projects[ding_user_profile][download][branch] = "develop"
 ; Themes
 projects[ddbasic][type] = "theme"
 projects[ddbasic][download][type] = "git"
-projects[ddbasic][download][url] = "git@github.com:ding2tal/ddbasic.git"
-projects[ddbasic][download][tag] = "7.x-1.0-rc5"
+projects[ddbasic][download][url] = "git@github.com:easyddb/ddbasic.git"
+projects[ddbasic][download][tag] = "development"
 
 ; Libraries
 libraries[profiler][download][type]     = "git"
