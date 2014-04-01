@@ -510,7 +510,7 @@ projects[ding_user_profile][download][branch] = "develop"
 projects[ddbasic][type] = "theme"
 projects[ddbasic][download][type] = "git"
 projects[ddbasic][download][url] = "git@github.com:easyddb/ddbasic.git"
-projects[ddbasic][download][tag] = "development"
+projects[ddbasic][download][branch] = "development"
 
 ; Libraries
 libraries[profiler][download][type]     = "git"
