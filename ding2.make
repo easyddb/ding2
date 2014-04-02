@@ -47,7 +47,7 @@ projects[email][subdir] = "contrib"
 projects[entity][version] = "1.3"
 projects[entity][subdir] = "contrib"
 
-projects[entitycache][version] = "1.1"
+projects[entitycache][version] = "1.2"
 projects[entitycache][subdir] = "contrib"
 projects[entitycache][patches][] = "http://drupal.org/files/issues/2146543-ensure-entity-inserts-clears-caches.1.patch"
 
