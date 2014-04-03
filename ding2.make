@@ -561,7 +561,7 @@ projects[ting_null_covers][download][branch] = "develop"
 projects[ding_collection_reservation][type] = "module"
 projects[ding_collection_reservation][download][type] = "git"
 projects[ding_collection_reservation][download][url] = "git@github.com:easyddb/ding_collection_reservation.git"
-projects[bpi][download][branch] = "development"
+projects[ding_collection_reservation][download][branch] = "development"
 
 ; Visual effects for ting collection
 projects[ding_search_collection][type]             = "module"
