@@ -453,7 +453,7 @@ projects[ting][download][tag] = "7.x-1.0-rc5"
 libraries[ting-client][destination]      = "modules/ting/lib"
 libraries[ting-client][download][type]   = "git"
 libraries[ting-client][download][url]    = "git@github.com:ding2tal/ting-client.git"
-libraries[ting-client][download][branch] = "v1.1.0beta4"
+libraries[ting-client][download][branch] = "development"
 
 projects[ting_covers][type] = "module"
 projects[ting_covers][download][type] = "git"
