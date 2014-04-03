@@ -219,10 +219,6 @@ projects[transliteration][subdir] = "contrib"
 projects[variable][version] = "2.2"
 projects[variable][subdir] = "contrib"
 
-projects[varnish][version] = "1.0-beta2"
-projects[varnish][subdir] = "contrib"
-projects[varnish][patches][] = "http://drupal.org/files/issues/notification_level_settings-2169271-3.patch"
-
 projects[views][version] = "3.7"
 projects[views][subdir] = "contrib"
 
@@ -439,11 +435,6 @@ projects[ding_webtrends][type] = "module"
 projects[ding_webtrends][download][type] = "git"
 projects[ding_webtrends][download][url] = "git@github.com:ding2tal/ding_webtrends.git"
 projects[ding_webtrends][download][tag] = "7.x-1.0-rc5"
-
-projects[ding_varnish][type] = "module"
-projects[ding_varnish][download][type] = "git"
-projects[ding_varnish][download][url] = "git@github.com:ding2tal/ding_varnish.git"
-projects[ding_varnish][download][tag] = "7.x-1.0-rc6"
 
 projects[ting][type] = "module"
 projects[ting][download][type] = "git"
