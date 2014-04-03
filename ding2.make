@@ -47,7 +47,7 @@ projects[email][subdir] = "contrib"
 projects[entity][version] = "1.3"
 projects[entity][subdir] = "contrib"
 
-projects[entitycache][version] = "1.1"
+projects[entitycache][version] = "1.2"
 projects[entitycache][subdir] = "contrib"
 projects[entitycache][patches][] = "http://drupal.org/files/issues/2146543-ensure-entity-inserts-clears-caches.1.patch"
 
@@ -219,10 +219,6 @@ projects[transliteration][subdir] = "contrib"
 projects[variable][version] = "2.2"
 projects[variable][subdir] = "contrib"
 
-projects[varnish][version] = "1.0-beta2"
-projects[varnish][subdir] = "contrib"
-projects[varnish][patches][] = "http://drupal.org/files/issues/notification_level_settings-2169271-3.patch"
-
 projects[views][version] = "3.7"
 projects[views][subdir] = "contrib"
 
@@ -302,8 +298,8 @@ projects[ding_user_frontend][download][tag] = "7.x-1.0-rc5"
 
 projects[ding_user_roles][type] = "module"
 projects[ding_user_roles][download][type] = "git"
-projects[ding_user_roles][download][url] = "git@github.com:ding2tal/ding_varnish.git"
-projects[ding_user_roles][download][tag] = "7.x-1.0-rc5"
+projects[ding_user_roles][download][url] = "git@github.com:ding2tal/ding_user_roles.git"
+projects[ding_user_roles][download][tag] = "7.x-1.0-beta1"
 
 projects[ting_material_details][type] = "module"
 projects[ting_material_details][download][type] = "git"
@@ -445,6 +441,11 @@ projects[ting][download][type] = "git"
 projects[ting][download][url] = "git@github.com:ding2tal/ting.git"
 projects[ting][download][tag] = "7.x-1.0-rc5"
 
+libraries[ting-client][destination]      = "modules/ting/lib"
+libraries[ting-client][download][type]   = "git"
+libraries[ting-client][download][url]    = "git@github.com:ding2tal/ting-client.git"
+libraries[ting-client][download][branch] = "development"
+
 projects[ting_covers][type] = "module"
 projects[ting_covers][download][type] = "git"
 projects[ting_covers][download][url] = "git@github.com:ding2tal/ting_covers.git"
@@ -509,8 +510,8 @@ projects[ding_user_profile][download][branch] = "develop"
 ; Themes
 projects[ddbasic][type] = "theme"
 projects[ddbasic][download][type] = "git"
-projects[ddbasic][download][url] = "git@github.com:ding2tal/ddbasic.git"
-projects[ddbasic][download][tag] = "7.x-1.0-rc5"
+projects[ddbasic][download][url] = "git@github.com:easyddb/ddbasic.git"
+projects[ddbasic][download][branch] = "development"
 
 ; Libraries
 libraries[profiler][download][type]     = "git"
@@ -547,6 +548,11 @@ projects[ting_null_covers][type] = "module"
 projects[ting_null_covers][download][type] = "git"
 projects[ting_null_covers][download][url] = "git@github.com:easyddb/ting_null_covers.git"
 projects[ting_null_covers][download][branch] = "develop"
+
+projects[ding_collection_reservation][type] = "module"
+projects[ding_collection_reservation][download][type] = "git"
+projects[ding_collection_reservation][download][url] = "git@github.com:easyddb/ding_collection_reservation.git"
+projects[ding_collection_reservation][download][branch] = "development"
 
 ; Visual effects for ting collection
 projects[ding_search_collection][type]             = "module"
