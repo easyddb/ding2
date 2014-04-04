@@ -564,3 +564,8 @@ projects[artesis_facebookshare][type]             = "module"
 projects[artesis_facebookshare][download][type]   = "git"
 projects[artesis_facebookshare][download][url]    = "git@github.com:easyddb/artesis_facebookshare.git"
 projects[artesis_facebookshare][download][branch] = "develop"
+
+projects[ting_marc][type] = "module"
+projects[ting_marc][download][type] = "git"
+projects[ting_marc][download][url] = "git@github.com:easyddb/ting_marc.git"
+projects[ting_marc][download][branch] = "develop"
