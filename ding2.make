@@ -123,7 +123,7 @@ projects[media_youtube][type] = "module"
 projects[media_youtube][download][type] = "get"
 projects[media_youtube][download][url] = "http://drupalcode.org/project/media_youtube.git/snapshot/ca46aba.tar.gz"
 projects[media_youtube][subdir] = "contrib"
-projects[media_youtube][patches][] = "http://drupal.org/files/issues/provide-access-wrapper-1823376-6.patch"
+projects[media_youtube][patches][] = "https://drupal.org/files/1823376_media-youtube-use-file-entity-access-api_1.patch"
 
 projects[menu_block][type] = "module"
 projects[menu_block][subdir] = "contrib"
