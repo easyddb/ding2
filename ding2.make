@@ -290,7 +290,6 @@ projects[ding_ting_frontend][type] = "module"
 projects[ding_ting_frontend][download][type] = "git"
 projects[ding_ting_frontend][download][url] = "git@github.com:ding2tal/ding_ting_frontend.git"
 projects[ding_ting_frontend][download][tag] = "7.x-1.0-rc5"
-projects[ding_ting_frontend][patches][] = "https://raw.githubusercontent.com/easyddb/artesis_facebookshare/develop/artesis_facebookshare_ding_ting_frontend_test.patch"
 
 projects[ding_user_frontend][type] = "module"
 projects[ding_user_frontend][download][type] = "git"
