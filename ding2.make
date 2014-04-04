@@ -313,8 +313,8 @@ projects[ting_reference][download][tag] = "7.x-1.0-rc5"
 
 projects[bpi][type] = "module"
 projects[bpi][download][type] = "git"
-projects[bpi][download][url] = "git@github.com:aakb/bpi.git"
-projects[bpi][download][branch] = "development"
+projects[bpi][download][url] = "git@github.com:ding2tal/bpi.git"
+projects[bpi][download][tag] = "7.x-1.0-rc6"
 
 projects[ding_provider][type] = "module"
 projects[ding_provider][download][type] = "git"
