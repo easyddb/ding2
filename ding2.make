@@ -538,8 +538,13 @@ projects[features_override][download][url]  = "http://drupalcode.org/project/fea
 
 projects[alma_reminder_service][type]           = "module"
 projects[alma_reminder_service][download][type] = "git"
-projects[alma_reminder_service][download][url]  = "git@github.com:easyddb/alma_reminder_service.git"
+projects[alma_reminder_service][download][url]  = "git@github.com:easyting/alma_reminder_service.git"
 projects[alma_reminder_service][download][branch]  = "develop"
+
+projects[easyddb_alma_reminder][type]           = "module"
+projects[easyddb_alma_reminder][download][type] = "git"
+projects[easyddb_alma_reminder][download][url]  = "git@github.com:easyddb/easyddb_alma_reminder.git"
+projects[easyddb_alma_reminder][download][branch]  = "develop"
 
 projects[ding_bibliotek_info][type]             = "module"
 projects[ding_bibliotek_info][download][type]   = "git"
