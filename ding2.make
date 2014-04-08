@@ -334,6 +334,8 @@ projects[ding_availability][type] = "module"
 projects[ding_availability][download][type] = "git"
 projects[ding_availability][download][url] = "git@github.com:ding2tal/ding_availability.git"
 projects[ding_availability][download][tag] = "7.x-1.0-rc5"
+# Patch ding_availability.js with custom jquery event
+projects[ding_availability][patches][] = "http://storage.easyting.dk/ding_availability-7.x-0.14-custom_trigger_on_availability_fetch.patch"
 
 projects[ding_bookmark][type] = "module"
 projects[ding_bookmark][download][type] = "git"
