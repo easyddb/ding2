@@ -23,14 +23,14 @@ projects[node_clone][subdir] = "contrib"
 
 projects[dibs][version] = "1.0"
 projects[dibs][subdir] = "contrib"
-projects[dibs][patches][] = "http://drupal.org/files/dibs-2107389-2.patch"
+projects[dibs][patch][] = "http://drupal.org/files/dibs-2107389-2.patch"
 
 projects[conditional_styles][version] = "2.2"
 projects[conditional_styles][subdir] = "contrib"
 
 projects[cookiecontrol][version] = "1.6"
 projects[cookiecontrol][subdir] = "contrib"
-projects[cookiecontrol][patches][] = "http://drupal.org/files/issues/translatable_link_title-2174955-1.patch"
+projects[cookiecontrol][patch][] = "http://drupal.org/files/issues/translatable_link_title-2174955-1.patch"
 
 projects[cs_adaptive_image][version] = "1.0"
 projects[cs_adaptive_image][subdir] = "contrib"
@@ -49,14 +49,14 @@ projects[entity][subdir] = "contrib"
 
 projects[entitycache][version] = "1.2"
 projects[entitycache][subdir] = "contrib"
-projects[entitycache][patches][] = "http://drupal.org/files/issues/2146543-ensure-entity-inserts-clears-caches.1.patch"
+projects[entitycache][patch][] = "http://drupal.org/files/issues/2146543-ensure-entity-inserts-clears-caches.1.patch"
 
 projects[entityreference][version] = "1.1"
 projects[entityreference][subdir] = "contrib"
 
 projects[expire][version] = "1.0-beta1"
 projects[expire][subdir] = "contrib"
-projects[expire][patches][] = "https://drupal.org/files/issues/expire-2183995-1.patch"
+projects[expire][patch][] = "https://drupal.org/files/issues/expire-2183995-1.patch"
 
 projects[features_extra][version] = "1.0-beta1"
 projects[features_extra][subdir] = "contrib"
@@ -123,13 +123,13 @@ projects[media_youtube][type] = "module"
 projects[media_youtube][download][type] = "get"
 projects[media_youtube][download][url] = "http://drupalcode.org/project/media_youtube.git/snapshot/ca46aba.tar.gz"
 projects[media_youtube][subdir] = "contrib"
-projects[media_youtube][patches][] = "https://drupal.org/files/1823376_media-youtube-use-file-entity-access-api_1.patch"
+projects[media_youtube][patch][] = "https://drupal.org/files/1823376_media-youtube-use-file-entity-access-api_1.patch"
 
 projects[menu_block][type] = "module"
 projects[menu_block][subdir] = "contrib"
 projects[menu_block][download][type] = "get"
 projects[menu_block][download][url] = "http://drupalcode.org/project/menu_block.git/snapshot/32ab1cf08b729c93302455d67dd05f64ad2fc056.tar.gz"
-projects[menu_block][patches][] = "http://drupal.org/files/menu_block-ctools-693302-96.patch"
+projects[menu_block][patch][] = "http://drupal.org/files/menu_block-ctools-693302-96.patch"
 
 projects[menu_breadcrumb][version] = "1.3"
 projects[menu_breadcrumb][subdir] = "contrib"
@@ -154,11 +154,11 @@ projects[og_menu][subdir] = "contrib"
 
 projects[opening_hours][version] = "1.4-beta1"
 projects[opening_hours][subdir] = "contrib"
-projects[opening_hours][patches][] = "http://drupal.org/files/node-type-test-isset-2011684-2.patch"
+projects[opening_hours][patch][] = "http://drupal.org/files/node-type-test-isset-2011684-2.patch"
 
 projects[panels][version] = "3.3"
 projects[panels][subdir] = "contrib"
-projects[panels][patches][] = "http://drupal.org/files/1649046-form-wrapper-is-where-form-is-now.patch"
+projects[panels][patch][] = "http://drupal.org/files/1649046-form-wrapper-is-where-form-is-now.patch"
 
 projects[panels_breadcrumbs][version] = "2.0"
 projects[panels_breadcrumbs][subdir] = "contrib"
@@ -192,7 +192,7 @@ projects[secure_permissions][type] = "module"
 projects[secure_permissions][subdir] = "contrib"
 projects[secure_permissions][download][type] = "get"
 projects[secure_permissions][download][url] = "http://drupalcode.org/project/secure_permissions.git/snapshot/ef5eec5.tar.gz"
-projects[secure_permissions][patches][] = "http://drupal.org/files/issues/2188491-features-multilingual-2.patch"
+projects[secure_permissions][patch][] = "http://drupal.org/files/issues/2188491-features-multilingual-2.patch"
 
 projects[securepages][version] = "1.0-beta2"
 projects[securepages][subdir] = "contrib"
@@ -205,7 +205,7 @@ projects[strongarm][subdir] = "contrib"
 
 projects[taxonomy_menu][version] = "1.4"
 projects[taxonomy_menu][subdir] = "contrib"
-projects[taxonomy_menu][patches][] = "http://drupal.org/files/issues/taxonomy_menu-variable-and-array-check.patch"
+projects[taxonomy_menu][patch][] = "http://drupal.org/files/issues/taxonomy_menu-variable-and-array-check.patch"
 
 projects[tipsy][version] = "1.0-rc1"
 projects[tipsy][subdir] = "contrib"
@@ -331,7 +331,7 @@ projects[ding_availability][download][type] = "git"
 projects[ding_availability][download][url] = "git@github.com:ding2tal/ding_availability.git"
 projects[ding_availability][download][tag] = "7.x-1.0-rc6"
 # Patch ding_availability.js with custom jquery event
-projects[ding_availability][patches][] = "http://storage.easyting.dk/ding_availability-7.x-0.14-custom_trigger_on_availability_fetch.patch"
+projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-7.x-0.14-custom_trigger_on_availability_fetch.patch"
 
 projects[ding_bookmark][type] = "module"
 projects[ding_bookmark][download][type] = "git"
