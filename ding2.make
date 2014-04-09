@@ -567,6 +567,9 @@ projects[ding_search_collection][download][type]   = "git"
 projects[ding_search_collection][download][url]    = "git@github.com:easyddb/ding_search_collection.git"
 projects[ding_search_collection][download][branch] = "develop"
 
+projects[opengraph_meta][version] = "1.3"
+projects[opengraph_meta][subdir] = "contrib"
+
 projects[artesis_facebookshare][type]             = "module"
 projects[artesis_facebookshare][download][type]   = "git"
 projects[artesis_facebookshare][download][url]    = "git@github.com:easyddb/artesis_facebookshare.git"
