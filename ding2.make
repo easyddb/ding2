@@ -375,6 +375,7 @@ projects[ding_facetbrowser][type] = "module"
 projects[ding_facetbrowser][download][type] = "git"
 projects[ding_facetbrowser][download][url] = "git@github.com:ding2tal/ding_facetbrowser.git"
 projects[ding_facetbrowser][download][tag] = "7.x-1.0-rc6"
+projects[ding_facetbrowser][patch][] = "http://storage.easyting.dk/ding_facetbrowser-7.x-0.13-show_more_button_fix_ding2tal.patch"
 
 projects[ding_groups][type] = "module"
 projects[ding_groups][download][type] = "git"
