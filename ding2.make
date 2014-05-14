@@ -581,3 +581,8 @@ projects[ting_marc][type] = "module"
 projects[ting_marc][download][type] = "git"
 projects[ting_marc][download][url] = "git@github.com:easyddb/ting_marc.git"
 projects[ting_marc][download][branch] = "develop"
+
+projects[ting_dk5][type] = "module"
+projects[ting_dk5][download][type] = "git"
+projects[ting_dk5][download][url] = "git@github.com:easyddb/ting_dk5.git"
+projects[ting_dk5][download][branch] = "develop"
