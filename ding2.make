@@ -442,6 +442,7 @@ projects[ting][type] = "module"
 projects[ting][download][type] = "git"
 projects[ting][download][url] = "git@github.com:ding2tal/ting.git"
 projects[ting][download][tag] = "7.x-1.0-rc6"
+projects[ting][patch][] = "http://storage.easyting.dk/ding_entity_dk5.patch"
 
 libraries[ting-client][destination]      = "modules/ting/lib"
 libraries[ting-client][download][type]   = "git"
