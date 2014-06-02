@@ -322,6 +322,7 @@ projects[ding_availability][download][type] = "git"
 projects[ding_availability][download][url] = "git@github.com:ding2tal/ding_availability.git"
 projects[ding_availability][download][tag] = "7.x-1.0-rc6"
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability.waiting_time.patch"
+projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-search_collection_items_availability_fix-case_4218.patch"
 
 projects[ding_bookmark][type] = "module"
 projects[ding_bookmark][download][type] = "git"
