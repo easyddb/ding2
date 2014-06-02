@@ -111,24 +111,18 @@ projects[libraries][subdir] = "contrib"
 projects[link][version] = "1.1"
 projects[link][subdir] = "contrib"
 
-projects[media][type] = "module"
+projects[media][version] = "1.4"
 projects[media][subdir] = "contrib"
-projects[media][download][type] = "get"
-projects[media][download][url] = "http://drupalcode.org/project/media.git/snapshot/c3cda2b.tar.gz"
 
 projects[media_vimeo][version] = "2.0-rc1"
 projects[media_vimeo][subdir] = "contrib"
 
-projects[media_youtube][type] = "module"
-projects[media_youtube][download][type] = "get"
-projects[media_youtube][download][url] = "http://drupalcode.org/project/media_youtube.git/snapshot/ca46aba.tar.gz"
+projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][subdir] = "contrib"
 projects[media_youtube][patch][] = "https://drupal.org/files/issues/provide-access-wrapper-1823376-6.patch"
 
-projects[menu_block][type] = "module"
+projects[menu_block][version] = "2.4"
 projects[menu_block][subdir] = "contrib"
-projects[menu_block][download][type] = "get"
-projects[menu_block][download][url] = "http://drupalcode.org/project/menu_block.git/snapshot/32ab1cf08b729c93302455d67dd05f64ad2fc056.tar.gz"
 projects[menu_block][patch][] = "http://drupal.org/files/menu_block-ctools-693302-96.patch"
 
 projects[menu_breadcrumb][version] = "1.3"
@@ -187,11 +181,8 @@ projects[rules][subdir] = "contrib"
 projects[scheduler][version] = "1.1"
 projects[scheduler][subdir] = "contrib"
 
-
-projects[secure_permissions][type] = "module"
+projects[secure_permissions][version] = "1.6"
 projects[secure_permissions][subdir] = "contrib"
-projects[secure_permissions][download][type] = "get"
-projects[secure_permissions][download][url] = "http://drupalcode.org/project/secure_permissions.git/snapshot/ef5eec5.tar.gz"
 projects[secure_permissions][patch][] = "http://drupal.org/files/issues/2188491-features-multilingual-2.patch"
 
 projects[securepages][version] = "1.0-beta2"
@@ -533,10 +524,8 @@ libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][download][branch] = "7.x-1.x"
 
 ; easyDDB
-projects[features_override][type]           = "module"
+projects[features_override][version]        = "2.0-rc1"
 projects[features_override][subdir]         = "contrib"
-projects[features_override][download][type] = "get"
-projects[features_override][download][url]  = "http://drupalcode.org/project/features_override.git/snapshot/92fea0738050e65f3bbaed7cf329e3bac55ab55d.tar.gz"
 
 projects[alma_reminder_service][type]           = "module"
 projects[alma_reminder_service][download][type] = "git"
