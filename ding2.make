@@ -111,7 +111,7 @@ projects[libraries][subdir] = "contrib"
 projects[link][version] = "1.1"
 projects[link][subdir] = "contrib"
 
-projects[media][version] = "1.4"
+projects[media][version] = "2.0-alpha3"
 projects[media][subdir] = "contrib"
 
 projects[media_vimeo][version] = "2.0-rc1"
