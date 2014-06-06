@@ -75,8 +75,9 @@ projects[flag][subdir] = "contrib"
 
 projects[formblock][type] = "module"
 projects[formblock][subdir] = "contrib"
-projects[formblock][download][type] = "get"
-projects[formblock][download][url] = "http://drupalcode.org/project/formblock.git/snapshot/2d94c8323b2095e4c3e6470d31aa49063688dff6.tar.gz"
+projects[formblock][download][type] = "git"
+projects[formblock][download][url] = "http://git.drupal.org/project/formblock.git"
+projects[formblock][download][revision] = "2d94c83"
 
 projects[geocoder][version] = "1.2"
 projects[geocoder][subdir] = "contrib"
