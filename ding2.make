@@ -117,6 +117,7 @@ projects[media][subdir] = "contrib"
 projects[media][download][type] = "git"
 projects[media][download][url] = "http://git.drupal.org/project/media.git"
 projects[media][download][revision] = "d246c78"
+projects[media][patch][]= "http://storage.easyting.dk/media-oembed-2280941_0.patch"
 
 projects[media_vimeo][version] = "2.0-rc1"
 projects[media_vimeo][subdir] = "contrib"
