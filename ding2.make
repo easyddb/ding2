@@ -211,6 +211,11 @@ projects[token][subdir] = "contrib"
 projects[transliteration][version] = "3.1"
 projects[transliteration][subdir] = "contrib"
 
+projects[uuid][subdir] = "contrib"
+projects[uuid][download][type] = "git"
+projects[uuid][download][url] = "http://git.drupal.org/project/uuid.git"
+projects[uuid][download][revision] = "3f4d9fb"
+
 projects[variable][version] = "2.2"
 projects[variable][subdir] = "contrib"
 
