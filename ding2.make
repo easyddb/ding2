@@ -280,6 +280,7 @@ projects[ding_staff][type] = "module"
 projects[ding_staff][download][type] = "git"
 projects[ding_staff][download][url] = "git@github.com:ding2tal/ding_staff.git"
 projects[ding_staff][download][branch] = "ddb-rc8"
+projects[ding_staff][patch][] = "http://storage.easyting.dk/ding_staff-add_profile_rule.patch"
 
 projects[ding_tabroll][type] = "module"
 projects[ding_tabroll][download][type] = "git"
