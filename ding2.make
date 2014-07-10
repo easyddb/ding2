@@ -341,6 +341,7 @@ projects[ding_campaign][type] = "module"
 projects[ding_campaign][download][type] = "git"
 projects[ding_campaign][download][url] = "git@github.com:ding2tal/ding_campaign.git"
 projects[ding_campaign][download][tag] = "7.x-1.0-rc6"
+projects[ding_campaign][patch][] = "http://storage.easyting.dk/ding_campaign-rules_cache_clear-case_4349.patch"
 
 projects[ding_contact][type] = "module"
 projects[ding_contact][download][type] = "git"
