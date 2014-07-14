@@ -497,6 +497,7 @@ projects[ting_search_carousel][type] = "module"
 projects[ting_search_carousel][download][type] = "git"
 projects[ting_search_carousel][download][url] = "git@github.com:ding2tal/ting_search_carousel.git"
 projects[ting_search_carousel][download][branch] = "ddb-rc8"
+projects[ting_search_carousel][patch][] = "http://storage.easyting.dk/case-4334_sorting_for_ting_search_carousel.patch"
 
 projects[ting_sfx][type] = "module"
 projects[ting_sfx][download][type] = "git"
