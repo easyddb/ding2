@@ -14,7 +14,6 @@ dependencies[] = toolbar
 dependencies[] = overlay
 dependencies[] = color
 dependencies[] = translation
-dependencies[] = search
 
 ; If this module is not enabled OG will not work correctly.
 dependencies[] = field_ui
@@ -22,7 +21,6 @@ dependencies[] = field_ui
 ; Helper modules.
 dependencies[] = module_filter
 dependencies[] = menu_position
-dependencies[] = securepages
 dependencies[] = cookiecontrol
 
 ; Ding modules.
@@ -33,8 +31,10 @@ dependencies[] = ding_frontpage
 dependencies[] = ding_session_cache
 dependencies[] = ding_bookmark
 dependencies[] = ding_staff
+dependencies[] = bpi
 
 ; Cache/performance modules
 dependencies[] = entitycache
+dependencies[] = ding_varnish
 
 files[] = ding2.profile
