@@ -585,6 +585,11 @@ projects[easyddb_facebookshare][download][type]   = "git"
 projects[easyddb_facebookshare][download][url]    = "git@github.com:easyddb/easyddb_facebookshare.git"
 projects[easyddb_facebookshare][download][branch] = "develop"
 
+projects[easyddb_legend][type]             = "module"
+projects[easyddb_legend][download][type]   = "git"
+projects[easyddb_legend][download][url]    = "git@github.com:easyddb/easyddb_legend.git"
+projects[easyddb_legend][download][branch] = "develop"
+
 projects[ting_marc][type] = "module"
 projects[ting_marc][download][type] = "git"
 projects[ting_marc][download][url] = "git@github.com:easyddb/ting_marc.git"
