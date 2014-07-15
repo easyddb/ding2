@@ -612,3 +612,8 @@ projects[ding_history_back][type] = "module"
 projects[ding_history_back][download][type] = "git"
 projects[ding_history_back][download][url] = "git@github.com:easyddb/ding_history_back.git"
 projects[ding_history_back][download][branch] = "develop"
+
+projects[ting_extended_search][type] = "module"
+projects[ting_extended_search][download][type] = "git"
+projects[ting_extended_search][download][url] = "git@github.com:easyddb/ting_extended_search.git"
+projects[ting_extended_search][download][branch] = "develop"
