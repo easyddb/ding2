@@ -483,6 +483,7 @@ projects[ting_relation][type] = "module"
 projects[ting_relation][download][type] = "git"
 projects[ting_relation][download][url] = "git@github.com:ding2tal/ting_relation.git"
 projects[ting_relation][download][branch] = "ddb-rc8"
+projects[ting_relation][patch][] = "http://storage.easyting.dk/case-4327_fix_broken_layout.patch"
 
 projects[ting_search][type] = "module"
 projects[ting_search][download][type] = "git"
