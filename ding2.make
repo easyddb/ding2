@@ -610,3 +610,9 @@ projects[ding_history_back][type] = "module"
 projects[ding_history_back][download][type] = "git"
 projects[ding_history_back][download][url] = "git@github.com:easyddb/ding_history_back.git"
 projects[ding_history_back][download][branch] = "develop"
+
+; Allows users to enable/disable quick reservation.
+projects[ding_reservation_settings][type]           = "module"
+projects[ding_reservation_settings][download][type] = "git"
+projects[ding_reservation_settings][download][url]  = "git@github.com:easyting/ding_reservation_settings.git"
+projects[ding_reservation_settings][download][tag]  = "7.x-1.20"
