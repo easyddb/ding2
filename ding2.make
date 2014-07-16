@@ -453,6 +453,7 @@ projects[ting][download][url] = "git@github.com:ding2tal/ting.git"
 projects[ting][download][branch] = "ddb-rc8"
 projects[ting][patch][] = "http://storage.easyting.dk/ding_entity_dk5.patch"
 projects[ting][patch][] = "http://storage.easyting.dk/ting.patch"
+projects[ting][patch][] = "http://storage.easyting.dk/ting-dk5_text_method-case_4333.patch"
 
 libraries[ting-client][destination]      = "modules/ting/lib"
 libraries[ting-client][download][type]   = "git"
