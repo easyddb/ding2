@@ -308,7 +308,8 @@ projects[ting_material_details][download][type] = "git"
 projects[ting_material_details][download][url] = "git@github.com:ding2tal/ting_material_details.git"
 projects[ting_material_details][download][branch] = "ddb-rc8"
 projects[ting_material_details][patch][] = "http://storage.easyting.dk/ting_material_details-show_classification_with_dk5_text-case_4333.patch"
-projects[ting_material_details][patch][] = "http://http://storage.easyting.dk/ting_material_details-clickable_contributors_name-case_4343.patch"
+projects[ting_material_details][patch][] = "http://storage.easyting.dk/ting_material_details-clickable_contributors_name-case_4343.patch"
+
 
 projects[ting_reference][type] = "module"
 projects[ting_reference][download][type] = "git"
@@ -423,6 +424,7 @@ projects[ding_reservation][type] = "module"
 projects[ding_reservation][download][type] = "git"
 projects[ding_reservation][download][url] = "git@github.com:ding2tal/ding_reservation.git"
 projects[ding_reservation][download][branch] = "ddb-rc8"
+projects[ding_reservation][patch][] = "http://storage.easyting.dk/case-4239_en_dis_quick_reservation.patch"
 
 projects[ding_session_cache][type] = "module"
 projects[ding_session_cache][download][type] = "git"
@@ -486,6 +488,7 @@ projects[ting_relation][type] = "module"
 projects[ting_relation][download][type] = "git"
 projects[ting_relation][download][url] = "git@github.com:ding2tal/ting_relation.git"
 projects[ting_relation][download][branch] = "ddb-rc8"
+projects[ting_relation][patch][] = "http://storage.easyting.dk/case-4327_fix_broken_layout.patch"
 
 projects[ting_search][type] = "module"
 projects[ting_search][download][type] = "git"
@@ -608,13 +611,19 @@ projects[ting_dk5][download][branch] = "develop"
 
 projects[bibdk_subject_hierarchy][type] = "module"
 projects[bibdk_subject_hierarchy][download][type] = "git"
-projects[bibdk_subject_hierarchy][download][url] = "https://github.com/DBCDK/bibdk_subject_hierarchy.git"
-projects[bibdk_subject_hierarchy][download][tag] = "7.x-0.9"
+projects[bibdk_subject_hierarchy][download][url] = "git@github.com:easyddb/bibdk_subject_hierarchy.git"
+projects[bibdk_subject_hierarchy][download][branch] = "develop"
 
 projects[ding_history_back][type] = "module"
 projects[ding_history_back][download][type] = "git"
 projects[ding_history_back][download][url] = "git@github.com:easyddb/ding_history_back.git"
 projects[ding_history_back][download][branch] = "develop"
+
+; Allows users to enable/disable quick reservation.
+projects[ding_reservation_settings][type]           = "module"
+projects[ding_reservation_settings][download][type] = "git"
+projects[ding_reservation_settings][download][url]  = "git@github.com:easyting/ding_reservation_settings.git"
+projects[ding_reservation_settings][download][tag]  = "easyddb-dev"
 
 projects[ting_extended_search][type] = "module"
 projects[ting_extended_search][download][type] = "git"
