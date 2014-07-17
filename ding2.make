@@ -610,8 +610,8 @@ projects[ting_dk5][download][branch] = "develop"
 
 projects[bibdk_subject_hierarchy][type] = "module"
 projects[bibdk_subject_hierarchy][download][type] = "git"
-projects[bibdk_subject_hierarchy][download][url] = "https://github.com/DBCDK/bibdk_subject_hierarchy.git"
-projects[bibdk_subject_hierarchy][download][tag] = "7.x-0.9"
+projects[bibdk_subject_hierarchy][download][url] = "git@github.com:easyddb/bibdk_subject_hierarchy.git"
+projects[bibdk_subject_hierarchy][download][branch] = "develop"
 
 projects[ding_history_back][type] = "module"
 projects[ding_history_back][download][type] = "git"
