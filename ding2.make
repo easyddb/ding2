@@ -420,6 +420,7 @@ projects[ding_reservation][type] = "module"
 projects[ding_reservation][download][type] = "git"
 projects[ding_reservation][download][url] = "git@github.com:ding2tal/ding_reservation.git"
 projects[ding_reservation][download][branch] = "ddb-rc8"
+projects[ding_reservation][patch][] = "http://storage.easyting.dk/case-4239_en_dis_quick_reservation.patch"
 
 projects[ding_session_cache][type] = "module"
 projects[ding_session_cache][download][type] = "git"
