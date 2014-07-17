@@ -308,7 +308,8 @@ projects[ting_material_details][download][type] = "git"
 projects[ting_material_details][download][url] = "git@github.com:ding2tal/ting_material_details.git"
 projects[ting_material_details][download][branch] = "ddb-rc8"
 projects[ting_material_details][patch][] = "http://storage.easyting.dk/ting_material_details-show_classification_with_dk5_text-case_4333.patch"
-projects[ting_material_details][patch][] = "http://http://storage.easyting.dk/ting_material_details-clickable_contributors_name-case_4343.patch"
+projects[ting_material_details][patch][] = "http://storage.easyting.dk/ting_material_details-clickable_contributors_name-case_4343.patch"
+
 
 projects[ting_reference][type] = "module"
 projects[ting_reference][download][type] = "git"
