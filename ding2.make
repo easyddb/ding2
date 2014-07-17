@@ -424,6 +424,7 @@ projects[ding_reservation][type] = "module"
 projects[ding_reservation][download][type] = "git"
 projects[ding_reservation][download][url] = "git@github.com:ding2tal/ding_reservation.git"
 projects[ding_reservation][download][branch] = "ddb-rc8"
+projects[ding_reservation][patch][] = "http://storage.easyting.dk/case-4239_en_dis_quick_reservation.patch"
 
 projects[ding_session_cache][type] = "module"
 projects[ding_session_cache][download][type] = "git"
@@ -617,6 +618,12 @@ projects[ding_history_back][type] = "module"
 projects[ding_history_back][download][type] = "git"
 projects[ding_history_back][download][url] = "git@github.com:easyddb/ding_history_back.git"
 projects[ding_history_back][download][branch] = "develop"
+
+; Allows users to enable/disable quick reservation.
+projects[ding_reservation_settings][type]           = "module"
+projects[ding_reservation_settings][download][type] = "git"
+projects[ding_reservation_settings][download][url]  = "git@github.com:easyting/ding_reservation_settings.git"
+projects[ding_reservation_settings][download][tag]  = "easyddb-dev"
 
 projects[ting_extended_search][type] = "module"
 projects[ting_extended_search][download][type] = "git"
