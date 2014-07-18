@@ -629,3 +629,8 @@ projects[ting_extended_search][type] = "module"
 projects[ting_extended_search][download][type] = "git"
 projects[ting_extended_search][download][url] = "git@github.com:easyddb/ting_extended_search.git"
 projects[ting_extended_search][download][branch] = "develop"
+
+projects[ding_ting_type_search][type] = "module"
+projects[ding_ting_type_search][download][type] = "git"
+projects[ding_ting_type_search][download][url] = "git@github.com:easyddb/ding_ting_type_search.git"
+projects[ding_ting_type_search][download][branch] = "develop"
