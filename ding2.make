@@ -555,6 +555,11 @@ libraries[leaflet][download][branch] = "7.x-1.x"
 projects[features_override][version]        = "2.0-rc1"
 projects[features_override][subdir]         = "contrib"
 
+projects[alma_item_list][type]           = "module"
+projects[alma_item_list][download][type] = "git"
+projects[alma_item_list][download][url]  = "git@github.com:easyddb/alma_item_list.git"
+projects[alma_item_list][download][branch]  = "develop"
+
 projects[alma_reminder_service][type]           = "module"
 projects[alma_reminder_service][download][type] = "git"
 projects[alma_reminder_service][download][url]  = "git@github.com:easyting/alma_reminder_service.git"
