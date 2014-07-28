@@ -468,6 +468,7 @@ projects[ting_covers][type] = "module"
 projects[ting_covers][download][type] = "git"
 projects[ting_covers][download][url] = "git@github.com:ding2tal/ting_covers.git"
 projects[ting_covers][download][branch] = "ddb-rc8"
+projects[ting_covers][patch][] = "http://storage.easyting.dk/ting_covers-EASYDDB_28-allow_direct_cover_fetch.patch"
 
 projects[ting_fulltext][type] = "module"
 projects[ting_fulltext][download][type] = "git"
