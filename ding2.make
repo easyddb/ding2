@@ -496,6 +496,7 @@ projects[ting_search][download][type] = "git"
 projects[ting_search][download][url] = "git@github.com:ding2tal/ting_search.git"
 projects[ting_search][download][branch] = "ddb-rc8"
 projects[ting_search][patch][] = "http://storage.easyting.dk/ting_search.patch"
+projects[ting_search][patch][] = "http://storage.easyting.dk/case-148_stop_search_on_esc.patch"
 
 projects[ting_search_autocomplete][type] = "module"
 projects[ting_search_autocomplete][download][type] = "git"
