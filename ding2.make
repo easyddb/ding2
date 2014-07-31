@@ -582,6 +582,21 @@ projects[ding_bibliotek_info][download][type]   = "git"
 projects[ding_bibliotek_info][download][url]    = "git@github.com:easyddb/ding_bibliotek_info.git"
 projects[ding_bibliotek_info][download][branch] = "develop"
 
+projects[ding_item_cache][type]             = "module"
+projects[ding_item_cache][download][type]   = "git"
+projects[ding_item_cache][download][url]    = "git@github.com:easyddb/ding_item_cache.git"
+projects[ding_item_cache][download][branch] = "develop"
+
+projects[ding_item_list][type]             = "module"
+projects[ding_item_list][download][type]   = "git"
+projects[ding_item_list][download][url]    = "git@github.com:easyddb/ding_item_list.git"
+projects[ding_item_list][download][branch] = "develop"
+
+projects[ding_item_viewer][type]             = "module"
+projects[ding_item_viewer][download][type]   = "git"
+projects[ding_item_viewer][download][url]    = "git@github.com:easyddb/ding_item_viewer.git"
+projects[ding_item_viewer][download][branch] = "develop"
+
 projects[ting_null_covers][type] = "module"
 projects[ting_null_covers][download][type] = "git"
 projects[ting_null_covers][download][url] = "git@github.com:easyddb/ting_null_covers.git"
