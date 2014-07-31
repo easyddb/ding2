@@ -94,7 +94,7 @@ projects[i18n][subdir] = "contrib"
 projects[image_resize_filter][version] = "1.14"
 projects[image_resize_filter][subdir] = "contrib"
 
-projects[jquery_update][version] = "2.3"
+projects[jquery_update][version] = "2.4"
 projects[jquery_update][subdir] = "contrib"
 
 projects[l10n_update][version] = "1.0-beta3"
@@ -653,3 +653,8 @@ projects[ding_ting_type_search][type] = "module"
 projects[ding_ting_type_search][download][type] = "git"
 projects[ding_ting_type_search][download][url] = "git@github.com:easyddb/ding_ting_type_search.git"
 projects[ding_ting_type_search][download][branch] = "develop"
+
+projects[ding_nodelist][type] = "module"
+projects[ding_nodelist][download][type] = "git"
+projects[ding_nodelist][download][url] = "git@github.com:easyddb/ding_nodelist.git"
+projects[ding_nodelist][download][branch] = "develop"
