@@ -267,6 +267,11 @@ projects[ding_library][download][type] = "git"
 projects[ding_library][download][url] = "git@github.com:ding2tal/ding_library.git"
 projects[ding_library][download][branch] = "ddb-rc8"
 
+projects[ding_library_opening_hours][type] = "module"
+projects[ding_library_opening_hours][download][type] = "git"
+projects[ding_library_opening_hours][download][url] = "git@github.com:easyddb/ding_library_opening_hours.git"
+projects[ding_library_opening_hours][download][branch] = "develop"
+
 projects[ding_news][type] = "module"
 projects[ding_news][download][type] = "git"
 projects[ding_news][download][url] = "git@github.com:ding2tal/ding_news.git"
