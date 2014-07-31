@@ -345,6 +345,7 @@ projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availabi
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-search_collection_items_availability_fix-case_4218.patch"
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-enable_search_result_reserve_button-case_4177.patch"
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-in_acquisition_display-case_3998.patch"
+projects[ding_availability][patch][] = "http://storage.easyting.dk/DDBEASY-150-translation-fixes.patch"
 
 projects[ding_bookmark][type] = "module"
 projects[ding_bookmark][download][type] = "git"
