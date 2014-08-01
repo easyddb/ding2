@@ -656,7 +656,7 @@ projects[ting_extended_search][download][branch] = "develop"
 projects[ting_covers_plus][type] = "module"
 projects[ting_covers_plus][download][type] = "git"
 projects[ting_covers_plus][download][url] = "git@github.com:easyddb/ting_covers_plus.git"
-projects[ting_covers_plus][download][tag] = "develop"
+projects[ting_covers_plus][download][branch] = "develop"
 
 projects[ding_ting_type_search][type] = "module"
 projects[ding_ting_type_search][download][type] = "git"
