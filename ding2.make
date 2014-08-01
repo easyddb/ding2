@@ -94,7 +94,7 @@ projects[i18n][subdir] = "contrib"
 projects[image_resize_filter][version] = "1.14"
 projects[image_resize_filter][subdir] = "contrib"
 
-projects[jquery_update][version] = "2.3"
+projects[jquery_update][version] = "2.4"
 projects[jquery_update][subdir] = "contrib"
 
 projects[l10n_update][version] = "1.0-beta3"
@@ -345,6 +345,7 @@ projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availabi
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-search_collection_items_availability_fix-case_4218.patch"
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-enable_search_result_reserve_button-case_4177.patch"
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-in_acquisition_display-case_3998.patch"
+projects[ding_availability][patch][] = "http://storage.easyting.dk/DDBEASY-150-translation-fixes.patch"
 
 projects[ding_bookmark][type] = "module"
 projects[ding_bookmark][download][type] = "git"
@@ -582,6 +583,21 @@ projects[ding_bibliotek_info][download][type]   = "git"
 projects[ding_bibliotek_info][download][url]    = "git@github.com:easyddb/ding_bibliotek_info.git"
 projects[ding_bibliotek_info][download][branch] = "develop"
 
+projects[ding_item_cache][type]             = "module"
+projects[ding_item_cache][download][type]   = "git"
+projects[ding_item_cache][download][url]    = "git@github.com:easyddb/ding_item_cache.git"
+projects[ding_item_cache][download][branch] = "develop"
+
+projects[ding_item_list][type]             = "module"
+projects[ding_item_list][download][type]   = "git"
+projects[ding_item_list][download][url]    = "git@github.com:easyddb/ding_item_list.git"
+projects[ding_item_list][download][branch] = "develop"
+
+projects[ding_item_viewer][type]             = "module"
+projects[ding_item_viewer][download][type]   = "git"
+projects[ding_item_viewer][download][url]    = "git@github.com:easyddb/ding_item_viewer.git"
+projects[ding_item_viewer][download][branch] = "develop"
+
 projects[ding_collection_reservation][type] = "module"
 projects[ding_collection_reservation][download][type] = "git"
 projects[ding_collection_reservation][download][url] = "git@github.com:easyddb/ding_collection_reservation.git"
@@ -646,3 +662,8 @@ projects[ding_ting_type_search][type] = "module"
 projects[ding_ting_type_search][download][type] = "git"
 projects[ding_ting_type_search][download][url] = "git@github.com:easyddb/ding_ting_type_search.git"
 projects[ding_ting_type_search][download][branch] = "develop"
+
+projects[ding_nodelist][type] = "module"
+projects[ding_nodelist][download][type] = "git"
+projects[ding_nodelist][download][url] = "git@github.com:easyddb/ding_nodelist.git"
+projects[ding_nodelist][download][branch] = "develop"
