@@ -241,6 +241,7 @@ projects[ding_base][type] = "module"
 projects[ding_base][download][type] = "git"
 projects[ding_base][download][url] = "git@github.com:ding2tal/ding_base.git"
 projects[ding_base][download][branch] = "ddb-rc8"
+projects[ding_base][patch][] = "http://storage.easyting.dk/ding_base-add_dateformats_for_nodelist-DDBEASY-5.patch"
 
 projects[ding_content][type] = "module"
 projects[ding_content][download][type] = "git"
