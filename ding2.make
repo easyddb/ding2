@@ -448,6 +448,7 @@ projects[ding_user][type] = "module"
 projects[ding_user][download][type] = "git"
 projects[ding_user][download][url] = "git@github.com:ding2tal/ding_user.git"
 projects[ding_user][download][branch] = "ddb-rc8"
+projects[ding_user][patch][] = "http://storage.easyting.dk/ding_user-translate_email_description-DDBEASY-158.patch"
 
 projects[ding_wayf][type] = "module"
 projects[ding_wayf][download][type] = "git"
