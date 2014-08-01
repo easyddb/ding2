@@ -358,6 +358,7 @@ projects[ding_campaign][download][url] = "git@github.com:ding2tal/ding_campaign.
 projects[ding_campaign][download][branch] = "ddb-rc8"
 projects[ding_campaign][patch][] = "http://storage.easyting.dk/ding_campaign-rules_cache_clear-case_4349.patch"
 projects[ding_campaign][patch][] = "http://storage.easyting.dk/ding_campaign-empty_campaign_content-case_4384.patch"
+projects[ding_campaign][patch][] = "http://storage.easyting.dk/ding_campaign-campaign_link_new_tab_behavior-ddbeasy_65.patch"
 
 projects[ding_contact][type] = "module"
 projects[ding_contact][download][type] = "git"
