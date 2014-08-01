@@ -415,6 +415,7 @@ projects[ding_permissions][type] = "module"
 projects[ding_permissions][download][type] = "git"
 projects[ding_permissions][download][url] = "git@github.com:ding2tal/ding_permissions.git"
 projects[ding_permissions][download][branch] = "ddb-rc8"
+projects[ding_permissions][patch][] = "http://storage.easyting.dk/ding_permissions-no_roles_in_user_menu-DDBEASY-159.patch"
 
 projects[ding_place2book][type] = "module"
 projects[ding_place2book][download][type] = "git"
