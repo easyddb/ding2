@@ -598,11 +598,6 @@ projects[ding_item_viewer][download][type]   = "git"
 projects[ding_item_viewer][download][url]    = "git@github.com:easyddb/ding_item_viewer.git"
 projects[ding_item_viewer][download][branch] = "develop"
 
-projects[ting_null_covers][type] = "module"
-projects[ting_null_covers][download][type] = "git"
-projects[ting_null_covers][download][url] = "git@github.com:easyddb/ting_null_covers.git"
-projects[ting_null_covers][download][branch] = "develop"
-
 projects[ding_collection_reservation][type] = "module"
 projects[ding_collection_reservation][download][type] = "git"
 projects[ding_collection_reservation][download][url] = "git@github.com:easyddb/ding_collection_reservation.git"
@@ -660,9 +655,8 @@ projects[ting_extended_search][download][branch] = "develop"
 
 projects[ting_covers_plus][type] = "module"
 projects[ting_covers_plus][download][type] = "git"
-projects[ting_covers_plus][download][url] = "git@github.com:vejlebib/ting_covers_plus.git"
-projects[ting_covers_plus][download][tag] = "7.x-1.0"
-projects[ting_covers_plus][patch][] = "http://storage.easyting.dk/ting_cover_plus-fix_undefined_index.patch"
+projects[ting_covers_plus][download][url] = "git@github.com:easyddb/ting_covers_plus.git"
+projects[ting_covers_plus][download][tag] = "develop"
 
 projects[ding_ting_type_search][type] = "module"
 projects[ding_ting_type_search][download][type] = "git"
