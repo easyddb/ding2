@@ -449,44 +449,13 @@ libraries[leaflet][download][url] = "http://git.drupal.org/project/leaflet.git"
 libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][download][branch] = "7.x-1.x"
 
-; easyDDB
 projects[features_override][version]        = "2.0-rc1"
 projects[features_override][subdir]         = "contrib"
-
-projects[alma_item_list][type]           = "module"
-projects[alma_item_list][download][type] = "git"
-projects[alma_item_list][download][url]  = "git@github.com:easyddb/alma_item_list.git"
-projects[alma_item_list][download][branch]  = "develop"
-
-projects[alma_reminder_service][type]           = "module"
-projects[alma_reminder_service][download][type] = "git"
-projects[alma_reminder_service][download][url]  = "git@github.com:easyting/alma_reminder_service.git"
-projects[alma_reminder_service][download][branch]  = "develop"
-
-projects[easyddb_alma_reminder][type]           = "module"
-projects[easyddb_alma_reminder][download][type] = "git"
-projects[easyddb_alma_reminder][download][url]  = "git@github.com:easyddb/easyddb_alma_reminder.git"
-projects[easyddb_alma_reminder][download][branch]  = "develop"
 
 projects[ding_bibliotek_info][type]             = "module"
 projects[ding_bibliotek_info][download][type]   = "git"
 projects[ding_bibliotek_info][download][url]    = "git@github.com:easyddb/ding_bibliotek_info.git"
 projects[ding_bibliotek_info][download][branch] = "develop"
-
-projects[ding_item_cache][type]             = "module"
-projects[ding_item_cache][download][type]   = "git"
-projects[ding_item_cache][download][url]    = "git@github.com:easyddb/ding_item_cache.git"
-projects[ding_item_cache][download][branch] = "develop"
-
-projects[ding_item_list][type]             = "module"
-projects[ding_item_list][download][type]   = "git"
-projects[ding_item_list][download][url]    = "git@github.com:easyddb/ding_item_list.git"
-projects[ding_item_list][download][branch] = "develop"
-
-projects[ding_item_viewer][type]             = "module"
-projects[ding_item_viewer][download][type]   = "git"
-projects[ding_item_viewer][download][url]    = "git@github.com:easyddb/ding_item_viewer.git"
-projects[ding_item_viewer][download][branch] = "develop"
 
 projects[ding_collection_reservation][type] = "module"
 projects[ding_collection_reservation][download][type] = "git"
@@ -552,8 +521,3 @@ projects[ding_ting_type_search][type] = "module"
 projects[ding_ting_type_search][download][type] = "git"
 projects[ding_ting_type_search][download][url] = "git@github.com:easyddb/ding_ting_type_search.git"
 projects[ding_ting_type_search][download][branch] = "develop"
-
-projects[ding_nodelist][type] = "module"
-projects[ding_nodelist][download][type] = "git"
-projects[ding_nodelist][download][url] = "git@github.com:easyddb/ding_nodelist.git"
-projects[ding_nodelist][download][branch] = "develop"
