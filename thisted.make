@@ -13,3 +13,6 @@ libraries[mailchimp][download][revision] = "67c40851204de8680c0a366a6ef19ff8ca95
 projects[mailchimp][version] = "3.1"
 projects[mailchimp][subdir] = "contrib"
 
+projects[addthis][version] = "4.0-alpha4"
+projects[addthis][subdir] = "contrib"
+
