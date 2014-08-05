@@ -522,4 +522,4 @@ projects[ding_ting_type_search][download][type] = "git"
 projects[ding_ting_type_search][download][url] = "git@github.com:easyddb/ding_ting_type_search.git"
 projects[ding_ting_type_search][download][branch] = "develop"
 
-includes[easyddb] = "thisted.make"
+includes[thisted] = "thisted.make"
