@@ -114,19 +114,12 @@ projects[ddbasic][download][url] = "git@github.com:ding2tal/ddbasic.git"
 projects[ddbasic][download][branch] = "ddb-rc8"
 
 ; Libraries
-libraries[mailchimp][download][type]     = "git"
-libraries[mailchimp][download][url]      = "https://bitbucket.org/mailchimp/mandrill-api-php.git"
-libraries[mailchimp][download][revision] = "67c40851204de8680c0a366a6ef19ff8ca95426f"
-
 libraries[profiler][download][type] = "git"
 libraries[profiler][download][url] = "http://git.drupal.org/project/profiler.git"
 libraries[profiler][download][branch] = "7.x-2.0-beta1"
 libraries[profiler][patch][0] = "http://drupal.org/files/profiler-reverse.patch"
 
 ; Contrib modules
-projects[mailchimp][version] = "3.1"
-projects[mailchimp][subdir] = "contrib"
-
 projects[apc][subdir] = "contrib"
 projects[apc][version] = "1.0-beta4"
 
