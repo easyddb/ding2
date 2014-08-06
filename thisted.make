@@ -6,8 +6,8 @@ projects[thisted][download][branch] = "develop"
 
 ; Libraries
 libraries[mailchimp][download][type]     = "git"
-libraries[mailchimp][download][url]      = "https://bitbucket.org/mailchimp/mandrill-api-php.git"
-libraries[mailchimp][download][revision] = "67c40851204de8680c0a366a6ef19ff8ca95426f"
+libraries[mailchimp][download][url]      = "https://bitbucket.org/mailchimp/mailchimp-api-php.git"
+libraries[mailchimp][download][revision] = "a884ee03dd282deddfc471257b01fd09e5cd06dc"
 
 ; Contrib modules
 projects[mailchimp][version] = "3.1"
