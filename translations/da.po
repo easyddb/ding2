@@ -60401,7 +60401,7 @@ msgstr "Syndikér billeder"
 
 #: bpi.images.inc:54
 msgid "Available images"
-msgstr "Tilgængelige billeder"
+msgstr "Tilængelige billeder"
 
 #: bpi.images.inc:116
 msgid "Images downloaded successfully."
