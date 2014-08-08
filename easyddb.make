@@ -433,6 +433,10 @@ projects[ding_user_profile][download][url] = "git@github.com:easyddb/ding_user_p
 projects[ding_user_profile][download][branch] = "develop"
 
 ; Themes
+projects[ddbasic][type] = "theme"
+projects[ddbasic][download][type] = "git"
+projects[ddbasic][download][url] = "git@github.com:easyddb/ddbasic.git"
+projects[ddbasic][download][branch] = "development"
 
 ; Libraries
 libraries[profiler][download][type]     = "git"
