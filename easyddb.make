@@ -562,3 +562,7 @@ projects[ding_nodelist][type] = "module"
 projects[ding_nodelist][download][type] = "git"
 projects[ding_nodelist][download][url] = "git@github.com:easyddb/ding_nodelist.git"
 projects[ding_nodelist][download][branch] = "develop"
+
+; Custom patches
+; See https://www.drupal.org/node/2318997
+projects[cookiecontrol][patch][] = "https://www.drupal.org/files/issues/cookiecontrol-ie_safari_cookies-issue_2318997.patch"
