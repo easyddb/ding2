@@ -119,12 +119,6 @@ libraries[profiler][download][url] = "http://git.drupal.org/project/profiler.git
 libraries[profiler][download][branch] = "7.x-2.0-beta1"
 libraries[profiler][patch][0] = "http://drupal.org/files/profiler-reverse.patch"
 
-projects[ding_user][type] = "module"
-projects[ding_user][download][type] = "git"
-projects[ding_user][download][url] = "git@github.com:ding2tal/ding_user.git"
-projects[ding_user][download][branch] = "ddb-rc8"
-projects[ding_user][patch][] = "http://storage.easyting.dk/ding_user-translate_email_description-DDBEASY-158.patch"
-
 ; Contrib modules
 projects[apc][subdir] = "contrib"
 projects[apc][version] = "1.0-beta4"
