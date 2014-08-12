@@ -418,6 +418,8 @@ projects[ting_search_carousel][download][type] = "git"
 projects[ting_search_carousel][download][url] = "git@github.com:ding2tal/ting_search_carousel.git"
 projects[ting_search_carousel][download][branch] = "ddb-rc8"
 projects[ting_search_carousel][patch][] = "http://storage.easyting.dk/case-4334_sorting_for_ting_search_carousel.patch"
+projects[ting_search_carousel][patch][] = "http://storage.easyting.dk/ting_search_carousel-add_spinner_to_ting_carousel-ddbeasy_181.patch"
+
 
 projects[ting_sfx][type] = "module"
 projects[ting_sfx][download][type] = "git"
@@ -567,3 +569,4 @@ projects[ding_nodelist][download][branch] = "develop"
 ; Custom patches
 ; See https://www.drupal.org/node/2318997
 projects[cookiecontrol][patch][1] = "http://www.drupal.org/files/issues/cookiecontrol-ie_safari_cookies-issue_2318997.patch"
+
