@@ -1,11 +1,13 @@
 core = 7.x
 api = 2
 
-; Contribs required by us.
+; Include ding2 make file
+includes[ding2] = "ding2.make"
+
+; easyDDB contribs
 includes[easyddb-contribs] = "easyddb-contribs.make"
 
 ; easyDDB
-
 ; Adds customizable help in user profile form
 projects[ding_user_profile][type] = "module"
 projects[ding_user_profile][download][type] = "git"

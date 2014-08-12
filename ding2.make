@@ -149,9 +149,3 @@ projects[uuid][download][type] = "git"
 projects[uuid][download][url] = "http://git.drupal.org/project/uuid.git"
 projects[uuid][download][revision] = "3f4d9fb"
 
-
-; Avoid recursive make files.
-includes[ding2tal] = "ding2tal.make"
-
-; Our own repos.
-includes[easyddb] = "easyddb.make"
