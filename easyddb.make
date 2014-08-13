@@ -286,6 +286,7 @@ projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availabi
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-in_acquisition_display-case_3998.patch"
 projects[ding_availability][patch][] = "http://storage.easyting.dk/DDBEASY-150-translation-fixes.patch"
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-hide_queue_if_not_reservable-DDBEASY-184.patch"
+projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-remove_holding_table_when_availabity_empty-ddbeasy_83.patch"
 
 projects[ding_bookmark][type] = "module"
 projects[ding_bookmark][download][type] = "git"
@@ -433,6 +434,7 @@ projects[ting_sfx][download][branch] = "ddb-rc8"
 
 projects[alma][patch][] = "http://storage.easyting.dk/alma.lms_search_call.patch"
 projects[alma][patch][] = "http://storage.easyting.dk/alma-dde_error_messages-case_3995.patch"
+projects[alma][patch][] = "http://storage.easyting.dk/alma-adds_maping_of_availabity_attribute-dbbeasy_83.patch"
 
 ; Adds customizable help in user profile form
 projects[ding_user_profile][type] = "module"
