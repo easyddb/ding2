@@ -1,9 +1,6 @@
 core = 7.x
 api = 2
 
-; easyDDB package
-includes[easyddb] = "easyddb.make"
-
 ; Projects
 projects[alma][type] = "module"
 projects[alma][download][type] = "git"
