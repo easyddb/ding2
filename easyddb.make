@@ -1,6 +1,10 @@
 core = 7.x
 api = 2
 
+
+; Include ding2 make file
+includes[ding2] = "ding2.make"
+
 ; Contribution modules
 
 projects[views_bulk_operations][version] = "3.1"
