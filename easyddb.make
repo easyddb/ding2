@@ -1,6 +1,10 @@
 core = 7.x
 api = 2
 
+
+; Include ding2 make file
+includes[ding2] = "ding2.make"
+
 ; Contribution modules
 
 projects[views_bulk_operations][version] = "3.1"
@@ -523,6 +527,7 @@ projects[ting_marc][type] = "module"
 projects[ting_marc][download][type] = "git"
 projects[ting_marc][download][url] = "git@github.com:easyddb/ting_marc.git"
 projects[ting_marc][download][branch] = "develop"
+projects[ting_marc][patch][] = "http://storage.easyting.dk/ting_marc-hide_empty_marcs-DDBEASY-169.patch"
 
 projects[ting_dk5][type] = "module"
 projects[ting_dk5][download][type] = "git"
