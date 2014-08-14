@@ -436,6 +436,8 @@ projects[alma][patch][] = "http://storage.easyting.dk/alma.lms_search_call.patch
 projects[alma][patch][] = "http://storage.easyting.dk/alma-dde_error_messages-case_3995.patch"
 projects[alma][patch][] = "http://storage.easyting.dk/alma-adds_maping_of_availabity_attribute-dbbeasy_83.patch"
 
+projects[ding_user_frontend][patch][] = "http://storage.easyting.dk/ding_user_frontend-add_translation-ddbeasy_168.patch"
+
 ; Adds customizable help in user profile form
 projects[ding_user_profile][type] = "module"
 projects[ding_user_profile][download][type] = "git"
