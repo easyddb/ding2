@@ -374,11 +374,13 @@ projects[ting][download][branch] = "ddb-rc8"
 projects[ting][patch][] = "http://storage.easyting.dk/ding_entity_dk5.patch"
 projects[ting][patch][] = "http://storage.easyting.dk/ting.patch"
 projects[ting][patch][] = "http://storage.easyting.dk/ting-dk5_text_method-case_4333.patch"
+projects[ting][patch][] = "http://storage.easyting.dk/ting-empty_webservices_urls-easyddb_171.patch"
 
 libraries[ting-client][destination]      = "modules/ting/lib"
 libraries[ting-client][download][type]   = "git"
 libraries[ting-client][download][url]    = "git@github.com:ding2tal/ting-client.git"
 libraries[ting-client][download][branch] = "ddb-rc8"
+libraries[ting-client][patch][]          = "http://storage.easyting.dk/ting_library-empty_webservices_urls-easyddb_171.patch"
 
 projects[ting_covers][type] = "module"
 projects[ting_covers][download][type] = "git"
