@@ -481,6 +481,7 @@ projects[easyddb_alma_reminder][type]           = "module"
 projects[easyddb_alma_reminder][download][type] = "git"
 projects[easyddb_alma_reminder][download][url]  = "git@github.com:easyddb/easyddb_alma_reminder.git"
 projects[easyddb_alma_reminder][download][branch]  = "develop"
+projects[easyddb_alma_reminder][patch][]        = "http://storage.easyting.dk/easyddb_alma_reminder-adds_translation-ddbeasy_168.patch"
 
 projects[ding_bibliotek_info][type]             = "module"
 projects[ding_bibliotek_info][download][type]   = "git"
