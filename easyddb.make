@@ -581,3 +581,9 @@ projects[ding_nodelist][download][branch] = "develop"
 ; See https://www.drupal.org/node/2318997
 projects[cookiecontrol][patch][1] = "http://www.drupal.org/files/issues/cookiecontrol-ie_safari_cookies-issue_2318997.patch"
 
+;See https://www.drupal.org/node/2141101
+projects[og][patch][1] = "https://www.drupal.org/files/issues/og-select_widget-2141101-41.patch"
+
+;See https://www.drupal.org/node/2195471
+projects[ctools][patch][1] = "https://www.drupal.org/files/issues/combined_patch_from_n2195211-15_and_n2195471-14--n2195471-16.patch"
+
