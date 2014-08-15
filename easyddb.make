@@ -7,6 +7,9 @@ includes[ding2] = "ding2.make"
 
 ; Contribution modules
 
+projects[memcache_storage][version] = "1.4"
+projects[memcache_storage][subdir] = "contrib"
+
 projects[apc][version] = "1.0-beta4"
 projects[apc][subdir] = "contrib"
 
