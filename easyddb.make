@@ -7,6 +7,9 @@ includes[ding2] = "ding2.make"
 
 ; Contribution modules
 
+projects[apc][version] = "1.0-beta4"
+projects[apc][subdir] = "contrib"
+
 projects[search404][version] = "1.3"
 projects[search404][subdir] = "contrib"
 
