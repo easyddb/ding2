@@ -149,4 +149,4 @@ projects[uuid][download][type] = "git"
 projects[uuid][download][url] = "http://git.drupal.org/project/uuid.git"
 projects[uuid][download][revision] = "3f4d9fb"
 
-includes[easyddb] = "easyddb.make"
+includes[thisted] = "thisted.make"
