@@ -33,4 +33,4 @@ projects[addthis][version] = "4.0-alpha4"
 projects[addthis][subdir] = "contrib"
 
 ; Patches
-projects[ting_search][patch][]= "http://storage.easyting.dk/ting_search-search_submit_handler_not_being_called-thisted_15.patch"
+;projects[ting_search][patch][]= "http://storage.easyting.dk/ting_search-search_submit_handler_not_being_called-thisted_15.patch"
