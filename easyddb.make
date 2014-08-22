@@ -125,6 +125,7 @@ projects[media][subdir] = "contrib"
 projects[media][download][type] = "git"
 projects[media][download][url] = "http://git.drupal.org/project/media.git"
 projects[media][download][revision] = "d246c78"
+; DDBEASY-129 - Fix various notices, web upload tab.
 projects[media][patch][]= "http://storage.easyting.dk/media-oembed-2280941_0.patch"
 
 projects[media_vimeo][version] = "2.0-rc1"
@@ -132,6 +133,7 @@ projects[media_vimeo][subdir] = "contrib"
 
 projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][subdir] = "contrib"
+; DDBEASY-130 - Fixing media youtube patch.
 projects[media_youtube][patch][] = "https://drupal.org/files/issues/provide-access-wrapper-1823376-6.patch"
 
 projects[menu_block][version] = "2.4"
@@ -252,6 +254,7 @@ projects[ding_page][download][type] = "git"
 projects[ding_page][download][url] = "git@github.com:ding2tal/ding_page.git"
 projects[ding_page][download][branch] = "ddb-rc8"
 
+; DDBEASY-49 - Add ding_staff patch that corrects rules exports.
 projects[ding_staff][patch][] = "http://storage.easyting.dk/ding_staff-add_profile_rule.patch"
 
 projects[ding_tabroll][type] = "module"
@@ -268,8 +271,11 @@ projects[ting_material_details][type] = "module"
 projects[ting_material_details][download][type] = "git"
 projects[ting_material_details][download][url] = "git@github.com:ding2tal/ting_material_details.git"
 projects[ting_material_details][download][branch] = "ddb-rc8"
+; DDBEASY-109 - DK5 field should show DK5-Text and be clickable.
 projects[ting_material_details][patch][] = "http://storage.easyting.dk/ting_material_details-show_classification_with_dk5_text-case_4333.patch"
+; DDBEASY-119 - Contributors in the Details-section.
 projects[ting_material_details][patch][] = "http://storage.easyting.dk/ting_material_details-clickable_contributors_name-case_4343.patch"
+; DDBEASY-109 - Check for DK5 before printing parentheses.
 projects[ting_material_details][patch][] = "http://storage.easyting.dk/ting_material_details-check_for_dk5_text-easyddb_109.patch"
 
 projects[ting_reference][type] = "module"
@@ -281,6 +287,7 @@ projects[ding_provider][type] = "module"
 projects[ding_provider][download][type] = "git"
 projects[ding_provider][download][url] = "git@github.com:ding2tal/ding_provider.git"
 projects[ding_provider][download][branch] = "ddb-rc8"
+; DDBEASY-30 - Reservation messages from DDE.
 projects[ding_provider][patch][] = "http://storage.easyting.dk/ding_provider-diplay_reservation_error_codes-case_3995.patch"
 
 projects[ding_adhl_frontend][type] = "module"
@@ -292,12 +299,19 @@ projects[ding_availability][type] = "module"
 projects[ding_availability][download][type] = "git"
 projects[ding_availability][download][url] = "git@github.com:ding2tal/ding_availability.git"
 projects[ding_availability][download][branch] = "ddb-rc8"
+; DDBEASY-32 - Waiting time when no items available.
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability.waiting_time.patch"
+; DDBEASY-45 - Availability fixes.
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-search_collection_items_availability_fix-case_4218.patch"
+; DDBEASY-40 - Module that adds [Reserve-button] on searchResult.
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-enable_search_result_reserve_button-case_4177.patch"
+; DDBEASY-33 - Materials under way needs status.
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-in_acquisition_display-case_3998.patch"
+; DDBEASY-150 - Various date definitions cant be translated.
 projects[ding_availability][patch][] = "http://storage.easyting.dk/DDBEASY-150-translation-fixes.patch"
+; DDBEASY-184 - Remove the reservation-queue text, if item is not reservable.
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-hide_queue_if_not_reservable-DDBEASY-184.patch"
+; DDBEASY-83 - Hide holdings if availabilityInformation="noHolding".
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-remove_holding_table_when_availabity_empty-ddbeasy_83.patch"
 
 projects[ding_bookmark][type] = "module"
@@ -309,8 +323,11 @@ projects[ding_campaign][type] = "module"
 projects[ding_campaign][download][type] = "git"
 projects[ding_campaign][download][url] = "git@github.com:ding2tal/ding_campaign.git"
 projects[ding_campaign][download][branch] = "ddb-rc8"
+; DDBEASY-125 - Campaign Rules can't be saved.
 projects[ding_campaign][patch][] = "http://storage.easyting.dk/ding_campaign-rules_cache_clear-case_4349.patch"
+; DDBEASY-144 - Campaign content not shown.
 projects[ding_campaign][patch][] = "http://storage.easyting.dk/ding_campaign-empty_campaign_content-case_4384.patch"
+; DDBEASY-65 - Possibility of opening campaigns in new tab.
 projects[ding_campaign][patch][] = "http://storage.easyting.dk/ding_campaign-campaign_link_new_tab_behavior-ddbeasy_65.patch"
 
 projects[ding_debt][type] = "module"
@@ -332,7 +349,9 @@ projects[ding_facetbrowser][type] = "module"
 projects[ding_facetbrowser][download][type] = "git"
 projects[ding_facetbrowser][download][url] = "git@github.com:ding2tal/ding_facetbrowser.git"
 projects[ding_facetbrowser][download][branch] = "ddb-rc8"
+; DDBEASY-35 - Fix for duplicate labels, after close of overlay.
 projects[ding_facetbrowser][patch][] = "http://storage.easyting.dk/ding_facetbrowser-7.x-1.0-rc6-show_more_button_fix_ding2tal.patch"
+; DDBEASY-97 - Dont make overlay appear if new window.
 projects[ding_facetbrowser][patch][] = "http://storage.easyting.dk/ding_facetbrowser.patch"
 
 projects[ding_loan][type] = "module"
@@ -345,6 +364,7 @@ projects[ding_periodical][download][type] = "git"
 projects[ding_periodical][download][url] = "git@github.com:ding2tal/ding_periodical.git"
 projects[ding_periodical][download][branch] = "ddb-rc8"
 
+; DDBEASY-159 - "Roles" are shown in the user menu.
 projects[ding_permissions][patch][] = "http://storage.easyting.dk/ding_permissions-no_roles_in_user_menu-DDBEASY-159.patch"
 
 projects[ding_place2book][type] = "module"
@@ -361,6 +381,7 @@ projects[ding_reservation][type] = "module"
 projects[ding_reservation][download][type] = "git"
 projects[ding_reservation][download][url] = "git@github.com:ding2tal/ding_reservation.git"
 projects[ding_reservation][download][branch] = "ddb-rc8"
+; DDBEASY-54 - Disable/enable quick-reservation.
 projects[ding_reservation][patch][] = "http://storage.easyting.dk/case-4239_en_dis_quick_reservation.patch"
 
 projects[ding_toggle_format][type] = "module"
@@ -372,6 +393,7 @@ projects[ding_user][type] = "module"
 projects[ding_user][download][type] = "git"
 projects[ding_user][download][url] = "git@github.com:ding2tal/ding_user.git"
 projects[ding_user][download][branch] = "ddb-rc8"
+; DDBEASY-158 - String cant be translated.
 projects[ding_user][patch][] = "http://storage.easyting.dk/ding_user-translate_email_description-DDBEASY-158.patch"
 
 projects[ding_wayf][type] = "module"
@@ -383,21 +405,27 @@ projects[ting][type] = "module"
 projects[ting][download][type] = "git"
 projects[ting][download][url] = "git@github.com:ding2tal/ting.git"
 projects[ting][download][branch] = "ddb-rc8"
+; DDBEASY-19 - Show DK5 on searchResult.
 projects[ting][patch][] = "http://storage.easyting.dk/ding_entity_dk5.patch"
+; DDBEASY-97 - Open external URL relations in a new window.
 projects[ting][patch][] = "http://storage.easyting.dk/ting.patch"
+; DDBEASY-109 - DK5 field should show DK5-Text and be clickable.
 projects[ting][patch][] = "http://storage.easyting.dk/ting-dk5_text_method-case_4333.patch"
+; DDBEASY-171 - ADDI-webservices should not be mandatory.
 projects[ting][patch][] = "http://storage.easyting.dk/ting-empty_webservices_urls-easyddb_171.patch"
 
 libraries[ting-client][destination]      = "modules/ting/lib"
 libraries[ting-client][download][type]   = "git"
 libraries[ting-client][download][url]    = "git@github.com:ding2tal/ting-client.git"
 libraries[ting-client][download][branch] = "ddb-rc8"
+; DDBEASY-171 - ADDI-webservices should not be mandatory.
 libraries[ting-client][patch][]          = "http://storage.easyting.dk/ting_library-empty_webservices_urls-easyddb_171.patch"
 
 projects[ting_covers][type] = "module"
 projects[ting_covers][download][type] = "git"
 projects[ting_covers][download][url] = "git@github.com:ding2tal/ting_covers.git"
 projects[ting_covers][download][branch] = "ddb-rc8"
+; DDBEASY-28 - Allow direct cover fetch.
 projects[ting_covers][patch][] = "http://storage.easyting.dk/ting_covers-EASYDDB_28-allow_direct_cover_fetch.patch"
 
 projects[ting_fulltext][type] = "module"
@@ -419,13 +447,16 @@ projects[ting_relation][type] = "module"
 projects[ting_relation][download][type] = "git"
 projects[ting_relation][download][url] = "git@github.com:ding2tal/ting_relation.git"
 projects[ting_relation][download][branch] = "ddb-rc8"
+; DDBEASY-108 - Fix broken layout.
 projects[ting_relation][patch][] = "http://storage.easyting.dk/case-4327_fix_broken_layout.patch"
 
 projects[ting_search][type] = "module"
 projects[ting_search][download][type] = "git"
 projects[ting_search][download][url] = "git@github.com:ding2tal/ting_search.git"
 projects[ting_search][download][branch] = "ddb-rc8"
+; DDBEASY-97 - Dont make overlay appear if new window.
 projects[ting_search][patch][] = "http://storage.easyting.dk/ting_search.patch"
+; DDBEASY-148 - Remove overlay when ESC is pressed.
 projects[ting_search][patch][] = "http://storage.easyting.dk/case-148_stop_search_on_esc.patch"
 
 projects[ting_search_autocomplete][type] = "module"
@@ -437,7 +468,9 @@ projects[ting_search_carousel][type] = "module"
 projects[ting_search_carousel][download][type] = "git"
 projects[ting_search_carousel][download][url] = "git@github.com:ding2tal/ting_search_carousel.git"
 projects[ting_search_carousel][download][branch] = "ddb-rc8"
+; DDBEASY-110 - Sorting option in ting_search_carousel.
 projects[ting_search_carousel][patch][] = "http://storage.easyting.dk/case-4334_sorting_for_ting_search_carousel.patch"
+; DDBEASY-181 - Add the spinner-overlay to ting_search_carousel.
 projects[ting_search_carousel][patch][] = "http://storage.easyting.dk/ting_search_carousel-add_spinner_to_ting_carousel-ddbeasy_181.patch"
 
 
@@ -446,10 +479,14 @@ projects[ting_sfx][download][type] = "git"
 projects[ting_sfx][download][url] = "git@github.com:ding2tal/ting_sfx.git"
 projects[ting_sfx][download][branch] = "ddb-rc8"
 
+; #3993 - Possibility of searching with CCL.
 projects[alma][patch][] = "http://storage.easyting.dk/alma.lms_search_call.patch"
+; DDBEASY-30 - Reservation messages from DDE.
 projects[alma][patch][] = "http://storage.easyting.dk/alma-dde_error_messages-case_3995.patch"
+; DDBEASY-83 - Hide holdings if availabilityInformation="noHolding".
 projects[alma][patch][] = "http://storage.easyting.dk/alma-adds_maping_of_availabity_attribute-dbbeasy_83.patch"
 
+; DDBEASY-168 - Panel titles not translated.
 projects[ding_user_frontend][patch][] = "http://storage.easyting.dk/ding_user_frontend-add_translation-ddbeasy_168.patch"
 
 ; Adds customizable help in user profile form
