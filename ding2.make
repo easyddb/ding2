@@ -1,6 +1,3 @@
-core = 7.x
-api = 2
-
 ; Projects
 projects[alma][type] = "module"
 projects[alma][download][type] = "git"
@@ -148,5 +145,3 @@ projects[uuid][subdir] = "contrib"
 projects[uuid][download][type] = "git"
 projects[uuid][download][url] = "http://git.drupal.org/project/uuid.git"
 projects[uuid][download][revision] = "3f4d9fb"
-
-includes[thisted] = "thisted.make"

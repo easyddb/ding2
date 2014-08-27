@@ -1,3 +1,6 @@
+core = 7.x
+api = 2
+
 ; Thisted theme
 projects[thisted][type] = "theme"
 projects[thisted][download][type] = "git"
@@ -40,3 +43,5 @@ projects[addthis][subdir] = "contrib"
 
 ; Patches
 ;projects[ting_search][patch][]= "http://storage.easyting.dk/ting_search-search_submit_handler_not_being_called-thisted_15.patch"
+
+includes[thisted] = "ding2.make"
