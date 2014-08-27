@@ -1,8 +1,14 @@
-; Base theme
+; Thisted theme
 projects[thisted][type] = "theme"
 projects[thisted][download][type] = "git"
 projects[thisted][download][url] = "git@github.com:easyddb/thisted_theme.git"
 projects[thisted][download][branch] = "develop"
+
+; DDBasic theme
+projects[ddbasic][type] = "theme"
+projects[ddbasic][download][type] = "git"
+projects[ddbasic][download][url] = "git@github.com:easyddb/ddbasic.git"
+projects[ddbasic][download][branch] = "development"
 
 ; Projects
 projects[thisted_header_image][type] = "module"
