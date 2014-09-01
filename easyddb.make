@@ -244,11 +244,6 @@ projects[ding_base][download][type] = "git"
 projects[ding_base][download][url] = "git@github.com:ding2tal/ding_base.git"
 projects[ding_base][download][branch] = "ddb-rc8"
 
-projects[ding_library_opening_hours][type] = "module"
-projects[ding_library_opening_hours][download][type] = "git"
-projects[ding_library_opening_hours][download][url] = "git@github.com:easyddb/ding_library_opening_hours.git"
-projects[ding_library_opening_hours][download][branch] = "develop"
-
 projects[ding_page][type] = "module"
 projects[ding_page][download][type] = "git"
 projects[ding_page][download][url] = "git@github.com:ding2tal/ding_page.git"
@@ -393,7 +388,7 @@ projects[ding_user][type] = "module"
 projects[ding_user][download][type] = "git"
 projects[ding_user][download][url] = "git@github.com:ding2tal/ding_user.git"
 projects[ding_user][download][branch] = "ddb-rc8"
-; DDBEASY-158 - String cant be translated.
+; DDBEASY-158 - Make the email description available.
 projects[ding_user][patch][] = "http://storage.easyting.dk/ding_user-translate_email_description-DDBEASY-158.patch"
 
 projects[ding_wayf][type] = "module"
@@ -489,11 +484,6 @@ projects[alma][patch][] = "http://storage.easyting.dk/alma-adds_maping_of_availa
 ; DDBEASY-168 - Panel titles not translated.
 projects[ding_user_frontend][patch][] = "http://storage.easyting.dk/ding_user_frontend-add_translation-ddbeasy_168.patch"
 
-; Adds customizable help in user profile form
-projects[ding_user_profile][type] = "module"
-projects[ding_user_profile][download][type] = "git"
-projects[ding_user_profile][download][url] = "git@github.com:easyddb/ding_user_profile.git"
-projects[ding_user_profile][download][branch] = "develop"
 
 ; Themes
 projects[ddbasic][type] = "theme"
@@ -519,6 +509,17 @@ libraries[leaflet][download][branch] = "7.x-1.x"
 ; easyDDB
 projects[features_override][version]        = "2.0-rc1"
 projects[features_override][subdir]         = "contrib"
+
+projects[ding_library_opening_hours][type] = "module"
+projects[ding_library_opening_hours][download][type] = "git"
+projects[ding_library_opening_hours][download][url] = "git@github.com:easyddb/ding_library_opening_hours.git"
+projects[ding_library_opening_hours][download][branch] = "develop"
+
+; Adds customizable help in user profile form
+projects[ding_user_profile][type] = "module"
+projects[ding_user_profile][download][type] = "git"
+projects[ding_user_profile][download][url] = "git@github.com:easyddb/ding_user_profile.git"
+projects[ding_user_profile][download][branch] = "develop"
 
 projects[alma_item_list][type]           = "module"
 projects[alma_item_list][download][type] = "git"
