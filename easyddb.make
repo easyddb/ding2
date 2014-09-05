@@ -244,6 +244,9 @@ projects[ding_base][download][type] = "git"
 projects[ding_base][download][url] = "git@github.com:ding2tal/ding_base.git"
 projects[ding_base][download][branch] = "ddb-rc8"
 
+; DDBEASY-216 - WYSYWYG formatting are not fully working.
+projects[ding_content][patch][] = "http://storage.easyting.dk/ding_content-DDBEASY-216-WYSYWIG-tags-formating-fix.patch"
+
 projects[ding_page][type] = "module"
 projects[ding_page][download][type] = "git"
 projects[ding_page][download][url] = "git@github.com:ding2tal/ding_page.git"
