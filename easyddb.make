@@ -601,6 +601,7 @@ projects[bibdk_subject_hierarchy][download][type] = "git"
 projects[bibdk_subject_hierarchy][download][url] = "git@github.com:easyddb/bibdk_subject_hierarchy.git"
 projects[bibdk_subject_hierarchy][download][branch] = "develop"
 projects[bibdk_subject_hierarchy][patch][] = "http://storage.easyting.dk/bibdk_subject_hierarchy-fix_ccl2cql_converting-dbbeasy_172.patch"
+projects[bibdk_subject_hierarchy][patch][] = "http://storage.easyting.dk/bibdk_subject_hierarchy-add_spinner_to_bibdk_hierarchy-ddbeasy_218.patch"
 
 projects[ding_history_back][type] = "module"
 projects[ding_history_back][download][type] = "git"
