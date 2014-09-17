@@ -311,6 +311,8 @@ projects[ding_availability][patch][] = "http://storage.easyting.dk/DDBEASY-150-t
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-hide_queue_if_not_reservable-DDBEASY-184.patch"
 ; DDBEASY-83 - Hide holdings if availabilityInformation="noHolding".
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-remove_holding_table_when_availabity_empty-ddbeasy_83.patch"
+; DDBEASY-116 - Hide reservation buttons if not reservable.
+projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-hide_reserv_button-DDBEASY-116.patch"
 
 projects[ding_bookmark][type] = "module"
 projects[ding_bookmark][download][type] = "git"
