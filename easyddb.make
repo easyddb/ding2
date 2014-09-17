@@ -474,6 +474,8 @@ projects[ting_search_carousel][download][branch] = "ddb-rc8"
 projects[ting_search_carousel][patch][] = "http://storage.easyting.dk/case-4334_sorting_for_ting_search_carousel.patch"
 ; DDBEASY-181 - Add the spinner-overlay to ting_search_carousel.
 projects[ting_search_carousel][patch][] = "http://storage.easyting.dk/ting_search_carousel-add_spinner_to_ting_carousel-ddbeasy_181.patch"
+; DDBEASY-221 - Add item limit to carousel
+projects[ting_search_carousel][patch][] = "http://storage.easyting.dk/ting_search_carousel-add_item_limit_to_carousel-ddbeasy_221.patch"
 
 
 projects[ting_sfx][type] = "module"
