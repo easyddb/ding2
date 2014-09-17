@@ -411,6 +411,8 @@ projects[ting][patch][] = "http://storage.easyting.dk/ting.patch"
 projects[ting][patch][] = "http://storage.easyting.dk/ting-dk5_text_method-case_4333.patch"
 ; DDBEASY-171 - ADDI-webservices should not be mandatory.
 projects[ting][patch][] = "http://storage.easyting.dk/ting-empty_webservices_urls-easyddb_171.patch"
+; DDBEASY-217 - Truncate relation descriptions.
+projects[ting][patch][] = "http://storage.easyting.dk/ting-truncate_relation_description-ddbeasy_217.patch"
 
 libraries[ting-client][destination]      = "modules/ting/lib"
 libraries[ting-client][download][type]   = "git"
