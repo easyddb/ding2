@@ -172,4 +172,3 @@ projects[view_unpublished][download][type] = "git"
 projects[view_unpublished][download][url] = "http://git.drupal.org/project/view_unpublished.git"
 projects[view_unpublished][download][revision] = "e9df1d3"
 
-includes[easyddb] = "easyddb.make"
