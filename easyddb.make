@@ -28,6 +28,9 @@ projects[addressfield][subdir] = "contrib"
 projects[autosave][version] = "2.2"
 projects[autosave][subdir] = "contrib"
 
+projects[block_access][version] = "1.5"
+projects[block_access][subdir] = "contrib"
+
 projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
 
