@@ -364,8 +364,6 @@ projects[ding_periodical][download][type] = "git"
 projects[ding_periodical][download][url] = "git@github.com:ding2tal/ding_periodical.git"
 projects[ding_periodical][download][branch] = "ddb-rc8"
 
-; DDBEASY-159 - "Roles" are shown in the user menu.
-projects[ding_permissions][patch][] = "http://storage.easyting.dk/ding_permissions-no_roles_in_user_menu-DDBEASY-159.patch"
 ; DDBEASY-213 - Permissions to MarcXchange
 projects[ding_permissions][patch][] = "http://storage.easyting.dk/ding_permissions-permissions_marcxchange-DDBEASY-213.patch"
 
@@ -498,7 +496,7 @@ projects[ding_user_frontend][patch][] = "http://storage.easyting.dk/ding_user_fr
 projects[ddbasic][type] = "theme"
 projects[ddbasic][download][type] = "git"
 projects[ddbasic][download][url] = "git@github.com:easyddb/ddbasic.git"
-projects[ddbasic][download][branch] = "development"
+projects[ddbasic][download][tag] = "pre-release"
 
 ; Libraries
 libraries[profiler][download][type]     = "git"
