@@ -29,6 +29,11 @@ projects[thisted_permissions][download][type] = "git"
 projects[thisted_permissions][download][url] = "git@github.com:easyddb/thisted_permissions.git"
 projects[thisted_permissions][download][branch] = "develop"
 
+projects[thisted_event_import][type] = "module"
+projects[thisted_event_import][download][type] = "git"
+projects[thisted_event_import][download][url] = "git@github.com:easyddb/thisted_event_import.git"
+projects[thisted_event_import][download][branch] = "develop"
+
 ; Libraries
 libraries[mailchimp][download][type]     = "git"
 libraries[mailchimp][download][url]      = "https://bitbucket.org/mailchimp/mailchimp-api-php.git"
@@ -40,6 +45,15 @@ projects[mailchimp][subdir] = "contrib"
 
 projects[addthis][version] = "4.0-alpha4"
 projects[addthis][subdir] = "contrib"
+
+projects[feeds][version] = "7.x-2.0-alpha8"
+projects[feeds][subdir] = "contrib"
+
+projects[feeds_xpathparser][version] = "7.x-1.0-beta4"
+projects[feeds_xpathparser][subdir] = "contrib"
+
+projects[job_scheduler][version] = "7.x-2.0-alpha3"
+projects[job_scheduler][subdir] = "contrib"
 
 ; Patches
 ;projects[ting_search][patch][]= "http://storage.easyting.dk/ting_search-search_submit_handler_not_being_called-thisted_15.patch"
