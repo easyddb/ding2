@@ -55,6 +55,12 @@ projects[feeds_xpathparser][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 projects[job_scheduler][subdir] = "contrib"
 
+; Visual effects for ting collection
+projects[ding_search_collection][type]             = "module"
+projects[ding_search_collection][download][type]   = "git"
+projects[ding_search_collection][download][url]    = "git@github.com:easyddb/ding_search_collection.git"
+projects[ding_search_collection][download][branch] = "develop"
+
 ; Patches
 ;projects[ting_search][patch][]= "http://storage.easyting.dk/ting_search-search_submit_handler_not_being_called-thisted_15.patch"
 
