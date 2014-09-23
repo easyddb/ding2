@@ -543,7 +543,7 @@ projects[alma_item_list][download][branch]  = "develop"
 
 projects[alma_reminder_service][type]           = "module"
 projects[alma_reminder_service][download][type] = "git"
-projects[alma_reminder_service][download][url]  = "git@github.com:easyting/alma_reminder_service.git"
+projects[alma_reminder_service][download][url]  = "git@github.com:easyddb/alma_reminder_service.git"
 projects[alma_reminder_service][download][branch]  = "develop"
 
 projects[easyddb_alma_reminder][type]           = "module"
