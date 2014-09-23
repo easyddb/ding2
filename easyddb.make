@@ -368,8 +368,8 @@ projects[ding_permissions][patch][] = "http://storage.easyting.dk/ding_permissio
 
 projects[ding_place2book][type] = "module"
 projects[ding_place2book][download][type] = "git"
-projects[ding_place2book][download][url] = "git@github.com:vejlebib/ding_place2book.git"
-projects[ding_place2book][download][branch] = "7.x-1.0"
+projects[ding_place2book][download][url] = "git@github.com:ding2tal/ding_place2book.git"
+projects[ding_place2book][download][tag] = "7.x-1.0"
 
 projects[ding_popup][type] = "module"
 projects[ding_popup][download][type] = "git"
