@@ -300,8 +300,6 @@ projects[ding_availability][download][url] = "git@github.com:ding2tal/ding_avail
 projects[ding_availability][download][branch] = "7.x-1.0"
 ; DDBEASY-32 - Waiting time when no items available.
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability.waiting_time.patch"
-; DDBEASY-45 - Availability fixes.
-projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-search_collection_items_availability_fix-case_4218.patch"
 ; DDBEASY-40 - Module that adds [Reserve-button] on searchResult.
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-enable_search_result_reserve_button-case_4177.patch"
 ; DDBEASY-33 - Materials under way needs status.
