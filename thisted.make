@@ -11,7 +11,7 @@ projects[thisted][download][branch] = "develop"
 projects[ddbasic][type] = "theme"
 projects[ddbasic][download][type] = "git"
 projects[ddbasic][download][url] = "git@github.com:easyddb/ddbasic.git"
-projects[ddbasic][download][branch] = "development"
+projects[ddbasic][download][tag] = "pre-release"
 
 ; Projects
 projects[thisted_header_image][type] = "module"
