@@ -569,7 +569,7 @@ projects[ding_item_list][download][branch] = "develop"
 projects[ding_item_viewer][type]             = "module"
 projects[ding_item_viewer][download][type]   = "git"
 projects[ding_item_viewer][download][url]    = "git@github.com:easyddb/ding_item_viewer.git"
-projects[ding_item_viewer][download][branch] = "develop"
+projects[ding_item_viewer][download][branch] = "development"
 
 projects[ding_collection_reservation][type] = "module"
 projects[ding_collection_reservation][download][type] = "git"
