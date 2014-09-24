@@ -10,6 +10,9 @@ includes[ding2] = "ding2.make"
 projects[memcache_storage][version] = "1.4"
 projects[memcache_storage][subdir] = "contrib"
 
+projects[autologout][version] = "4.3"
+projects[autologout][subdir] = "contrib"
+
 projects[apc][version] = "1.0-beta4"
 projects[apc][subdir] = "contrib"
 
@@ -222,6 +225,9 @@ projects[transliteration][subdir] = "contrib"
 
 projects[variable][version] = "2.2"
 projects[variable][subdir] = "contrib"
+
+projects[varnish][version] = "1.0-beta3"
+projects[varnish][subdir] = "contrib"
 
 projects[views][version] = "3.7"
 projects[views][subdir] = "contrib"
