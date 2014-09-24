@@ -387,7 +387,7 @@ projects[ding_reservation][download][type] = "git"
 projects[ding_reservation][download][url] = "git@github.com:ding2tal/ding_reservation.git"
 projects[ding_reservation][download][branch] = "7.x-1.0"
 ; DDBEASY-54 - Disable/enable quick-reservation.
-projects[ding_reservation][patch][] = "http://storage.easyting.dk/case-4239_en_dis_quick_reservation.patch"
+projects[ding_reservation][patch][] = "http://storage.easyting.dk/ding_reservation-quick_reservation_setting-DDBEASY-247.patch"
 ; DDBEASY-54 - Removes unnecessary string.
 projects[ding_reservation][patch][] = "http://storage.easyting.dk/ding_reservation-remove_unnecessary_string-ddbeasy_54.patch"
 
