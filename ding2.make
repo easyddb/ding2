@@ -76,6 +76,7 @@ projects[ding_permissions][type] = "module"
 projects[ding_permissions][download][type] = "git"
 projects[ding_permissions][download][url] = "git@github.com:ding2tal/ding_permissions.git"
 projects[ding_permissions][download][tag] = "7.x-1.0"
+
 projects[ding_webtrends][type] = "module"
 projects[ding_webtrends][download][type] = "git"
 projects[ding_webtrends][download][url] = "git@github.com:ding2tal/ding_webtrends.git"
@@ -170,3 +171,4 @@ projects[view_unpublished][subdir] = "contrib"
 projects[view_unpublished][download][type] = "git"
 projects[view_unpublished][download][url] = "http://git.drupal.org/project/view_unpublished.git"
 projects[view_unpublished][download][revision] = "e9df1d3"
+
