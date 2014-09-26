@@ -506,9 +506,9 @@ projects[ddbasic][download][branch] = "development"
 projects[ddbasic][download][tag] = ""
 
 ; Libraries
-libraries[profiler][download][type]     = "git"
-libraries[profiler][download][url]      = "http://git.drupal.org/project/profiler.git"
-libraries[profiler][download][revision] = "d0137cb42bc7a4e9ce0a0431f875806285d09758"
+;libraries[profiler][download][type]     = "git"
+;libraries[profiler][download][url]      = "http://git.drupal.org/project/profiler.git"
+;libraries[profiler][download][revision] = "d0137cb42bc7a4e9ce0a0431f875806285d09758"
 
 libraries[ckeditor][destination]    = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
