@@ -646,6 +646,11 @@ projects[easyddb_dams][download][type] = "git"
 projects[easyddb_dams][download][url] = "git@github.com:easyddb/easyddb_dams.git"
 projects[easyddb_dams][download][branch] = "develop"
 
+projects[easyddb_editorial_base][type] = "module"
+projects[easyddb_editorial_base][download][type] = "git"
+projects[easyddb_editorial_base][download][url] = "git@github.com:easyddb/easyddb_editorial_base.git"
+projects[easyddb_editorial_base][download][branch] = "develop"
+
 ; Custom patches
 ; See https://www.drupal.org/node/2318997
 projects[cookiecontrol][patch][1] = "http://www.drupal.org/files/issues/cookiecontrol-ie_safari_cookies-issue_2318997.patch"
