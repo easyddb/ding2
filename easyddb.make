@@ -656,6 +656,9 @@ projects[easyddb_editorial_dashboard][download][type] = "git"
 projects[easyddb_editorial_dashboard][download][url] = "git@github.com:easyddb/easyddb_editorial_dashboard.git"
 projects[easyddb_editorial_dashboard][download][branch] = "develop"
 
+; DDBEASY-262 - Fixes missed library.
+projects[ding_library][patch][] = "http://storage.easyting.dk/ding_library-fixes_missed_library-ddbeasy_262.patch"
+
 ; Custom patches
 ; See https://www.drupal.org/node/2318997
 projects[cookiecontrol][patch][1] = "http://www.drupal.org/files/issues/cookiecontrol-ie_safari_cookies-issue_2318997.patch"
