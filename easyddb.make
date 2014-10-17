@@ -497,6 +497,7 @@ projects[alma][patch][] = "http://storage.easyting.dk/alma-adds_maping_of_availa
 
 ; DDBEASY-168 - Panel titles not translated.
 projects[ding_user_frontend][patch][] = "https://github.com/ding2tal/ding_user_frontend/pull/1.diff"
+projects[ding_user_frontend][patch][] = "http://storage.easyting.dk/ding_user_frontend-adds_hook_alter_of_user_menu-ddbeasy_267.patch"
 
 
 ; Themes
