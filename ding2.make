@@ -1,3 +1,6 @@
+core = 7.x
+api = 2
+
 ; Projects
 projects[alma][type] = "module"
 projects[alma][download][type] = "git"
