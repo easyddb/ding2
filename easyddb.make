@@ -318,6 +318,8 @@ projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availabi
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-remove_holding_table_when_availabity_empty-ddbeasy_83.patch"
 ; DDBEASY-116 - Hide reservation buttons if not reservable.
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-hide_reserv_button-DDBEASY-116.patch"
+; DDBEASY-116b - Differenciate between isAvailable and isReservable.
+projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-hide_reserv_button-DDBEASY-116[B].patch"
 
 projects[ding_bookmark][type] = "module"
 projects[ding_bookmark][download][type] = "git"
@@ -494,6 +496,8 @@ projects[alma][patch][] = "https://github.com/ding2tal/alma/pull/15.diff"
 projects[alma][patch][] = "https://github.com/ding2tal/alma/pull/16.diff"
 ; DDBEASY-83 - Hide holdings if availabilityInformation="noHolding".
 projects[alma][patch][] = "http://storage.easyting.dk/alma-adds_maping_of_availabity_attribute-dbbeasy_83.patch"
+; DDBEASY-116 - Proper status for reservation button.
+projects[alma][patch][] = "http://storage.easyting.dk/alma-proper_reservation_button_status-ddbeasy_116.patch"
 
 ; DDBEASY-168 - Panel titles not translated.
 projects[ding_user_frontend][patch][] = "https://github.com/ding2tal/ding_user_frontend/pull/1.diff"
