@@ -358,6 +358,8 @@ projects[ding_facetbrowser][download][branch] = "7.x-1.0"
 projects[ding_facetbrowser][patch][] = "https://github.com/ding2tal/ding_facetbrowser/pull/2.diff"
 ; DDBEASY-97 - Dont make overlay appear if new window.
 projects[ding_facetbrowser][patch][] = "https://github.com/ding2tal/ding_facetbrowser/pull/3.diff"
+; DDBEASY-283
+projects[ding_facetbrowser][patch][] = "http://storage.easyting.dk/ding_facetbrowser-7.x-1.0-truncate_terms_DDBEASY-283.patch"
 
 projects[ding_loan][type] = "module"
 projects[ding_loan][download][type] = "git"
