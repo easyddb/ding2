@@ -495,8 +495,6 @@ projects[alma][patch][] = "https://github.com/ding2tal/alma/pull/15.diff"
 projects[alma][patch][] = "https://github.com/ding2tal/alma/pull/16.diff"
 ; DDBEASY-83 - Hide holdings if availabilityInformation="noHolding".
 projects[alma][patch][] = "http://storage.easyting.dk/alma-adds_maping_of_availabity_attribute-dbbeasy_83.patch"
-; DDBEASY-116 - Proper status for reservation button.
-projects[alma][patch][] = "http://storage.easyting.dk/alma-proper_reservation_button_status-ddbeasy_116.patch"
 
 ; DDBEASY-168 - Panel titles not translated.
 projects[ding_user_frontend][patch][] = "https://github.com/ding2tal/ding_user_frontend/pull/1.diff"
