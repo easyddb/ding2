@@ -394,6 +394,8 @@ projects[ding_reservation][download][branch] = "7.x-1.0"
 projects[ding_reservation][patch][] = "http://storage.easyting.dk/ding_reservation-quick_reservation_setting-DDBEASY-247.patch"
 ; DDBEASY-54 - Removes unnecessary string.
 projects[ding_reservation][patch][] = "http://storage.easyting.dk/ding_reservation-remove_unnecessary_string-ddbeasy_54.patch"
+; DDBEAY-222 - Change quick reservation workflow
+projects[ding_reservation][patch][] = "http://storage.easyting.dk/ding_reservation-quick_reservation_workflow-DDBEASY-222.patch"
 
 projects[ding_toggle_format][type] = "module"
 projects[ding_toggle_format][download][type] = "git"
