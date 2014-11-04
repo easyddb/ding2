@@ -471,6 +471,8 @@ projects[ting_search][download][branch] = "7.x-1.0"
 projects[ting_search][patch][] = "https://github.com/ding2tal/ting_search/pull/5.diff"
 ; DDBEASY-97 - Dont make overlay appear if new window.
 projects[ting_search][patch][] = "https://github.com/ding2tal/ting_search/pull/6.diff"
+; DDBEASY-251 - Dont make overlay appear if ctrl key is pressed.
+projects[ting_search][patch][] = "http://storage.easyting.dk/ting_search-ctrl-key-prevents-from-overlay-DDBEASY-251.patch"
 
 projects[ting_search_autocomplete][type] = "module"
 projects[ting_search_autocomplete][download][type] = "git"
