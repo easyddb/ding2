@@ -678,3 +678,8 @@ projects[og][patch][1] = "https://www.drupal.org/files/issues/og-select_widget-2
 ;See https://www.drupal.org/node/2195471
 projects[ctools][patch][1] = "https://www.drupal.org/files/issues/combined_patch_from_n2195211-15_and_n2195471-14--n2195471-16.patch"
 
+; easyScreen
+projects[ding_easyscreen][type]           = "module"
+projects[ding_easyscreen][download][type] = "git"
+projects[ding_easyscreen][download][url]  = "git@github.com:easyting/ding_easyscreen_d7.git"
+projects[ding_easyscreen][download][tag]  = "7.x-2.4.1"
