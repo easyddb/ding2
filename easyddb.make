@@ -421,7 +421,7 @@ projects[ting][download][branch] = "7.x-1.0.1"
 ; DDBEASY-19 - Show DK5 on searchResult.
 ; DDBEASY-109 - DK5 field should show DK5-Text and be clickable.
 ; DDBEASY-171 - ADDI-webservices should not be mandatory.
-projects[ting][patch][] = "https://github.com/ding2tal/ting/pull/9.diff"
+projects[ting][patch][] = "https://github.com/guddo/ting/commit/e47a0e32ee6162084f155a177cd5f154bf74ba01.diff"
 ; DDBEASY-97 - Open external URL relations in a new window.
 projects[ting][patch][] = "https://github.com/ding2tal/ting/pull/8.diff"
 ; DDBEASY-217 - Truncate relation descriptions.
