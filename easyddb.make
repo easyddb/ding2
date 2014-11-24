@@ -650,6 +650,11 @@ projects[ding_nodelist][download][type] = "git"
 projects[ding_nodelist][download][url] = "git@github.com:easyddb/ding_nodelist.git"
 projects[ding_nodelist][download][branch] = "develop"
 
+projects[ding_print_button][type] = "module"
+projects[ding_print_button][download][type] = "git"
+projects[ding_print_button][download][url] = "git@github.com:easyddb/ding_print_button.git"
+projects[ding_print_button][download][branch] = "develop"
+
 projects[easyddb_dams][type] = "module"
 projects[easyddb_dams][download][type] = "git"
 projects[easyddb_dams][download][url] = "git@github.com:easyddb/easyddb_dams.git"
