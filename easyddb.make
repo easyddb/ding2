@@ -558,6 +558,11 @@ projects[easyddb_alma_reminder][download][type] = "git"
 projects[easyddb_alma_reminder][download][url]  = "git@github.com:easyddb/easyddb_alma_reminder.git"
 projects[easyddb_alma_reminder][download][branch]  = "develop"
 
+projects[easyddb_frontend][type]           = "module"
+projects[easyddb_frontend][download][type] = "git"
+projects[easyddb_frontend][download][url]  = "git@github.com:easyddb/easyddb_frontend.git"
+projects[easyddb_frontend][download][branch]  = "develop"
+
 projects[ding_bibliotek_info][type]             = "module"
 projects[ding_bibliotek_info][download][type]   = "git"
 projects[ding_bibliotek_info][download][url]    = "git@github.com:easyddb/ding_bibliotek_info.git"
