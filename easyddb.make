@@ -673,6 +673,11 @@ projects[easyddb_editorial_dashboard][download][type] = "git"
 projects[easyddb_editorial_dashboard][download][url] = "git@github.com:easyddb/easyddb_editorial_dashboard.git"
 projects[easyddb_editorial_dashboard][download][branch] = "develop"
 
+projects[ding_more_info][type] = "module"
+projects[ding_more_info][download][type] = "git"
+projects[ding_more_info][download][url] = "git@github.com:easyddb/ding_more_info.git"
+projects[ding_more_info][download][branch] = "develop"
+
 ; DDBEASY-262 - Fixes missed library.
 projects[ding_library][patch][] = "http://storage.easyting.dk/ding_library-fixes_missed_library-ddbeasy_262.patch"
 
