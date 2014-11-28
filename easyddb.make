@@ -188,6 +188,9 @@ projects[profile2][subdir] = "contrib"
 projects[relation][version] = "1.0-rc4"
 projects[relation][subdir] = "contrib"
 
+projects[references][version] = "2.1"
+projects[references][subdir] = "contrib"
+
 projects[role_delegation][version] = "1.1"
 projects[role_delegation][subdir] = "contrib"
 
@@ -683,3 +686,8 @@ projects[ding_easyscreen][type]           = "module"
 projects[ding_easyscreen][download][type] = "git"
 projects[ding_easyscreen][download][url]  = "git@github.com:easyting/ding_easyscreen_d7.git"
 projects[ding_easyscreen][download][tag]  = "7.x-2.4.1"
+
+projects[emailkanon][type] = "module"
+projects[emailkanon][download][type] = "git"
+projects[emailkanon][download][url] = "git@github.com:easyddb/emailkanon.git"
+projects[emailkanon][download][branch] = "develop"
