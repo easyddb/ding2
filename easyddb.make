@@ -340,6 +340,8 @@ projects[ding_campaign][patch][] = "https://github.com/ding2tal/ding_campaign/pu
 projects[ding_campaign][patch][] = "https://github.com/ding2tal/ding_campaign/pull/3.diff"
 ; DDBEASY-65 - Possibility of opening campaigns in new tab.
 projects[ding_campaign][patch][] = "https://github.com/ding2tal/ding_campaign/pull/4.diff"
+; DDBEASY-229 - Add scheduler to CT campaign
+projects[ding_campaign][patch][] = "http://storage.easyting.dk/ding_campaign-adds_scheduler_to_campaign-ddbeasy_229.patch"
 
 projects[ding_debt][type] = "module"
 projects[ding_debt][download][type] = "git"
