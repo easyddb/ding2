@@ -254,8 +254,8 @@ projects[ding_base][download][type] = "git"
 projects[ding_base][download][url] = "git@github.com:ding2tal/ding_base.git"
 projects[ding_base][download][tag] = "7.x-1.0.1"
 
-; DDBEASY-216 - WYSYWYG formatting are not fully working.
-projects[ding_content][patch][] = "http://storage.easyting.dk/ding_content-DDBEASY-216-WYSYWIG-tags-formating-fix.patch"
+; DDBEASY-216 - Support underline tag in WYSIWYG.
+projects[ding_content][patch][] = "https://github.com/ding2tal/ding_content/pull/4.diff"
 
 projects[ding_page][type] = "module"
 projects[ding_page][download][type] = "git"
@@ -279,12 +279,10 @@ projects[ting_material_details][type] = "module"
 projects[ting_material_details][download][type] = "git"
 projects[ting_material_details][download][url] = "git@github.com:ding2tal/ting_material_details.git"
 projects[ting_material_details][download][tag] = "7.x-1.0.1"
-; DDBEASY-109 - DK5 field should show DK5-Text and be clickable.
-projects[ting_material_details][patch][] = "http://storage.easyting.dk/ting_material_details-show_classification_with_dk5_text-case_4333.patch"
-; DDBEASY-119 - Contributors in the Details-section.
-projects[ting_material_details][patch][] = "http://storage.easyting.dk/ting_material_details-clickable_contributors_name-case_4343.patch"
-; DDBEASY-109 - Check for DK5 before printing parentheses.
-projects[ting_material_details][patch][] = "http://storage.easyting.dk/ting_material_details-check_for_dk5_text-easyddb_109.patch"
+; DDBEASY-119 - Clickable contributors.
+;projects[ting_material_details][patch][] = "https://github.com/ding2tal/ting_material_details/pull/5.diff"
+; DDBEASY-109 - Various fixes.
+projects[ting_material_details][patch][] = "https://github.com/ding2tal/ting_material_details/pull/6.diff"
 
 projects[ting_reference][type] = "module"
 projects[ting_reference][download][type] = "git"
@@ -308,17 +306,15 @@ projects[ding_availability][download][type] = "git"
 projects[ding_availability][download][url] = "git@github.com:ding2tal/ding_availability.git"
 projects[ding_availability][download][tag] = "7.x-1.0.1"
 ; DDBEASY-32 - Waiting time when no items available.
-projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability.waiting_time.patch"
-; DDBEASY-40 - Module that adds [Reserve-button] on searchResult.
-projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-enable_search_result_reserve_button-case_4177.patch"
 ; DDBEASY-33 - Materials under way needs status.
-projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-in_acquisition_display-case_3998.patch"
-; DDBEASY-150 - Various date definitions cant be translated.
-projects[ding_availability][patch][] = "http://storage.easyting.dk/DDBEASY-150-translation-fixes.patch"
 ; DDBEASY-184 - Remove the reservation-queue text, if item is not reservable.
-projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-hide_queue_if_not_reservable-DDBEASY-184.patch"
-; DDBEASY-83 - Hide holdings if availabilityInformation="noHolding".
-projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-remove_holding_table_when_availabity_empty-ddbeasy_83.patch"
+;projects[ding_availability][patch][] = "https://github.com/ding2tal/ding_availability/pull/4.diff"
+;projects[ding_availability][patch][] = "https://github.com/ding2tal/ding_availability/pull/8.diff"
+projects[ding_availability][patch][] = "https://github.com/ding2tal/ding_availability/pull/9.diff"
+; DDBEASY-40 - Enable [Reserve]-button on searchResult.
+projects[ding_availability][patch][] = "https://github.com/ding2tal/ding_availability/pull/10.diff"
+; DDBEASY-83 - Remove holding table if all items have noHolding attribute.
+projects[ding_availability][patch][] = "https://github.com/ding2tal/ding_availability/pull/11.diff"
 ; DDBEASY-116 - Hide reservation buttons if not reservable, also differenciate isAvailable and isReservable.
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-hide_reserv_button-DDBEASY-116.patch"
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-hide_button_if_no_response-DDBEASY-116.patch"
@@ -366,8 +362,8 @@ projects[ding_facetbrowser][download][tag] = "7.x-1.0.1"
 projects[ding_facetbrowser][patch][] = "https://github.com/ding2tal/ding_facetbrowser/pull/2.diff"
 ; DDBEASY-97 - Dont make overlay appear if new window.
 projects[ding_facetbrowser][patch][] = "https://github.com/ding2tal/ding_facetbrowser/pull/3.diff"
-; DDBEASY-283
-projects[ding_facetbrowser][patch][] = "http://storage.easyting.dk/ding_facetbrowser-7.x-1.0-truncate_terms_DDBEASY-283.patch"
+; DDBEASY-283 - Extend truncate length on facet labels.
+projects[ding_facetbrowser][patch][] = "https://github.com/ding2tal/ding_facetbrowser/pull/4.diff"
 
 projects[ding_loan][type] = "module"
 projects[ding_loan][download][type] = "git"
@@ -378,9 +374,6 @@ projects[ding_periodical][type] = "module"
 projects[ding_periodical][download][type] = "git"
 projects[ding_periodical][download][url] = "git@github.com:ding2tal/ding_periodical.git"
 projects[ding_periodical][download][tag] = "7.x-1.0.1"
-
-; DDBEASY-213 - Permissions to MarcXchange
-projects[ding_permissions][patch][] = "http://storage.easyting.dk/ding_permissions-permissions_marcxchange-DDBEASY-213.patch"
 
 projects[ding_place2book][type] = "module"
 projects[ding_place2book][download][type] = "git"
@@ -397,11 +390,7 @@ projects[ding_reservation][download][type] = "git"
 projects[ding_reservation][download][url] = "git@github.com:ding2tal/ding_reservation.git"
 projects[ding_reservation][download][tag] = "7.x-1.0.1"
 ; DDBEASY-54 - Disable/enable quick-reservation.
-projects[ding_reservation][patch][] = "http://storage.easyting.dk/ding_reservation-quick_reservation_setting-DDBEASY-247.patch"
-; DDBEASY-54 - Removes unnecessary string.
-projects[ding_reservation][patch][] = "http://storage.easyting.dk/ding_reservation-remove_unnecessary_string-ddbeasy_54.patch"
-; DDBEAY-222 - Change quick reservation workflow
-projects[ding_reservation][patch][] = "http://storage.easyting.dk/ding_reservation-quick_reservation_workflow-DDBEASY-222.patch"
+projects[ding_reservation][patch][] = "https://github.com/ding2tal/ding_reservation/pull/4.diff"
 
 projects[ding_toggle_format][type] = "module"
 projects[ding_toggle_format][download][type] = "git"
@@ -424,12 +413,12 @@ projects[ting][type] = "module"
 projects[ting][download][type] = "git"
 projects[ting][download][url] = "git@github.com:ding2tal/ting.git"
 projects[ting][download][tag] = "7.x-1.0.1"
-; DDBEASY-171 - ADDI-webservices should not be mandatory.
-projects[ting][patch][] = "http://storage.easyting.dk/ting-empty_webservices_urls-easyddb_171.patch"
 ; DDBEASY-97 - Open external URL relations in a new window.
 projects[ting][patch][] = "https://github.com/ding2tal/ting/pull/8.diff"
+; DDBEASY-171 - ADDI-webservices should not be mandatory.
+projects[ting][patch][] = "https://github.com/ding2tal/ting/pull/9.diff"
 ; DDBEASY-217 - Truncate relation descriptions.
-projects[ting][patch][] = "http://storage.easyting.dk/ting-truncate_relation_description-ddbeasy_217.patch"
+projects[ting][patch][] = "https://github.com/ding2tal/ting/pull/13.diff"
 
 libraries[ting-client][destination]      = "modules/ting/lib"
 libraries[ting-client][download][type]   = "git"
@@ -465,18 +454,18 @@ projects[ting_relation][download][type] = "git"
 projects[ting_relation][download][url] = "git@github.com:ding2tal/ting_relation.git"
 projects[ting_relation][download][tag] = "7.x-1.0.1"
 ; DDBEASY-108 - Fix broken layout.
-projects[ting_relation][patch][] = "https://github.com/ding2tal/ting_relation/pull/2.patch"
+projects[ting_relation][patch][] = "https://github.com/ding2tal/ting_relation/pull/2.diff"
 
 projects[ting_search][type] = "module"
 projects[ting_search][download][type] = "git"
 projects[ting_search][download][url] = "git@github.com:ding2tal/ting_search.git"
 projects[ting_search][download][tag] = "7.x-1.0.1"
-; DDBEASY-148 - Remove overlay when ESC is pressed.
-projects[ting_search][patch][] = "https://github.com/ding2tal/ting_search/pull/5.diff"
 ; DDBEASY-97 - Dont make overlay appear if new window.
 projects[ting_search][patch][] = "https://github.com/ding2tal/ting_search/pull/6.diff"
-; DDBEASY-251 - Dont make overlay appear if ctrl key is pressed.
-projects[ting_search][patch][] = "http://storage.easyting.dk/ting_search-ctrl-key-prevents-from-overlay-DDBEASY-251.patch"
+; DDBEASY-148 - Remove overlay when ESC is pressed.
+projects[ting_search][patch][] = "https://github.com/ding2tal/ting_search/pull/8.diff"
+; DDBEASY-251 - Dont make overlay appear if CTRL is clicked.
+projects[ting_search][patch][] = "https://github.com/ding2tal/ting_search/pull/9.diff"
 
 projects[ting_search_autocomplete][type] = "module"
 projects[ting_search_autocomplete][download][type] = "git"
@@ -491,9 +480,8 @@ projects[ting_search_carousel][download][tag] = "7.x-1.0.1"
 projects[ting_search_carousel][patch][] = "https://github.com/ding2tal/ting_search_carousel/pull/1.diff"
 ; DDBEASY-181 - Add the spinner-overlay to ting_search_carousel.
 projects[ting_search_carousel][patch][] = "https://github.com/ding2tal/ting_search_carousel/pull/2.diff"
-; DDBEASY-221 - Add item limit to carousel
-projects[ting_search_carousel][patch][] = "http://storage.easyting.dk/ting_search_carousel-add_item_limit_to_carousel-ddbeasy_221.patch"
-
+; DDBEASY-221 - Implement item limit for improved performance.
+projects[ting_search_carousel][patch][] = "https://github.com/ding2tal/ting_search_carousel/pull/4.diff"
 
 projects[ting_sfx][type] = "module"
 projects[ting_sfx][download][type] = "git"
@@ -509,8 +497,6 @@ projects[alma][patch][] = "http://storage.easyting.dk/alma-adds_maping_of_availa
 
 ; DDBEASY-168 - Panel titles not translated.
 projects[ding_user_frontend][patch][] = "https://github.com/ding2tal/ding_user_frontend/pull/1.diff"
-projects[ding_user_frontend][patch][] = "http://storage.easyting.dk/ding_user_frontend-adds_hook_alter_of_user_menu-ddbeasy_267.patch"
-
 
 ; Themes
 projects[ddbasic][type] = "theme"
@@ -558,6 +544,8 @@ projects[alma_reminder_service][type]           = "module"
 projects[alma_reminder_service][download][type] = "git"
 projects[alma_reminder_service][download][url]  = "git@github.com:easyddb/alma_reminder_service.git"
 projects[alma_reminder_service][download][branch]  = "develop"
+; Patch for altering menu (not supported for non-easyDDB solutions).
+projects[ding_user_frontend][patch][] = "http://storage.easyting.dk/ding_user_frontend-adds_hook_alter_of_user_menu-ddbeasy_267.patch"
 
 projects[easyddb_alma_reminder][type]           = "module"
 projects[easyddb_alma_reminder][download][type] = "git"
@@ -617,6 +605,8 @@ projects[ting_marc][type] = "module"
 projects[ting_marc][download][type] = "git"
 projects[ting_marc][download][url] = "git@github.com:easyddb/ting_marc.git"
 projects[ting_marc][download][branch] = "develop"
+; Patch for permissions (manually done for non-easyDDB solutions).
+projects[ding_permissions][patch][] = "http://storage.easyting.dk/ding_permissions-permissions_marcxchange-DDBEASY-213.patch"
 
 projects[ting_dk5][type] = "module"
 projects[ting_dk5][download][type] = "git"
@@ -684,17 +674,22 @@ projects[ding_more_info][download][type] = "git"
 projects[ding_more_info][download][url] = "git@github.com:easyddb/ding_more_info.git"
 projects[ding_more_info][download][branch] = "develop"
 
-; DDBEASY-262 - Fixes missed library.
-projects[ding_library][patch][] = "http://storage.easyting.dk/ding_library-fixes_missed_library-ddbeasy_262.patch"
 
-; Custom patches
+; Custom DDB CMS core patches
+
+; DDBEASY-262 - Show all Library CTs in the dropdown.
+projects[ding_library][patch][] = "https://github.com/ding2tal/ding_library/pull/6.diff"
+
+
+; Custom DDB CMS contrib patches
+
 ; See https://www.drupal.org/node/2318997
 projects[cookiecontrol][patch][1] = "http://www.drupal.org/files/issues/cookiecontrol-ie_safari_cookies-issue_2318997.patch"
 
-;See https://www.drupal.org/node/2141101
+; See https://www.drupal.org/node/2141101
 projects[og][patch][1] = "https://www.drupal.org/files/issues/og-select_widget-2141101-41.patch"
 
-;See https://www.drupal.org/node/2195471
+; See https://www.drupal.org/node/2195471
 projects[ctools][patch][1] = "https://www.drupal.org/files/issues/combined_patch_from_n2195211-15_and_n2195471-14--n2195471-16.patch"
 
 ; easyScreen
