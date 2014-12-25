@@ -522,10 +522,10 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.zip"
 
-libraries[leaflet][download][type] = "git"
-libraries[leaflet][download][url] = "http://git.drupal.org/project/leaflet.git"
+libraries[leaflet][destination]    = "libraries"
 libraries[leaflet][directory_name] = "leaflet"
-libraries[leaflet][download][branch] = "7.x-1.x"
+libraries[leaflet][download][type] = "get"
+libraries[leaflet][download][url]  = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.3.zip"
 
 ; easyDDB
 projects[features_override][version]        = "2.0-rc1"
