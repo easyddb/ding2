@@ -338,6 +338,8 @@ projects[ding_campaign][patch][] = "https://github.com/ding2tal/ding_campaign/pu
 projects[ding_campaign][patch][] = "https://github.com/ding2tal/ding_campaign/pull/4.diff"
 ; DDBEASY-229 - Add scheduler to CT campaign
 projects[ding_campaign][patch][] = "http://storage.easyting.dk/ding_campaign-adds_scheduler_to_campaign-ddbeasy_229.patch"
+; DDBEASY-458 - Extend the rule field length.
+projects[ding_campaign][patch][] = "http://storage.easyting.dk/ding_campaign-expand_rule_column_length-ddbeasy_458.patch"
 
 projects[ding_debt][type] = "module"
 projects[ding_debt][download][type] = "git"
