@@ -429,6 +429,11 @@ libraries[ting-client][download][tag] = "7.x-1.0.1"
 ; DDBEASY-171 - ADDI-webservices should not be mandatory.
 libraries[ting-client][patch][]          = "https://github.com/ding2tal/ting-client/pull/1.diff"
 
+libraries[bpi-client][destination] = "modules/bpi/lib"
+libraries[bpi-client][download][type] = "git"
+libraries[bpi-client][download][url] = "git@github.com:ding2tal/bpi-client.git"
+libraries[bpi-client][download][branch] = "development"
+
 projects[ting_covers][type] = "module"
 projects[ting_covers][download][type] = "git"
 projects[ting_covers][download][url] = "git@github.com:ding2tal/ting_covers.git"
