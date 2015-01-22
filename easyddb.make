@@ -200,6 +200,12 @@ projects[rules][subdir] = "contrib"
 projects[scheduler][version] = "1.1"
 projects[scheduler][subdir] = "contrib"
 
+projects[search_api][version] = "1.14"
+projects[search_api][subdir] = "contrib"
+
+projects[search_api_db][version] = "1.4"
+projects[search_api_db][subdir] = "contrib"
+
 projects[secure_permissions][version] = "1.6"
 projects[secure_permissions][subdir] = "contrib"
 projects[secure_permissions][patch][] = "http://drupal.org/files/issues/2188491-features-multilingual-2.patch"
@@ -588,6 +594,11 @@ projects[ding_collection_reservation][type] = "module"
 projects[ding_collection_reservation][download][type] = "git"
 projects[ding_collection_reservation][download][url] = "git@github.com:easyddb/ding_collection_reservation.git"
 projects[ding_collection_reservation][download][branch] = "development"
+
+projects[ding_related_content_search][type] = "module"
+projects[ding_related_content_search][download][type] = "git"
+projects[ding_related_content_search][download][url] = "git@github.com:easyddb/ding_related_content_search.git"
+projects[ding_related_content_search][download][branch] = "develop"
 
 ; Visual effects for ting collection
 projects[ding_search_collection][type]             = "module"
