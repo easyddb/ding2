@@ -327,6 +327,7 @@ projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availabi
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-hide_button_if_no_response-DDBEASY-116.patch"
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-various_fixes_labels_buttons-ddbeasy_116.patch"
 projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-redundant_styles-ddbeasy_116.patch"
+projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availability-plural_forms_of_waiting_time-ddbeasy_479.patch"
 
 projects[ding_bookmark][type] = "module"
 projects[ding_bookmark][download][type] = "git"
