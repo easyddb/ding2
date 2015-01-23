@@ -288,9 +288,8 @@ projects[ting_material_details][download][tag] = "7.x-1.0.1"
 ; DDBEASY-119 - Clickable contributors.
 ;projects[ting_material_details][patch][] = "https://github.com/ding2tal/ting_material_details/pull/5.diff"
 ; DDBEASY-109 - Various fixes.
-projects[ting_material_details][patch][] = "https://github.com/ding2tal/ting_material_details/pull/6.diff"
 ; DDBEASY-485 - Pull request #6 review fix.
-projects[ting_material_details][patch][] = "http://storage.easyting.dk/ting_material_details-review_fixes-pull_6.patch"
+projects[ting_material_details][patch][] = "https://github.com/ding2tal/ting_material_details/pull/6.diff"
 
 projects[ting_reference][type] = "module"
 projects[ting_reference][download][type] = "git"
