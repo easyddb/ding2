@@ -253,6 +253,11 @@ projects[workbench][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = "contrib"
 
+projects[linkchecker][version] = "1.2"
+projects[linkchecker][subdir] = "contrib"
+
+projects[httprl][version] = "1.14"
+projects[httprl][subdir] = "contrib"
 
 ; Ding2tal core modules
 projects[ding_base][type] = "module"
