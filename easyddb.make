@@ -506,6 +506,8 @@ projects[ting_search_carousel][patch][] = "https://github.com/ding2tal/ting_sear
 projects[ting_search_carousel][patch][] = "https://github.com/ding2tal/ting_search_carousel/pull/2.diff"
 ; DDBEASY-221 - Implement item limit for improved performance.
 projects[ting_search_carousel][patch][] = "https://github.com/ding2tal/ting_search_carousel/pull/4.diff"
+; DDBEASY-480 - Adds material type.
+projects[ting_search_carousel][patch][] = "http://storage.easyting.dk/ting_search_carousel-show_material_type_ddbeasy_480.patch"
 
 projects[ting_sfx][type] = "module"
 projects[ting_sfx][download][type] = "git"
