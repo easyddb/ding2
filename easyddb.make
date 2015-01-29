@@ -705,6 +705,10 @@ projects[ding_more_info][download][type] = "git"
 projects[ding_more_info][download][url] = "git@github.com:easyddb/ding_more_info.git"
 projects[ding_more_info][download][branch] = "develop"
 
+projects[ask_vopros][type] = "module"
+projects[ask_vopros][download][type] = "git"
+projects[ask_vopros][download][url] = "git@github.com:Biblioteksvagten/ask_vopros.git"
+projects[ask_vopros][download][branch] = "master"
 
 ; Custom DDB CMS core patches
 
