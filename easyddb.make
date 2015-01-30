@@ -690,6 +690,11 @@ projects[easyddb_dams][download][type] = "git"
 projects[easyddb_dams][download][url] = "git@github.com:easyddb/easyddb_dams.git"
 projects[easyddb_dams][download][branch] = "develop"
 
+projects[easyddb_direct_link][type] = "module"
+projects[easyddb_direct_link][download][type] = "git"
+projects[easyddb_direct_link][download][url] = "git@github.com:easyddb/easyddb_direct_link.git"
+projects[easyddb_direct_link][download][branch] = "develop"
+
 projects[easyddb_editorial_base][type] = "module"
 projects[easyddb_editorial_base][download][type] = "git"
 projects[easyddb_editorial_base][download][url] = "git@github.com:easyddb/easyddb_editorial_base.git"
