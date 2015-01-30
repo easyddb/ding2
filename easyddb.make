@@ -438,6 +438,8 @@ projects[ting][patch][] = "https://github.com/ding2tal/ting/pull/8.diff"
 projects[ting][patch][] = "https://github.com/ding2tal/ting/pull/9.diff"
 ; DDBEASY-217 - Truncate relation descriptions.
 projects[ting][patch][] = "https://github.com/ding2tal/ting/pull/13.diff"
+; DDBEASY-471 - Show specific languages instead of "More languages"
+projects[ting][patch][] = "http://storage.easyting.dk/ting-show_all_book_languages-ddbeasy-471.patch"
 
 libraries[ting-client][destination]      = "modules/ting/lib"
 libraries[ting-client][download][type]   = "git"
