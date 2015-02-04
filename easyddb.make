@@ -648,6 +648,11 @@ projects[ting_dk5][download][type] = "git"
 projects[ting_dk5][download][url] = "git@github.com:easyddb/ting_dk5.git"
 projects[ting_dk5][download][branch] = "develop"
 
+projects[ting_facet_custom][type] = "module"
+projects[ting_facet_custom][download][type] = "git"
+projects[ting_facet_custom][download][url] = "git@github.com:easyddb/ting_facet_custom.git"
+projects[ting_facet_custom][download][branch] = "develop"
+
 projects[bibdk_subject_hierarchy][type] = "module"
 projects[bibdk_subject_hierarchy][download][type] = "git"
 projects[bibdk_subject_hierarchy][download][url] = "git@github.com:easyddb/bibdk_subject_hierarchy.git"
