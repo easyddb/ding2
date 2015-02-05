@@ -354,9 +354,9 @@ projects[ding_campaign][patch][] = "https://github.com/ding2tal/ding_campaign/pu
 ; DDBEASY-65 - Possibility of opening campaigns in new tab.
 projects[ding_campaign][patch][] = "https://github.com/ding2tal/ding_campaign/pull/4.diff"
 ; DDBEASY-229 - Add scheduler to CT campaign
-projects[ding_campaign][patch][] = "http://storage.easyting.dk/ding_campaign-adds_scheduler_to_campaign-ddbeasy_229.patch"
+projects[ding_campaign][patch][] = "https://github.com/ding2tal/ding_campaign/pull/5.diff"
 ; DDBEASY-458 - Extend the rule field length.
-projects[ding_campaign][patch][] = "http://storage.easyting.dk/ding_campaign-expand_rule_column_length-ddbeasy_458.patch"
+projects[ding_campaign][patch][] = "https://github.com/ding2tal/ding_campaign/pull/6.diff"
 
 projects[ding_debt][type] = "module"
 projects[ding_debt][download][type] = "git"
@@ -439,7 +439,7 @@ projects[ting][patch][] = "https://github.com/ding2tal/ting/pull/9.diff"
 ; DDBEASY-217 - Truncate relation descriptions.
 projects[ting][patch][] = "https://github.com/ding2tal/ting/pull/13.diff"
 ; DDBEASY-471 - Show specific languages instead of "More languages"
-projects[ting][patch][] = "http://storage.easyting.dk/ting-show_all_book_languages-ddbeasy-471.patch"
+projects[ting][patch][] = "https://github.com/ding2tal/ting/pull/14.diff"
 
 libraries[ting-client][destination]      = "modules/ting/lib"
 libraries[ting-client][download][type]   = "git"
@@ -509,7 +509,7 @@ projects[ting_search_carousel][patch][] = "https://github.com/ding2tal/ting_sear
 ; DDBEASY-221 - Implement item limit for improved performance.
 projects[ting_search_carousel][patch][] = "https://github.com/ding2tal/ting_search_carousel/pull/4.diff"
 ; DDBEASY-480 - Adds material type.
-projects[ting_search_carousel][patch][] = "http://storage.easyting.dk/ting_search_carousel-show_material_type_ddbeasy_480.patch"
+projects[ting_search_carousel][patch][] = "https://github.com/ding2tal/ting_search_carousel/pull/6.diff"
 
 projects[ting_sfx][type] = "module"
 projects[ting_sfx][download][type] = "git"
