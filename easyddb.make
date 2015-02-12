@@ -440,6 +440,8 @@ projects[ting][patch][] = "https://github.com/ding2tal/ting/pull/9.diff"
 projects[ting][patch][] = "https://github.com/ding2tal/ting/pull/13.diff"
 ; DDBEASY-471 - Show specific languages instead of "More languages"
 projects[ting][patch][] = "https://github.com/ding2tal/ting/pull/14.diff"
+; DDBEASY-481 - Check for empoty language property.
+projects[ting][patch][] = "http://storage.easyting.dk/ting-check_language_property-ddbeasy_481.patch"
 
 libraries[ting-client][destination]      = "modules/ting/lib"
 libraries[ting-client][download][type]   = "git"
@@ -492,6 +494,8 @@ projects[ting_search][patch][] = "https://github.com/ding2tal/ting_search/pull/6
 projects[ting_search][patch][] = "https://github.com/ding2tal/ting_search/pull/8.diff"
 ; DDBEASY-251 - Dont make overlay appear if CTRL is clicked.
 projects[ting_search][patch][] = "https://github.com/ding2tal/ting_search/pull/9.diff"
+; DDBEASY-481 - Do not quote reserved cql words.
+projects[ting_search][patch][] = "http://storage.easyting.dk/ting_search-do_not_quote_cql_words-ddbeasy_481.patch"
 
 projects[ting_search_autocomplete][type] = "module"
 projects[ting_search_autocomplete][download][type] = "git"
