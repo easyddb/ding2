@@ -735,6 +735,8 @@ projects[ask_vopros][download][branch] = "master"
 ; DDBEASY-262 - Show all Library CTs in the dropdown.
 projects[ding_library][patch][] = "https://github.com/ding2tal/ding_library/pull/6.diff"
 
+; DDBEASY-565 - Give a more meaningfull name for BPI push button.
+projects[bpi][patch][] = "http://storage.easyting.dk/bpi-button_label-ddbeasy_565.patch"
 
 ; Custom DDB CMS contrib patches
 
