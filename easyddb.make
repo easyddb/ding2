@@ -130,7 +130,7 @@ projects[media][type] = "module"
 projects[media][subdir] = "contrib"
 projects[media][download][type] = "git"
 projects[media][download][url] = "http://git.drupal.org/project/media.git"
-projects[media][download][revision] = "f057895"
+projects[media][download][revision] = "199e5013dc9915a3d67d73d681a1db6ba56b63e6"
 
 projects[media_vimeo][version] = "2.0-rc1"
 projects[media_vimeo][subdir] = "contrib"
