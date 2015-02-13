@@ -644,8 +644,10 @@ projects[ting_marc][type] = "module"
 projects[ting_marc][download][type] = "git"
 projects[ting_marc][download][url] = "git@github.com:easyddb/ting_marc.git"
 projects[ting_marc][download][branch] = "develop"
+
 ; Patch for permissions (manually done for non-easyDDB solutions).
 projects[ding_permissions][patch][] = "http://storage.easyting.dk/ding_permissions-permissions_marcxchange-DDBEASY-213.patch"
+projects[ding_permissions][patch][] = "http://storage.easyting.dk/ding_permissions-allow_roles_to_use_media-ddbeasy_496.patch"
 
 projects[ting_dk5][type] = "module"
 projects[ting_dk5][download][type] = "git"
