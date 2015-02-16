@@ -685,6 +685,11 @@ projects[ting_covers_plus][download][type] = "git"
 projects[ting_covers_plus][download][url] = "git@github.com:easyddb/ting_covers_plus.git"
 projects[ting_covers_plus][download][branch] = "develop"
 
+projects[ting_search_extendform][type] = "module"
+projects[ting_search_extendform][download][type] = "git"
+projects[ting_search_extendform][download][url] = "git@github.com:easyddb/ting_search_extendform.git"
+projects[ting_search_extendform][download][branch] = "develop"
+
 projects[ding_ting_type_search][type] = "module"
 projects[ding_ting_type_search][download][type] = "git"
 projects[ding_ting_type_search][download][url] = "git@github.com:easyddb/ding_ting_type_search.git"
