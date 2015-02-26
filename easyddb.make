@@ -262,7 +262,7 @@ projects[httprl][subdir] = "contrib"
 ; Ding2tal core modules
 projects[ding_base][type] = "module"
 projects[ding_base][download][type] = "git"
-projects[ding_base][download][url] = "git@github.com:ding2tal/ding_base.git"
+projects[ding_base][download][url] = "git@github.com:ding2/ding_base.git"
 projects[ding_base][download][tag] = "7.x-1.0.1"
 
 ; DDBEASY-216 - Support underline tag in WYSIWYG.
@@ -273,7 +273,7 @@ projects[ding_ting_frontend][patch][] = "http://storage.easyting.dk/ding_ting_fr
 
 projects[ding_page][type] = "module"
 projects[ding_page][download][type] = "git"
-projects[ding_page][download][url] = "git@github.com:ding2tal/ding_page.git"
+projects[ding_page][download][url] = "git@github.com:ding2/ding_page.git"
 projects[ding_page][download][tag] = "7.x-1.0.1"
 
 ; DDBEASY-49 - Add ding_staff patch that corrects rules exports.
@@ -281,17 +281,17 @@ projects[ding_staff][patch][] = "https://github.com/ding2tal/ding_staff/pull/3.d
 
 projects[ding_tabroll][type] = "module"
 projects[ding_tabroll][download][type] = "git"
-projects[ding_tabroll][download][url] = "git@github.com:ding2tal/ding_tabroll.git"
+projects[ding_tabroll][download][url] = "git@github.com:ding2/ding_tabroll.git"
 projects[ding_tabroll][download][tag] = "7.x-1.0.1"
 
 projects[ding_user_roles][type] = "module"
 projects[ding_user_roles][download][type] = "git"
-projects[ding_user_roles][download][url] = "git@github.com:ding2tal/ding_user_roles.git"
+projects[ding_user_roles][download][url] = "git@github.com:ding2/ding_user_roles.git"
 projects[ding_user_roles][download][tag] = "7.x-1.0-beta1"
 
 projects[ting_material_details][type] = "module"
 projects[ting_material_details][download][type] = "git"
-projects[ting_material_details][download][url] = "git@github.com:ding2tal/ting_material_details.git"
+projects[ting_material_details][download][url] = "git@github.com:ding2/ting_material_details.git"
 projects[ting_material_details][download][tag] = "7.x-1.0.1"
 ; DDBEASY-119 - Clickable contributors.
 ;projects[ting_material_details][patch][] = "https://github.com/ding2tal/ting_material_details/pull/5.diff"
@@ -301,24 +301,24 @@ projects[ting_material_details][patch][] = "https://github.com/ding2tal/ting_mat
 
 projects[ting_reference][type] = "module"
 projects[ting_reference][download][type] = "git"
-projects[ting_reference][download][url] = "git@github.com:ding2tal/ting_reference.git"
+projects[ting_reference][download][url] = "git@github.com:ding2/ting_reference.git"
 projects[ting_reference][download][tag] = "7.x-1.0.1"
 
 projects[ding_provider][type] = "module"
 projects[ding_provider][download][type] = "git"
-projects[ding_provider][download][url] = "git@github.com:ding2tal/ding_provider.git"
+projects[ding_provider][download][url] = "git@github.com:ding2/ding_provider.git"
 projects[ding_provider][download][tag] = "7.x-1.0.1"
 ; DDBEASY-30 - Reservation messages from DDE.
 projects[ding_provider][patch][] = "https://github.com/ding2tal/ding_provider/pull/2.diff"
 
 projects[ding_adhl_frontend][type] = "module"
 projects[ding_adhl_frontend][download][type] = "git"
-projects[ding_adhl_frontend][download][url] = "git@github.com:ding2tal/ding_adhl_frontend.git"
+projects[ding_adhl_frontend][download][url] = "git@github.com:ding2/ding_adhl_frontend.git"
 projects[ding_adhl_frontend][download][tag] = "7.x-1.0.1"
 
 projects[ding_availability][type] = "module"
 projects[ding_availability][download][type] = "git"
-projects[ding_availability][download][url] = "git@github.com:ding2tal/ding_availability.git"
+projects[ding_availability][download][url] = "git@github.com:ding2/ding_availability.git"
 projects[ding_availability][download][tag] = "7.x-1.0.1"
 ; DDBEASY-32 - Waiting time when no items available.
 ; DDBEASY-33 - Materials under way needs status.
@@ -340,12 +340,12 @@ projects[ding_availability][patch][] = "http://storage.easyting.dk/ding_availabi
 
 projects[ding_bookmark][type] = "module"
 projects[ding_bookmark][download][type] = "git"
-projects[ding_bookmark][download][url] = "git@github.com:ding2tal/ding_bookmark.git"
+projects[ding_bookmark][download][url] = "git@github.com:ding2/ding_bookmark.git"
 projects[ding_bookmark][download][tag] = "7.x-1.0.1"
 
 projects[ding_campaign][type] = "module"
 projects[ding_campaign][download][type] = "git"
-projects[ding_campaign][download][url] = "git@github.com:ding2tal/ding_campaign.git"
+projects[ding_campaign][download][url] = "git@github.com:ding2/ding_campaign.git"
 projects[ding_campaign][download][tag] = "7.x-1.0.1"
 ; DDBEASY-125 - Campaign Rules can't be saved.
 projects[ding_campaign][patch][] = "https://github.com/ding2tal/ding_campaign/pull/2.diff"
@@ -360,22 +360,22 @@ projects[ding_campaign][patch][] = "https://github.com/ding2tal/ding_campaign/pu
 
 projects[ding_debt][type] = "module"
 projects[ding_debt][download][type] = "git"
-projects[ding_debt][download][url] = "git@github.com:ding2tal/ding_debt.git"
+projects[ding_debt][download][url] = "git@github.com:ding2/ding_debt.git"
 projects[ding_debt][download][tag] = "7.x-1.0.1"
 
 projects[ding_dibs][type] = "module"
 projects[ding_dibs][download][type] = "git"
-projects[ding_dibs][download][url] = "git@github.com:ding2tal/ding_dibs.git"
+projects[ding_dibs][download][url] = "git@github.com:ding2/ding_dibs.git"
 projects[ding_dibs][download][tag] = "7.x-1.0.1"
 
 projects[ding_entity][type] = "module"
 projects[ding_entity][download][type] = "git"
-projects[ding_entity][download][url] = "git@github.com:ding2tal/ding_entity.git"
+projects[ding_entity][download][url] = "git@github.com:ding2/ding_entity.git"
 projects[ding_entity][download][tag] = "7.x-1.0.1"
 
 projects[ding_facetbrowser][type] = "module"
 projects[ding_facetbrowser][download][type] = "git"
-projects[ding_facetbrowser][download][url] = "git@github.com:ding2tal/ding_facetbrowser.git"
+projects[ding_facetbrowser][download][url] = "git@github.com:ding2/ding_facetbrowser.git"
 projects[ding_facetbrowser][download][tag] = "7.x-1.0.1"
 ; DDBEASY-35 - Fix for duplicate labels, after close of overlay.
 projects[ding_facetbrowser][patch][] = "https://github.com/ding2tal/ding_facetbrowser/pull/2.diff"
@@ -386,51 +386,51 @@ projects[ding_facetbrowser][patch][] = "https://github.com/ding2tal/ding_facetbr
 
 projects[ding_loan][type] = "module"
 projects[ding_loan][download][type] = "git"
-projects[ding_loan][download][url] = "git@github.com:ding2tal/ding_loan.git"
+projects[ding_loan][download][url] = "git@github.com:ding2/ding_loan.git"
 projects[ding_loan][download][tag] = "7.x-1.0.1"
 
 projects[ding_periodical][type] = "module"
 projects[ding_periodical][download][type] = "git"
-projects[ding_periodical][download][url] = "git@github.com:ding2tal/ding_periodical.git"
+projects[ding_periodical][download][url] = "git@github.com:ding2/ding_periodical.git"
 projects[ding_periodical][download][tag] = "7.x-1.0.1"
 
 projects[ding_place2book][type] = "module"
 projects[ding_place2book][download][type] = "git"
-projects[ding_place2book][download][url] = "git@github.com:ding2tal/ding_place2book.git"
+projects[ding_place2book][download][url] = "git@github.com:ding2/ding_place2book.git"
 projects[ding_place2book][download][tag] = "7.x-1.0.1"
 
 projects[ding_popup][type] = "module"
 projects[ding_popup][download][type] = "git"
-projects[ding_popup][download][url] = "git@github.com:ding2tal/ding_popup.git"
+projects[ding_popup][download][url] = "git@github.com:ding2/ding_popup.git"
 projects[ding_popup][download][tag] = "7.x-1.0.1"
 
 projects[ding_reservation][type] = "module"
 projects[ding_reservation][download][type] = "git"
-projects[ding_reservation][download][url] = "git@github.com:ding2tal/ding_reservation.git"
+projects[ding_reservation][download][url] = "git@github.com:ding2/ding_reservation.git"
 projects[ding_reservation][download][tag] = "7.x-1.0.1"
 ; DDBEASY-54 - Disable/enable quick-reservation.
 projects[ding_reservation][patch][] = "https://github.com/ding2tal/ding_reservation/pull/4.diff"
 
 projects[ding_toggle_format][type] = "module"
 projects[ding_toggle_format][download][type] = "git"
-projects[ding_toggle_format][download][url] = "git@github.com:ding2tal/ding_toggle_format.git"
+projects[ding_toggle_format][download][url] = "git@github.com:ding2/ding_toggle_format.git"
 projects[ding_toggle_format][download][tag] = "7.x-1.0.1"
 
 projects[ding_user][type] = "module"
 projects[ding_user][download][type] = "git"
-projects[ding_user][download][url] = "git@github.com:ding2tal/ding_user.git"
+projects[ding_user][download][url] = "git@github.com:ding2/ding_user.git"
 projects[ding_user][download][tag] = "7.x-1.0.1"
 ; DDBEASY-158 - Make the email description available.
 projects[ding_user][patch][] = "https://github.com/ding2tal/ding_user/pull/5.diff"
 
 projects[ding_wayf][type] = "module"
 projects[ding_wayf][download][type] = "git"
-projects[ding_wayf][download][url] = "git@github.com:ding2tal/ding_wayf.git"
+projects[ding_wayf][download][url] = "git@github.com:ding2/ding_wayf.git"
 projects[ding_wayf][download][tag] = "7.x-1.0.1"
 
 projects[ting][type] = "module"
 projects[ting][download][type] = "git"
-projects[ting][download][url] = "git@github.com:ding2tal/ting.git"
+projects[ting][download][url] = "git@github.com:ding2/ting.git"
 projects[ting][download][tag] = "7.x-1.0.1"
 ; DDBEASY-97 - Open external URL relations in a new window.
 projects[ting][patch][] = "https://github.com/ding2tal/ting/pull/8.diff"
@@ -445,48 +445,48 @@ projects[ting][patch][] = "http://storage.easyting.dk/ting-check_language_proper
 
 libraries[ting-client][destination]      = "modules/ting/lib"
 libraries[ting-client][download][type]   = "git"
-libraries[ting-client][download][url]    = "git@github.com:ding2tal/ting-client.git"
+libraries[ting-client][download][url]    = "git@github.com:ding2/ting-client.git"
 libraries[ting-client][download][tag] = "7.x-1.0.1"
 ; DDBEASY-171 - ADDI-webservices should not be mandatory.
 libraries[ting-client][patch][]          = "https://github.com/ding2tal/ting-client/pull/1.diff"
 
 libraries[bpi-client][destination] = "modules/bpi/lib"
 libraries[bpi-client][download][type] = "git"
-libraries[bpi-client][download][url] = "git@github.com:ding2tal/bpi-client.git"
+libraries[bpi-client][download][url] = "git@github.com:ding2/bpi-client.git"
 libraries[bpi-client][download][branch] = "development"
 
 projects[ting_covers][type] = "module"
 projects[ting_covers][download][type] = "git"
-projects[ting_covers][download][url] = "git@github.com:ding2tal/ting_covers.git"
+projects[ting_covers][download][url] = "git@github.com:ding2/ting_covers.git"
 projects[ting_covers][download][tag] = "7.x-1.0.1"
 ; DDBEASY-28 - Allow direct cover fetch.
 projects[ting_covers][patch][] = "https://github.com/ding2tal/ting_covers/pull/7.diff"
 
 projects[ting_fulltext][type] = "module"
 projects[ting_fulltext][download][type] = "git"
-projects[ting_fulltext][download][url] = "git@github.com:ding2tal/ting_fulltext.git"
+projects[ting_fulltext][download][url] = "git@github.com:ding2/ting_fulltext.git"
 projects[ting_fulltext][download][tag] = "7.x-1.0.1"
 
 projects[ting_infomedia][type] = "module"
 projects[ting_infomedia][download][type] = "git"
-projects[ting_infomedia][download][url] = "git@github.com:ding2tal/ting_infomedia.git"
+projects[ting_infomedia][download][url] = "git@github.com:ding2/ting_infomedia.git"
 projects[ting_infomedia][download][tag] = "7.x-1.0.1"
 
 projects[ting_proxy][type] = "module"
 projects[ting_proxy][download][type] = "git"
-projects[ting_proxy][download][url] = "git@github.com:ding2tal/ting_proxy.git"
+projects[ting_proxy][download][url] = "git@github.com:ding2/ting_proxy.git"
 projects[ting_proxy][download][tag] = "7.x-1.0.1"
 
 projects[ting_relation][type] = "module"
 projects[ting_relation][download][type] = "git"
-projects[ting_relation][download][url] = "git@github.com:ding2tal/ting_relation.git"
+projects[ting_relation][download][url] = "git@github.com:ding2/ting_relation.git"
 projects[ting_relation][download][tag] = "7.x-1.0.1"
 ; DDBEASY-108 - Fix broken layout.
 projects[ting_relation][patch][] = "https://github.com/ding2tal/ting_relation/pull/2.diff"
 
 projects[ting_search][type] = "module"
 projects[ting_search][download][type] = "git"
-projects[ting_search][download][url] = "git@github.com:ding2tal/ting_search.git"
+projects[ting_search][download][url] = "git@github.com:ding2/ting_search.git"
 projects[ting_search][download][tag] = "7.x-1.0.1"
 ; DDBEASY-97 - Dont make overlay appear if new window.
 projects[ting_search][patch][] = "https://github.com/ding2tal/ting_search/pull/6.diff"
@@ -499,12 +499,12 @@ projects[ting_search][patch][] = "http://storage.easyting.dk/ting_search-do_not_
 
 projects[ting_search_autocomplete][type] = "module"
 projects[ting_search_autocomplete][download][type] = "git"
-projects[ting_search_autocomplete][download][url] = "git@github.com:ding2tal/ting_search_autocomplete.git"
+projects[ting_search_autocomplete][download][url] = "git@github.com:ding2/ting_search_autocomplete.git"
 projects[ting_search_autocomplete][download][tag] = "7.x-1.0.1"
 
 projects[ting_search_carousel][type] = "module"
 projects[ting_search_carousel][download][type] = "git"
-projects[ting_search_carousel][download][url] = "git@github.com:ding2tal/ting_search_carousel.git"
+projects[ting_search_carousel][download][url] = "git@github.com:ding2/ting_search_carousel.git"
 projects[ting_search_carousel][download][tag] = "7.x-1.0.1"
 ; DDBEASY-110 - Sorting option in ting_search_carousel.
 projects[ting_search_carousel][patch][] = "https://github.com/ding2tal/ting_search_carousel/pull/1.diff"
@@ -517,7 +517,7 @@ projects[ting_search_carousel][patch][] = "https://github.com/ding2tal/ting_sear
 
 projects[ting_sfx][type] = "module"
 projects[ting_sfx][download][type] = "git"
-projects[ting_sfx][download][url] = "git@github.com:ding2tal/ting_sfx.git"
+projects[ting_sfx][download][url] = "git@github.com:ding2/ting_sfx.git"
 projects[ting_sfx][download][tag] = "7.x-1.0.1"
 
 ; #3993 - Possibility of searching with CCL.
