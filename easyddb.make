@@ -648,6 +648,7 @@ projects[ting_marc][download][branch] = "develop"
 ; Patch for permissions (manually done for non-easyDDB solutions).
 projects[ding_permissions][patch][] = "http://storage.easyting.dk/ding_permissions-permissions_marcxchange-DDBEASY-213.patch"
 projects[ding_permissions][patch][] = "http://storage.easyting.dk/ding_permissions-allow_roles_to_use_media-ddbeasy_496.patch"
+projects[ding_permissions][patch][] = "http://storage.easyting.dk/ding_permissions-allow_cache_settings_for_elevated_roles-ddbeasy_538.patch"
 
 projects[ting_dk5][type] = "module"
 projects[ting_dk5][download][type] = "git"
