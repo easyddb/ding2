@@ -269,6 +269,9 @@ projects[ding_base][download][tag] = "7.x-1.0.1"
 ; DDBEASY-216 - Support underline tag in WYSIWYG.
 projects[ding_content][patch][] = "https://github.com/ding2tal/ding_content/pull/4.diff"
 
+; DDBEASY-552 - Adds empty result behavior.
+projects[ding_content][patch][] = "http://storage.easyting.dk/ding_content-adds_no_result_behavior-ddbeasy_552.patch"
+
 ; DDBEASY-469 - Add show more button for collection.
 projects[ding_ting_frontend][patch][] = "http://storage.easyting.dk/ding_ting_frontend-adds_more_button-ddbeasy_469.patch"
 
