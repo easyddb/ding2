@@ -726,6 +726,11 @@ projects[easyddb_editorial_dashboard][download][type] = "git"
 projects[easyddb_editorial_dashboard][download][url] = "git@github.com:easyddb/easyddb_editorial_dashboard.git"
 projects[easyddb_editorial_dashboard][download][branch] = "develop"
 
+projects[easyddb_materials_display][type] = "module"
+projects[easyddb_materials_display][download][type] = "git"
+projects[easyddb_materials_display][download][url] = "git@github.com:easyddb/easyddb_materials_display.git"
+projects[easyddb_materials_display][download][branch] = "develop"
+
 projects[ding_more_info][type] = "module"
 projects[ding_more_info][download][type] = "git"
 projects[ding_more_info][download][url] = "git@github.com:easyddb/ding_more_info.git"
