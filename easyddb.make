@@ -764,7 +764,7 @@ projects[ctools][patch][1] = "https://www.drupal.org/files/issues/combined_patch
 projects[ding_easyscreen][type]           = "module"
 projects[ding_easyscreen][download][type] = "git"
 projects[ding_easyscreen][download][url]  = "git@github.com:easyting/ding_easyscreen_d7.git"
-projects[ding_easyscreen][download][tag]  = "7.x-2.4.1"
+projects[ding_easyscreen][download][branch]  = "easyddb"
 
 projects[emailkanon][type] = "module"
 projects[emailkanon][download][type] = "git"
