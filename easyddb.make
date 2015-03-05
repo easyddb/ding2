@@ -415,11 +415,6 @@ projects[ding_reservation][download][tag] = "7.x-1.0.1"
 ; DDBEASY-54 - Disable/enable quick-reservation.
 projects[ding_reservation][patch][] = "https://github.com/ding2tal/ding_reservation/pull/4.diff"
 
-projects[ding_toggle_format][type] = "module"
-projects[ding_toggle_format][download][type] = "git"
-projects[ding_toggle_format][download][url] = "git@github.com:ding2tal/ding_toggle_format.git"
-projects[ding_toggle_format][download][tag] = "7.x-1.0.1"
-
 projects[ding_user][type] = "module"
 projects[ding_user][download][type] = "git"
 projects[ding_user][download][url] = "git@github.com:ding2tal/ding_user.git"
@@ -624,6 +619,11 @@ projects[ding_related_content_search][type] = "module"
 projects[ding_related_content_search][download][type] = "git"
 projects[ding_related_content_search][download][url] = "git@github.com:easyddb/ding_related_content_search.git"
 projects[ding_related_content_search][download][branch] = "develop"
+
+projects[ding_toggle_format][type] = "module"
+projects[ding_toggle_format][download][type] = "git"
+projects[ding_toggle_format][download][url] = "git@github.com:easyddb/ding_toggle_format.git"
+projects[ding_toggle_format][download][branch] = "development"
 
 ; Visual effects for ting collection
 projects[ding_search_collection][type]             = "module"
