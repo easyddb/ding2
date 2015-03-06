@@ -741,6 +741,11 @@ projects[ask_vopros][download][type] = "git"
 projects[ask_vopros][download][url] = "git@github.com:Biblioteksvagten/ask_vopros.git"
 projects[ask_vopros][download][branch] = "master"
 
+projects[kultunaut_events][type] = "module"
+projects[kultunaut_events][download][type] = "git"
+projects[kultunaut_events][download][url] = "git@github.com:easyddb/kultunaut_events.git"
+projects[kultunaut_events][download][branch] = "develop"
+
 ; Custom DDB CMS core patches
 
 ; DDBEASY-262 - Show all Library CTs in the dropdown.
