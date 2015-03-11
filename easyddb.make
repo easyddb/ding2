@@ -268,6 +268,8 @@ projects[ding_base][download][tag] = "7.x-1.0.1"
 
 ; DDBEASY-216 - Support underline tag in WYSIWYG.
 projects[ding_content][patch][] = "https://github.com/ding2tal/ding_content/pull/4.diff"
+; DDBEASY-545 - Support script and style tags.
+projects[ding_content][patch][] = "http://storage.easyting.dk/ding_content-allow_style_script_tags-ddbeasy_545.patch"
 
 ; DDBEASY-552 - Adds empty result behavior.
 projects[ding_content][patch][] = "http://storage.easyting.dk/ding_content-adds_no_result_behavior-ddbeasy_552.patch"
