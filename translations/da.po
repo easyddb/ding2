@@ -12058,7 +12058,6 @@ msgid ""
 "<em>not</em> belong to."
 msgstr ""
 
-<<<<<<< HEAD
 #: /user/1/edit?render=overlay
 msgid "Detect profile 2 type (edit form)."
 msgstr ""
