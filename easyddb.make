@@ -74,6 +74,11 @@ projects[bpi][download][url]    = "git@github.com:easyddb/bpi.git"
 projects[bpi][download][tag]    = ""
 projects[bpi][download][branch] = "easyddb"
 
+projects[ding_availability][type]             = "module"
+projects[ding_availability][download][type]   = "git"
+projects[ding_availability][download][url]    = "git@github.com:easyddb/ding_availability.git"
+projects[ding_availability][download][branch] = "easyddb"
+
 projects[ding_campaign][type]             = "module"
 projects[ding_campaign][download][type]   = "git"
 projects[ding_campaign][download][url]    = "git@github.com:easyddb/ding_campaign.git"
@@ -182,30 +187,6 @@ libraries[ting-client][download][branch] = "easyddb"
 projects[ding_ting_frontend][patch][] = "http://storage.easyting.dk/ding_ting_frontend-adds_more_button-ddbeasy_469.patch"
 
 
-
-projects[ding_availability][type]             = "module"
-projects[ding_availability][download][type]   = "git"
-projects[ding_availability][download][url]    = "git@github.com:easyddb/ding_availability.git"
-projects[ding_availability][download][branch] = "release"
-; DDBEASY-32 - Waiting time when no items available.
-; DDBEASY-33 - Materials under way needs status.
-; DDBEASY-184 - Remove the reservation-queue text, if item is not reservable.
-;projects[ding_availability][patch][]         = "https://github.com/ding2/ding_availability/pull/9.diff"
-;projects[ding_availability][patch][]         = "https://github.com/ding2/ding_availability/pull/10.diff"
-projects[ding_availability][patch][]          = "https://github.com/ding2/ding_availability/pull/11.diff"
-; DDBEASY-40 - Enable [Reserve]-button on searchResult.
-projects[ding_availability][patch][]          = "https://github.com/ding2/ding_availability/pull/12.diff"
-; DDBEASY-83 - Remove holding table if all items have noHolding attribute.
-projects[ding_availability][patch][]          = "https://github.com/ding2/ding_availability/pull/13.diff"
-; DDBEASY-116 - Hide reservation buttons if not reservable, also differenciate isAvailable and isReservable.
-projects[ding_availability][patch][]          = "http://storage.easyting.dk/ding_availability-hide_reserv_button-DDBEASY-116.patch"
-projects[ding_availability][patch][]          = "http://storage.easyting.dk/ding_availability-hide_button_if_no_response-DDBEASY-116.patch"
-projects[ding_availability][patch][]          = "http://storage.easyting.dk/ding_availability-various_fixes_labels_buttons-ddbeasy_116.patch"
-projects[ding_availability][patch][]          = "http://storage.easyting.dk/ding_availability-redundant_styles-ddbeasy_116.patch"
-; DDBEASY-479 - Singular and plural forms of translation in waiting time.
-projects[ding_availability][patch][]          = "http://storage.easyting.dk/ding_availability-plural_forms_of_waiting_time-ddbeasy_479.patch"
-
-
 ; Themes
 projects[ddbasic][type]             = "theme"
 projects[ddbasic][download][type]   = "git"
@@ -220,7 +201,6 @@ projects[ding_library_opening_hours][download][type] = "git"
 projects[ding_library_opening_hours][download][url]  = "git@github.com:easyddb/ding_library_opening_hours.git"
 projects[ding_library_opening_hours][download][branch]  = "develop"
 
-; Adds customizable help in user profile form
 projects[ding_user_profile][type]           = "module"
 projects[ding_user_profile][download][type] = "git"
 projects[ding_user_profile][download][url]  = "git@github.com:easyddb/ding_user_profile.git"
