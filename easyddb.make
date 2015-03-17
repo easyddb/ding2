@@ -56,6 +56,8 @@ projects[panels][patch][]                   = "http://drupal.org/files/1649046-f
 
 projects[cookiecontrol][patch][1]           = "http://www.drupal.org/files/issues/cookiecontrol-ie_safari_cookies-issue_2318997.patch"
 
+projects[media][patch][]                    = "http://storage.easyting.dk/media-undefined_index_options-ddbeasy_520.patch"
+
 
 ; easyDDB forks
 ; REMEMBER to merge upstream on new release
@@ -274,6 +276,11 @@ projects[ding_related_content_search][download][type] = "git"
 projects[ding_related_content_search][download][url]  = "git@github.com:easyddb/ding_related_content_search.git"
 projects[ding_related_content_search][download][branch]  = "develop"
 
+projects[ding_toggle_format][type]           = "module"
+projects[ding_toggle_format][download][type] = "git"
+projects[ding_toggle_format][download][url]  = "git@github.com:easyddb/ding_toggle_format.git"
+projects[ding_toggle_format][download][branch]  = "development"
+
 ; Visual effects for ting collection
 projects[ding_search_collection][type]           = "module"
 projects[ding_search_collection][download][type] = "git"
@@ -366,6 +373,11 @@ projects[easyddb_editorial_dashboard][download][type] = "git"
 projects[easyddb_editorial_dashboard][download][url]  = "git@github.com:easyddb/easyddb_editorial_dashboard.git"
 projects[easyddb_editorial_dashboard][download][branch]  = "develop"
 
+projects[easyddb_materials_display][type]           = "module"
+projects[easyddb_materials_display][download][type] = "git"
+projects[easyddb_materials_display][download][url]  = "git@github.com:easyddb/easyddb_materials_display.git"
+projects[easyddb_materials_display][download][branch]  = "develop"
+
 projects[ding_more_info][type]           = "module"
 projects[ding_more_info][download][type] = "git"
 projects[ding_more_info][download][url]  = "git@github.com:easyddb/ding_more_info.git"
@@ -376,13 +388,18 @@ projects[ask_vopros][download][type] = "git"
 projects[ask_vopros][download][url]  = "git@github.com:Biblioteksvagten/ask_vopros.git"
 projects[ask_vopros][download][branch]  = "master"
 
-; easyScreen
+projects[kultunaut_events][type] = "module"
+projects[kultunaut_events][download][type] = "git"
+projects[kultunaut_events][download][url] = "git@github.com:easyddb/kultunaut_events.git"
+projects[kultunaut_events][download][branch] = "develop"
+
 projects[ding_easyscreen][type]           = "module"
 projects[ding_easyscreen][download][type] = "git"
 projects[ding_easyscreen][download][url]  = "git@github.com:easyting/ding_easyscreen_d7.git"
-projects[ding_easyscreen][download][tag]  = "7.x-2.4.1"
+projects[ding_easyscreen][download][branch]  = "easyddb"
 
 projects[emailkanon][type]           = "module"
 projects[emailkanon][download][type] = "git"
 projects[emailkanon][download][url]  = "git@github.com:easyddb/emailkanon.git"
 projects[emailkanon][download][branch]  = "develop"
+
