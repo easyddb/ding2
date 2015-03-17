@@ -63,6 +63,7 @@ projects[cookiecontrol][patch][1]           = "http://www.drupal.org/files/issue
 projects[alma][type]             = "module"
 projects[alma][download][type]   = "git"
 projects[alma][download][url]    = "git@github.com:easyddb/alma.git"
+projects[alma][download][tag]    = ""
 projects[alma][download][branch] = "easyddb"
 
 projects[bpi][type]             = "module"
