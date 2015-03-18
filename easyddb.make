@@ -128,6 +128,11 @@ projects[ding_staff][download][url]    = "git@github.com:easyddb/ding_staff.git"
 projects[ding_staff][download][tag]    = ""
 projects[ding_staff][download][branch] = "easyddb"
 
+projects[ding_toggle_format][type]             = "module"
+projects[ding_toggle_format][download][type]   = "git"
+projects[ding_toggle_format][download][url]    = "git@github.com:easyddb/ding_toggle_format.git"
+projects[ding_toggle_format][download][branch] = "easyddb"
+
 projects[ding_user][type]             = "module"
 projects[ding_user][download][type]   = "git"
 projects[ding_user][download][url]    = "git@github.com:easyddb/ding_user.git"
@@ -208,8 +213,8 @@ projects[ding_content][patch][] = "https://github.com/ding2/ding_content/pull/10
 projects[ddbasic][type]             = "theme"
 projects[ddbasic][download][type]   = "git"
 projects[ddbasic][download][url]    = "git@github.com:easyddb/ddbasic.git"
-projects[ddbasic][download][branch] = "development"
 projects[ddbasic][download][tag]    = ""
+projects[ddbasic][download][branch] = "development"
 
 
 ; easyDDB modules
@@ -237,11 +242,6 @@ projects[easyddb_alma_reminder][type]           = "module"
 projects[easyddb_alma_reminder][download][type] = "git"
 projects[easyddb_alma_reminder][download][url]  = "git@github.com:easyddb/easyddb_alma_reminder.git"
 projects[easyddb_alma_reminder][download][branch]  = "development"
-
-projects[easyddb_frontend][type]           = "module"
-projects[easyddb_frontend][download][type] = "git"
-projects[easyddb_frontend][download][url]  = "git@github.com:easyddb/easyddb_frontend.git"
-projects[easyddb_frontend][download][branch]  = "development"
 
 projects[ding_bibliotek_info][type]           = "module"
 projects[ding_bibliotek_info][download][type] = "git"
@@ -272,11 +272,6 @@ projects[ding_related_content_search][type]           = "module"
 projects[ding_related_content_search][download][type] = "git"
 projects[ding_related_content_search][download][url]  = "git@github.com:easyddb/ding_related_content_search.git"
 projects[ding_related_content_search][download][branch]  = "development"
-
-projects[ding_toggle_format][type]           = "module"
-projects[ding_toggle_format][download][type] = "git"
-projects[ding_toggle_format][download][url]  = "git@github.com:easyddb/ding_toggle_format.git"
-projects[ding_toggle_format][download][branch]  = "development"
 
 ; Visual effects for ting collection
 projects[ding_search_collection][type]           = "module"
@@ -319,11 +314,10 @@ projects[ding_history_back][download][type] = "git"
 projects[ding_history_back][download][url]  = "git@github.com:easyddb/ding_history_back.git"
 projects[ding_history_back][download][branch]  = "development"
 
-; Allows users to enable/disable quick reservation.
 projects[ding_reservation_settings][type]           = "module"
 projects[ding_reservation_settings][download][type] = "git"
-projects[ding_reservation_settings][download][url]  = "git@github.com:easyting/ding_reservation_settings.git"
-projects[ding_reservation_settings][download][branch]  = "easyddb-dev"
+projects[ding_reservation_settings][download][url]  = "git@github.com:easyddb/ding_reservation_settings.git"
+projects[ding_reservation_settings][download][branch]  = "development"
 
 projects[ting_extended_search][type]           = "module"
 projects[ting_extended_search][download][type] = "git"
@@ -385,10 +379,10 @@ projects[ask_vopros][download][type] = "git"
 projects[ask_vopros][download][url]  = "git@github.com:Biblioteksvagten/ask_vopros.git"
 projects[ask_vopros][download][branch]  = "master"
 
-projects[kultunaut_events][type] = "module"
+projects[kultunaut_events][type]           = "module"
 projects[kultunaut_events][download][type] = "git"
-projects[kultunaut_events][download][url] = "git@github.com:easyddb/kultunaut_events.git"
-projects[kultunaut_events][download][branch] = "development"
+projects[kultunaut_events][download][url]  = "git@github.com:easyddb/kultunaut_events.git"
+projects[kultunaut_events][download][branch]  = "development"
 
 projects[ding_easyscreen][type]           = "module"
 projects[ding_easyscreen][download][type] = "git"
