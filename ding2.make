@@ -1,6 +1,16 @@
 core = 7.x
 api = 2
 
+; Overrrides
+; These projects are added at the beginning of the file to ensure that they are downloaded first
+; Subsequent declarations should be ignored to to the --ding2-only-once option.
+; This is useful when you need to add a patch to a single module.
+projects[og][subdir] = "contrib"
+projects[og][version] = "2.7"
+; Fix using organic groups for relationships in views
+; https://www.drupal.org/node/1890370
+projects[og][patch][] = "https://www.drupal.org/files/issues/add-gid-to-relationship-field-1890370-34.patch"
+
 ; Projects
 projects[alma][type] = "module"
 projects[alma][download][type] = "git"
@@ -46,6 +56,8 @@ projects[ding_content][type] = "module"
 projects[ding_content][download][type] = "git"
 projects[ding_content][download][url] = "git@github.com:ding2/ding_content.git"
 projects[ding_content][download][tag] = "v2.0.0"
+; Add more filtering options in Workbench views
+projects[ding_content][patch][] = "https://github.com/ding2/ding_content/pull/10.patch"
 
 projects[ding_example_content][type] = "module"
 projects[ding_example_content][download][type] = "git"
@@ -66,16 +78,22 @@ projects[ding_news][type] = "module"
 projects[ding_news][download][type] = "git"
 projects[ding_news][download][url] = "git@github.com:ding2/ding_news.git"
 projects[ding_news][download][tag] = "v2.0.0"
+; http://platform.dandigbib.org/issues/1106: Add more links to group lists
+projects[ding_news][patch][] = "https://github.com/ding2/ding_news/pull/12.patch"
 
 projects[ding_event][type] = "module"
 projects[ding_event][download][type] = "git"
 projects[ding_event][download][url] = "git@github.com:ding2/ding_event.git"
 projects[ding_event][download][tag] = "v2.0.0"
+; http://platform.dandigbib.org/issues/1106: Add more links to group lists
+projects[ding_event][patch][] = "https://github.com/ding2/ding_event/pull/15.patch"
 
 projects[ding_permissions][type] = "module"
 projects[ding_permissions][download][type] = "git"
 projects[ding_permissions][download][url] = "git@github.com:ding2/ding_permissions.git"
 projects[ding_permissions][download][tag] = "v2.0.0"
+; http://platform.dandigbib.org/issues/678: Show profile names for users.
+projects[ding_permissions][patch][] = "https://github.com/ding2/ding_permissions/pull/2.patch"
 
 projects[ding_webtrends][type] = "module"
 projects[ding_webtrends][download][type] = "git"
@@ -91,6 +109,10 @@ projects[ding_staff][type] = "module"
 projects[ding_staff][download][type] = "git"
 projects[ding_staff][download][url] = "git@github.com:ding2/ding_staff.git"
 projects[ding_staff][download][tag] = "v2.0.0"
+; http://platform.dandigbib.org/issues/756: Fix links to users on staff list.
+projects[ding_staff][patch][] = "https://github.com/ding2/ding_staff/pull/2.patch"
+; http://platform.dandigbib.org/issues/678: Show profile names for users.
+projects[ding_staff][patch][] = "https://github.com/ding2/ding_staff/pull/5.patch"
 
 projects[ding_varnish][type] = "module"
 projects[ding_varnish][download][type] = "git"
@@ -122,8 +144,8 @@ projects[ddbasic][download][tag] = "v2.0.0"
 libraries[profiler][download][type] = "git"
 libraries[profiler][download][url] = "http://git.drupal.org/project/profiler.git"
 libraries[profiler][download][branch] = "7.x-2.0-beta1"
-# https://drupal.org/node/1328796, keep dependency order of base profile.
-libraries[profiler][patch][0] = "http://drupal.org/files/profiler-reverse.patch"
+; https://drupal.org/node/1328796, keep dependency order of base profile.
+libraries[profiler][patch][] = "http://drupal.org/files/profiler-reverse.patch"
 
 ; DDB Modules that should be removed when FBS is ready
 projects[ding_redirect][type] = "module"
@@ -142,8 +164,8 @@ projects[apc][version] = "1.0-beta4"
 
 projects[entitycache][subdir] = "contrib"
 projects[entitycache][version] = "1.2"
-# https://drupal.org/node/2146543, profile 2 blank fields.
-projects[entitycache][patch][0] = "http://drupal.org/files/issues/2146543-ensure-entity-inserts-clears-caches.1.patch"
+; https://drupal.org/node/2146543, profile 2 blank fields.
+projects[entitycache][patch][] = "http://drupal.org/files/issues/2146543-ensure-entity-inserts-clears-caches.1.patch"
 
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.7"
@@ -162,8 +184,10 @@ projects[redirect][version] = "1.0-rc1"
 
 projects[cookiecontrol][subdir] = "contrib"
 projects[cookiecontrol][version] = "1.6"
-# https://drupal.org/node/2174955, fix translatable link.
-projects[cookiecontrol][patch][0] = "http://drupal.org/files/issues/translatable_link_title-2174955-1.patch"
+; https://drupal.org/node/2174955, fix translatable link.
+projects[cookiecontrol][patch][] = "http://drupal.org/files/issues/translatable_link_title-2174955-1.patch"
+; https://www.drupal.org/node/2318997, fix cookie name with UTF-8 characters.
+projects[cookiecontrol][patch][] = "https://www.drupal.org/files/issues/cookie-control-utf_8_characters_in-2318997-5.patch"
 
 # Using dev release, as the "stable" version is making errors in the install profile.
 projects[uuid][subdir] = "contrib"
