@@ -12058,7 +12058,6 @@ msgid ""
 "<em>not</em> belong to."
 msgstr ""
 
-<<<<<<< HEAD
 #: /user/1/edit?render=overlay
 msgid "Detect profile 2 type (edit form)."
 msgstr ""
@@ -66926,6 +66925,10 @@ msgstr "Vær opmærksom på, at der er et gebyr på SMS"
 
 #: /search/ting/harry%20pott
 msgid "<a href=\"@url\">Search Content</a>"
+msgstr "<a href=\"@url\">Hjemmesiden</a> "
+
+#: /search/ting/harry%20pott
+msgid "<a href=\"@url\">search content</a>"
 msgstr "<a href=\"@url\">Hjemmesiden</a> "
 
 #: /search/ting/harry%20pott
