@@ -36,6 +36,8 @@ projects[ding_groups][type] = "module"
 projects[ding_groups][download][type] = "git"
 projects[ding_groups][download][url] = "git@github.com:ding2/ding_groups.git"
 projects[ding_groups][download][tag] = "v2.0.0"
+; KDB - Fix using Organic groups for Views relationships.
+projects[ding_groups][patch][] = "https://github.com/ding2/ding_groups/pull/1.patch"
 
 projects[ding_user_frontend][type] = "module"
 projects[ding_user_frontend][download][type] = "git"
@@ -56,8 +58,6 @@ projects[ding_content][type] = "module"
 projects[ding_content][download][type] = "git"
 projects[ding_content][download][url] = "git@github.com:ding2/ding_content.git"
 projects[ding_content][download][tag] = "v2.0.0"
-; Add more filtering options in Workbench views
-projects[ding_content][patch][] = "https://github.com/ding2/ding_content/pull/10.patch"
 
 projects[ding_example_content][type] = "module"
 projects[ding_example_content][download][type] = "git"
@@ -73,11 +73,17 @@ projects[ding_library][type] = "module"
 projects[ding_library][download][type] = "git"
 projects[ding_library][download][url] = "git@github.com:ding2/ding_library.git"
 projects[ding_library][download][tag] = "v2.0.0"
+; Issue 1026: Show library title on map.
+projects[ding_library][patch][]  = "https://github.com/ding2/ding_library/pull/10.patch"
+; KDB - Fix using Organic groups for Views relationships.
+projects[ding_library][patch][] = "https://github.com/ding2/ding_library/pull/11.patch"
 
 projects[ding_news][type] = "module"
 projects[ding_news][download][type] = "git"
 projects[ding_news][download][url] = "git@github.com:ding2/ding_news.git"
 projects[ding_news][download][tag] = "v2.0.0"
+; KDB - Fix using Organic groups for Views relationships.
+projects[ding_news][patch][] = "https://github.com/ding2/ding_news/pull/11.patch"
 ; http://platform.dandigbib.org/issues/1106: Add more links to group lists
 projects[ding_news][patch][] = "https://github.com/ding2/ding_news/pull/12.patch"
 
@@ -85,6 +91,8 @@ projects[ding_event][type] = "module"
 projects[ding_event][download][type] = "git"
 projects[ding_event][download][url] = "git@github.com:ding2/ding_event.git"
 projects[ding_event][download][tag] = "v2.0.0"
+; KDB - Fix using Organic groups for Views relationships.
+projects[ding_event][patch][]   = "https://github.com/ding2/ding_event/pull/14.patch"
 ; http://platform.dandigbib.org/issues/1106: Add more links to group lists
 projects[ding_event][patch][] = "https://github.com/ding2/ding_event/pull/15.patch"
 
@@ -111,6 +119,8 @@ projects[ding_staff][download][url] = "git@github.com:ding2/ding_staff.git"
 projects[ding_staff][download][tag] = "v2.0.0"
 ; http://platform.dandigbib.org/issues/756: Fix links to users on staff list.
 projects[ding_staff][patch][] = "https://github.com/ding2/ding_staff/pull/2.patch"
+; KDB - Fix using Organic groups for Views relationships.
+projects[ding_staff][patch][] = "https://github.com/ding2/ding_staff/pull/3.patch"
 ; http://platform.dandigbib.org/issues/678: Show profile names for users.
 projects[ding_staff][patch][] = "https://github.com/ding2/ding_staff/pull/5.patch"
 
