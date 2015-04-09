@@ -45,21 +45,6 @@ projects[httprl][version]                   = "1.14"
 projects[httprl][subdir]                    = "contrib"
 
 
-; easyDDB contrib patches
-projects[ctools][patch][] = "https://www.drupal.org/files/issues/combined_patch_from_n2195211-15_and_n2195471-14--n2195471-16.patch"
-
-projects[og][patch][] = "https://www.drupal.org/files/issues/og-select_widget-2141101-41.patch"
-projects[og][patch][] = "https://www.drupal.org/files/issues/add-gid-to-relationship-field-1890370-34.patch"
-
-projects[opening_hours][patch][] = "http://drupal.org/files/node-type-test-isset-2011684-2.patch"
-
-projects[panels][patch][] = "http://drupal.org/files/1649046-form-wrapper-is-where-form-is-now.patch"
-
-projects[cookiecontrol][patch][] = "http://www.drupal.org/files/issues/cookiecontrol-ie_safari_cookies-issue_2318997.patch"
-
-projects[media][patch][] = "http://storage.easyting.dk/media-undefined_index_options-ddbeasy_520.patch"
-
-
 ; easyDDB forks
 ; REMEMBER to merge upstream on new release
 
@@ -193,28 +178,12 @@ libraries[ting-client][download][branch] = "easyddb"
 ; DDBEASY-469 - Add show more button for collection.
 projects[ding_ting_frontend][patch][] = "http://storage.easyting.dk/ding_ting_frontend-adds_more_button-ddbeasy_469.patch"
 
-; KDB - Fix using Organic groups for Views relationships.
-projects[ding_staff][patch][]   = "https://github.com/ding2/ding_staff/pull/3.patch"
-projects[ding_page][patch][]    = "https://github.com/ding2/ding_page/pull/11.patch"
-projects[ding_news][patch][]    = "https://github.com/ding2/ding_news/pull/11.patch"
-projects[ding_library][patch][] = "https://github.com/ding2/ding_library/pull/11.patch"
-projects[ding_groups][patch][]  = "https://github.com/ding2/ding_groups/pull/1.patch"
-projects[ding_event][patch][]   = "https://github.com/ding2/ding_event/pull/14.patch"
-projects[ding_base][patch][]    = "https://github.com/ding2/ding_base/pull/10.patch"
-
-; Issue 1026: Show library title on map.
-project[ding_library][patch][]  = "https://github.com/ding2/ding_library/pull/10.patch"
-
-; Issue 1028: Add more filters to My Workbench / Recent content.
-projects[ding_content][patch][] = "https://github.com/ding2/ding_content/pull/10.patch"
-
 
 ; Themes
 projects[ddbasic][type]             = "theme"
 projects[ddbasic][download][type]   = "git"
 projects[ddbasic][download][url]    = "git@github.com:easyddb/ddbasic.git"
-projects[ddbasic][download][branch] = "development"
-projects[ddbasic][download][tag]    = ""
+projects[ddbasic][download][tag]    = "v2.0.0+easy"
 
 
 ; easyDDB modules
@@ -369,6 +338,11 @@ projects[easyddb_materials_display][download][type] = "git"
 projects[easyddb_materials_display][download][url]  = "git@github.com:easyddb/easyddb_materials_display.git"
 projects[easyddb_materials_display][download][tag]  = "v2.0.0+easy"
 
+projects[easyddb_frontend_layout][type]           = "module"
+projects[easyddb_frontend_layout][download][type] = "git"
+projects[easyddb_frontend_layout][download][url]  = "git@github.com:easyddb/easyddb_frontend_layout.git"
+projects[easyddb_frontend_layout][download][tag]  = "v2.0.0+easy"
+
 projects[ding_more_info][type]           = "module"
 projects[ding_more_info][download][type] = "git"
 projects[ding_more_info][download][url]  = "git@github.com:easyddb/ding_more_info.git"
@@ -381,7 +355,7 @@ projects[ask_vopros][download][branch]  = "master"
 
 projects[kultunaut_events][type]           = "module"
 projects[kultunaut_events][download][type] = "git"
-projects[kultunaut_events][download][url   = "git@github.com:easyddb/kultunaut_events.git"
+projects[kultunaut_events][download][url]  = "git@github.com:easyddb/kultunaut_events.git"
 projects[kultunaut_events][download][tag]  = "v2.0.0+easy"
 
 projects[ding_easyscreen][type]           = "module"
