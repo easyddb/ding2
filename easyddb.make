@@ -342,7 +342,7 @@ projects[easyddb_materials_display][download][branch]  = "development"
 projects[easyddb_frontend_layout][type]           = "module"
 projects[easyddb_frontend_layout][download][type] = "git"
 projects[easyddb_frontend_layout][download][url]  = "git@github.com:easyddb/easyddb_frontend_layout.git"
-projects[easyddb_frontend_layout][download][tag]  = "v2.0.0+easy"
+projects[easyddb_frontend_layout][download][branch]  = "development"
 
 projects[ding_more_info][type]           = "module"
 projects[ding_more_info][download][type] = "git"
