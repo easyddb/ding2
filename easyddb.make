@@ -44,6 +44,8 @@ projects[linkchecker][subdir]               = "contrib"
 projects[httprl][version]                   = "1.14"
 projects[httprl][subdir]                    = "contrib"
 
+projects[webform][version]                   = "4.7"
+projects[webform][subdir]                    = "contrib"
 
 ; easyDDB forks
 ; REMEMBER to merge upstream on new release
