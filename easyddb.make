@@ -63,6 +63,7 @@ projects[bpi][download][branch] = "easyddb"
 projects[ding_availability][type]             = "module"
 projects[ding_availability][download][type]   = "git"
 projects[ding_availability][download][url]    = "git@github.com:easyddb/ding_availability.git"
+projects[ding_availability][download][tag]    = ""
 projects[ding_availability][download][branch] = "easyddb"
 
 projects[ding_campaign][type]             = "module"
@@ -116,6 +117,7 @@ projects[ding_staff][download][branch] = "easyddb"
 projects[ding_toggle_format][type]             = "module"
 projects[ding_toggle_format][download][type]   = "git"
 projects[ding_toggle_format][download][url]    = "git@github.com:easyddb/ding_toggle_format.git"
+projects[ding_toggle_format][download][tag]    = ""
 projects[ding_toggle_format][download][branch] = "easyddb"
 
 projects[ding_user][type]             = "module"
@@ -166,11 +168,11 @@ projects[ting_search_carousel][download][url]    = "git@github.com:easyddb/ting_
 projects[ting_search_carousel][download][tag]    = ""
 projects[ting_search_carousel][download][branch] = "easyddb"
 
-libraries[ting-client][type]             = "module"
 libraries[ting-client][download][type]   = "git"
 libraries[ting-client][download][url]    = "git@github.com:easyddb/ting-client.git"
 libraries[ting-client][download][tag]    = ""
 libraries[ting-client][download][branch] = "easyddb"
+libraries[ting-client][destination]      = "modules/ting/lib"
 
 
 ; Patches to ding2 modules
@@ -368,4 +370,3 @@ projects[emailkanon][type]           = "module"
 projects[emailkanon][download][type] = "git"
 projects[emailkanon][download][url]  = "git@github.com:easyddb/emailkanon.git"
 projects[emailkanon][download][branch]  = "development"
-
