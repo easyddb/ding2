@@ -26,6 +26,8 @@ projects[openruth][type] = "module"
 projects[openruth][download][type] = "git"
 projects[openruth][download][url] = "git@github.com:ding2/openruth.git"
 projects[openruth][download][tag] = "7.x-2.0.0"
+; DDBEASY-639 - OpenRuth is failing
+projects[openruth][patch][] = "https://patch-diff.githubusercontent.com/raw/ding2/openruth/pull/9.patch"
 
 projects[ding_frontend][type] = "module"
 projects[ding_frontend][download][type] = "git"
@@ -36,6 +38,10 @@ projects[ding_groups][type] = "module"
 projects[ding_groups][download][type] = "git"
 projects[ding_groups][download][url] = "git@github.com:ding2/ding_groups.git"
 projects[ding_groups][download][tag] = "7.x-2.0.0"
+; KDB - Fix using Organic groups for Views relationships.
+projects[ding_groups][patch][] = "https://github.com/ding2/ding_groups/pull/1.patch"
+; Issue 287: Move campaigns to left sidebar.
+projects[ding_groups][patch][] = "https://patch-diff.githubusercontent.com/raw/ding2/ding_groups/pull/4.patch"
 
 projects[ding_user_frontend][type] = "module"
 projects[ding_user_frontend][download][type] = "git"
@@ -46,6 +52,10 @@ projects[ding_ting_frontend][type] = "module"
 projects[ding_ting_frontend][download][type] = "git"
 projects[ding_ting_frontend][download][url] = "git@github.com:ding2/ding_ting_frontend.git"
 projects[ding_ting_frontend][download][tag] = "7.x-2.0.0"
+; DDBEASY-469 - Add show more button for collection.
+projects[ding_ting_frontend][patch][] = "http://storage.easyting.dk/ding_ting_frontend-adds_more_button-ddbeasy_469.patch"
+; Issue 287: Move campaigns to left sidebar.
+projects[ding_ting_frontend][patch][] = "https://patch-diff.githubusercontent.com/raw/ding2/ding_ting_frontend/pull/6.patch"
 
 #projects[mkdru_ding_frontend][type] = "module"
 #projects[mkdru_ding_frontend][download][type] = "git"
@@ -56,6 +66,8 @@ projects[ding_content][type] = "module"
 projects[ding_content][download][type] = "git"
 projects[ding_content][download][url] = "git@github.com:ding2/ding_content.git"
 projects[ding_content][download][tag] = "7.x-2.0.0"
+; Issue 1028: Add more filters to My Workbench / Recent content.
+projects[ding_content][patch][] = "https://github.com/ding2/ding_content/pull/10.patch"
 
 projects[ding_example_content][type] = "module"
 projects[ding_example_content][download][type] = "git"
@@ -71,16 +83,35 @@ projects[ding_library][type] = "module"
 projects[ding_library][download][type] = "git"
 projects[ding_library][download][url] = "git@github.com:ding2/ding_library.git"
 projects[ding_library][download][tag] = "7.x-2.0.0"
+; Issue 1026: Show library title on map.
+projects[ding_library][patch][]  = "https://github.com/ding2/ding_library/pull/10.patch"
+; KDB - Fix using Organic groups for Views relationships.
+projects[ding_library][patch][] = "https://github.com/ding2/ding_library/pull/11.patch"
+project[ding_library][patch][] = "https://github.com/ding2/ding_library/pull/10.patch"
+; Issue 287: Move campaigns to left sidebar.
+projects[ding_library][patch][] = "https://patch-diff.githubusercontent.com/raw/ding2/ding_library/pull/13.patch"
 
 projects[ding_news][type] = "module"
 projects[ding_news][download][type] = "git"
 projects[ding_news][download][url] = "git@github.com:ding2/ding_news.git"
 projects[ding_news][download][tag] = "7.x-2.0.0"
+; KDB - Fix using Organic groups for Views relationships.
+projects[ding_news][patch][] = "https://github.com/ding2/ding_news/pull/11.patch"
+; http://platform.dandigbib.org/issues/1106: Add more links to group lists
+projects[ding_news][patch][] = "https://github.com/ding2/ding_news/pull/12.patch"
+; Issue 287: Move campaigns to left sidebar.
+projects[ding_news][patch][] = "https://patch-diff.githubusercontent.com/raw/ding2/ding_news/pull/15.patch"
 
 projects[ding_event][type] = "module"
 projects[ding_event][download][type] = "git"
 projects[ding_event][download][url] = "git@github.com:ding2/ding_event.git"
 projects[ding_event][download][tag] = "7.x-2.0.0"
+; KDB - Fix using Organic groups for Views relationships.
+projects[ding_event][patch][]   = "https://github.com/ding2/ding_event/pull/14.patch"
+; http://platform.dandigbib.org/issues/1106: Add more links to group lists
+projects[ding_event][patch][] = "https://github.com/ding2/ding_event/pull/15.patch"
+; Issue 287: Move campaigns to left sidebar.
+projects[ding_event][patch][] = "https://patch-diff.githubusercontent.com/raw/ding2/ding_event/pull/18.patch"
 
 projects[ding_permissions][type] = "module"
 projects[ding_permissions][download][type] = "git"

@@ -44,6 +44,9 @@ projects[linkchecker][subdir]               = "contrib"
 projects[httprl][version]                   = "1.14"
 projects[httprl][subdir]                    = "contrib"
 
+projects[webform][version]                   = "4.7"
+projects[webform][subdir]                    = "contrib"
+
 
 ; easyDDB forks
 ; REMEMBER to merge upstream on new release
@@ -152,15 +155,6 @@ libraries[ting-client][download][type]   = "git"
 libraries[ting-client][download][url]    = "git@github.com:easyddb/ting-client.git"
 libraries[ting-client][download][tag]    = "7.x-2.0.0+easy"
 libraries[ting-client][destination]      = "modules/ting/lib"
-
-
-; Patches to ding2 modules
-
-; DDBEASY-469 - Add show more button for collection.
-projects[ding_ting_frontend][patch][] = "http://storage.easyting.dk/ding_ting_frontend-adds_more_button-ddbeasy_469.patch"
-
-; DDBEASY-639 - OpenRuth is failing
-projects[openruth][patch][] = "https://patch-diff.githubusercontent.com/raw/ding2/openruth/pull/9.patch"
 
 
 ; Themes
@@ -326,6 +320,11 @@ projects[easyddb_frontend_layout][type]           = "module"
 projects[easyddb_frontend_layout][download][type] = "git"
 projects[easyddb_frontend_layout][download][url]  = "git@github.com:easyddb/easyddb_frontend_layout.git"
 projects[easyddb_frontend_layout][download][tag]  = "7.x-2.0.0+easy"
+
+projects[easyddb_search_result_reservation][type]           = "module"
+projects[easyddb_search_result_reservation][download][type] = "git"
+projects[easyddb_search_result_reservation][download][url]  = "git@github.com:easyddb/easyddb_search_result_reservation.git"
+projects[easyddb_search_result_reservation][download][tag]  = "7.x-2.0.0+easy"
 
 projects[ding_more_info][type]           = "module"
 projects[ding_more_info][download][type] = "git"
