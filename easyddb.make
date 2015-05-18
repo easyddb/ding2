@@ -177,12 +177,6 @@ libraries[ting-client][download][branch] = "easyddb"
 libraries[ting-client][destination]      = "modules/ting/lib"
 
 
-; Patches to ding2 modules
-
-; DDBEASY-469 - Add show more button for collection.
-projects[ding_ting_frontend][patch][] = "http://storage.easyting.dk/ding_ting_frontend-adds_more_button-ddbeasy_469.patch"
-
-
 ; Themes
 projects[ddbasic][type]             = "theme"
 projects[ddbasic][download][type]   = "git"
