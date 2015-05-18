@@ -154,15 +154,6 @@ libraries[ting-client][download][tag]    = "7.x-2.0.0+easy"
 libraries[ting-client][destination]      = "modules/ting/lib"
 
 
-; Patches to ding2 modules
-
-; DDBEASY-469 - Add show more button for collection.
-projects[ding_ting_frontend][patch][] = "http://storage.easyting.dk/ding_ting_frontend-adds_more_button-ddbeasy_469.patch"
-
-; DDBEASY-639 - OpenRuth is failing
-projects[openruth][patch][] = "https://patch-diff.githubusercontent.com/raw/ding2/openruth/pull/9.patch"
-
-
 ; Themes
 projects[ddbasic][type]             = "theme"
 projects[ddbasic][download][type]   = "git"
