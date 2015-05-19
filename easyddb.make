@@ -90,7 +90,7 @@ projects[ding_library][type]             = "module"
 projects[ding_library][download][type]   = "git"
 projects[ding_library][download][url]    = "git@github.com:easyddb/ding_library.git"
 projects[ding_library][download][tag]    = ""
-projects[ding_library][download][branch] = "easyddb"
+projects[ding_library][download][branch] = "DDBEASY-623"
 
 projects[ding_permissions][type]             = "module"
 projects[ding_permissions][download][type]   = "git"
