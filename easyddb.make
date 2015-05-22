@@ -347,6 +347,11 @@ projects[easyddb_search_result_reservation][download][type] = "git"
 projects[easyddb_search_result_reservation][download][url]  = "git@github.com:easyddb/easyddb_search_result_reservation.git"
 projects[easyddb_search_result_reservation][download][branch]  = "development"
 
+projects[easyddb_search_result_reservation][type]           = "module"
+projects[easyddb_search_result_reservation][download][type] = "git"
+projects[easyddb_search_result_reservation][download][url]  = "git@github.com:easyddb/easyddb_ipe_filter.git"
+projects[easyddb_search_result_reservation][download][branch]  = "develop"
+
 projects[ding_more_info][type]           = "module"
 projects[ding_more_info][download][type] = "git"
 projects[ding_more_info][download][url]  = "git@github.com:easyddb/ding_more_info.git"
