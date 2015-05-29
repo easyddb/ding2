@@ -13,6 +13,9 @@ projects[opengraph_meta][subdir]            = "contrib"
 projects[features_override][version]        = "2.0-rc1"
 projects[features_override][subdir]         = "contrib"
 
+projects[field_reference_delete][version]   = "1.0-beta1"
+projects[field_reference_delete][subdir]    = "contrib"
+
 projects[memcache_storage][version]         = "1.4"
 projects[memcache_storage][subdir]          = "contrib"
 
