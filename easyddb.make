@@ -5,6 +5,7 @@ api = 2
 ; Include ding2 make file
 includes[ding2] = "ding2.make"
 
+includes[kulturrummet] = "kulturrummet.make"
 
 ; easyDDB contribution modules
 projects[opengraph_meta][version]           = "1.3"
