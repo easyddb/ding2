@@ -181,6 +181,12 @@ projects[ding_dummy_provider][download][tag] = "7.x-2.0.0"
 projects[apc][subdir] = "contrib"
 projects[apc][version] = "1.0-beta4"
 
+projects[ckeditor_image][subdir] = "contrib"
+projects[ckeditor_image][version] = "1.2"
+
+projects[ckeditor_link][subdir] = "contrib"
+projects[ckeditor_link][version] = "2.3"
+
 projects[entitycache][subdir] = "contrib"
 projects[entitycache][version] = "1.2"
 ; https://drupal.org/node/2146543, profile 2 blank fields.
