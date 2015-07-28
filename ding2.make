@@ -81,6 +81,8 @@ projects[ding_library][download][url] = "git@github.com:ding2/ding_library.git"
 projects[ding_library][download][tag] = "7.x-2.1.0"
 ; Issue 287: Move campaigns to left sidebar.
 projects[ding_library][patch][] = "https://patch-diff.githubusercontent.com/raw/ding2/ding_library/pull/13.patch"
+: Hotfix: Leaflet library moved externally.
+projects[ding_library][patch][] = "https://patch-diff.githubusercontent.com/raw/ding2/ding_library/pull/14.patch"
 
 projects[ding_news][type] = "module"
 projects[ding_news][download][type] = "git"
