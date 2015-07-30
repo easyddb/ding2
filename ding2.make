@@ -69,11 +69,13 @@ projects[ding_example_content][type] = "module"
 projects[ding_example_content][download][type] = "git"
 projects[ding_example_content][download][url] = "git@github.com:ding2/ding_example_content.git"
 projects[ding_example_content][download][tag] = "7.x-2.1.0"
+projects[ding_example_content][patch][] = "http://storage.easyting.dk/ding_example_content-TEMPORARY-leaflet.patch"
 
 projects[ding_frontpage][type] = "module"
 projects[ding_frontpage][download][type] = "git"
 projects[ding_frontpage][download][url] = "git@github.com:ding2/ding_frontpage.git"
 projects[ding_frontpage][download][tag] = "7.x-2.1.0"
+projects[ding_frontpage][patch][] = "http://storage.easyting.dk/ding_frontpage-TEMPORARY-leaflet.patch"
 
 projects[ding_library][type] = "module"
 projects[ding_library][download][type] = "git"
