@@ -347,6 +347,11 @@ projects[easyddb_frontend_layout][download][type] = "git"
 projects[easyddb_frontend_layout][download][url]  = "git@github.com:easyddb/easyddb_frontend_layout.git"
 projects[easyddb_frontend_layout][download][branch]  = "development"
 
+projects[easyddb_search_expand][type]           = "module"
+projects[easyddb_search_expand][download][type] = "git"
+projects[easyddb_search_expand][download][url]  = "git@github.com:easyddb/easyddb_search_expand.git"
+projects[easyddb_search_expand][download][branch]  = "development"
+
 projects[easyddb_search_result_reservation][type]           = "module"
 projects[easyddb_search_result_reservation][download][type] = "git"
 projects[easyddb_search_result_reservation][download][url]  = "git@github.com:easyddb/easyddb_search_result_reservation.git"
