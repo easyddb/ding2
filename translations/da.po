@@ -50258,8 +50258,8 @@ msgid "Sort"
 msgstr "Sortér"
 
 #: /search/ting/potter
-msgid "Display format: </span>"
-msgstr "Visningsformat"
+msgid "Display format:"
+msgstr "Visningsformat:"
 
 #: /search/ting/potter
 msgid "Results on page:"
@@ -66947,25 +66947,33 @@ msgstr "<a href=\"/search/node/\">Hjemmesiden</a> "
 msgid "<a href=\"/search/ting/\">Search Ting</a>"
 msgstr " <a href=\"/search/ting/\">Materialer</a> "
 
+#: /search/ting
+msgid "Search Ting"
+msgstr "Materialer"
+
+#: /search/ting
+msgid "Search Content"
+msgstr "Hjemmesiden"
+
 #: /search/node/harry%20potter
 msgid "Søg i"
 msgstr "Resultater fra:"
 
 #: /ding_availability/holdings/29913900
-msgid "We have @count copies."
-msgstr "Vi har indkøbt @count eksemplarer."
+msgid "We have @count copies"
+msgstr "Vi har indkøbt @count eksemplarer"
 
 #: /ding_availability/holdings/29913900
-msgid "There are @count users in queue to loan the material."
-msgstr "Der er @count reserveringer til dette materiale."
+msgid "There are @count users in queue to loan the material"
+msgstr "Der er @count reserveringer til dette materiale"
 
 #: /ding_availability/holdings/20188383
-msgid "We have 1 copy."
-msgstr "Vi har indkøbt et eksemplar."
+msgid "We have 1 copy"
+msgstr "Vi har indkøbt et eksemplar"
 
 #: /ding_availability/holdings/50520552
-msgid "There is 1 user in queue to loan the material."
-msgstr "Der er 1 reservering til dette materiale."
+msgid "There is 1 user in queue to loan the material"
+msgstr "Der er 1 reservering til dette materiale"
 
 #: /search/ting/harry%20potter
 msgid "Sort by: !sort"

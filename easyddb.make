@@ -13,6 +13,9 @@ projects[opengraph_meta][subdir]            = "contrib"
 projects[features_override][version]        = "2.0-rc1"
 projects[features_override][subdir]         = "contrib"
 
+projects[field_reference_delete][version]   = "1.0-beta1"
+projects[field_reference_delete][subdir]    = "contrib"
+
 projects[memcache_storage][version]         = "1.4"
 projects[memcache_storage][subdir]          = "contrib"
 
@@ -47,6 +50,7 @@ projects[httprl][subdir]                    = "contrib"
 projects[webform][version]                   = "4.7"
 projects[webform][subdir]                    = "contrib"
 
+
 ; easyDDB forks
 ; REMEMBER to merge upstream on new release
 
@@ -79,6 +83,7 @@ projects[ding_content][download][type]   = "git"
 projects[ding_content][download][url]    = "git@github.com:easyddb/ding_content.git"
 projects[ding_content][download][tag]    = ""
 projects[ding_content][download][branch] = "easyddb"
+projects[ding_content][patch][]          = "https://patch-diff.githubusercontent.com/raw/ding2/ding_content/pull/14.patch"
 
 projects[ding_facetbrowser][type]             = "module"
 projects[ding_facetbrowser][download][type]   = "git"
