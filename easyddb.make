@@ -360,7 +360,7 @@ projects[easyddb_zerohit_redirect][download][branch]  = "development"
 projects[easyddb_ipe_filter][type]           = "module"
 projects[easyddb_ipe_filter][download][type] = "git"
 projects[easyddb_ipe_filter][download][url]  = "git@github.com:easyddb/easyddb_ipe_filter.git"
-projects[easyddb_ipe_filter][download][branch]  = "develop"
+projects[easyddb_ipe_filter][download][branch]  = "development"
 
 projects[ding_more_info][type]           = "module"
 projects[ding_more_info][download][type] = "git"
