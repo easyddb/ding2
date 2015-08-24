@@ -187,7 +187,7 @@ projects[ddbasic][type]             = "theme"
 projects[ddbasic][download][type]   = "git"
 projects[ddbasic][download][url]    = "git@github.com:easyddb/ddbasic.git"
 projects[ddbasic][download][tag]    = ""
-projects[ddbasic][download][branch] = "development"
+projects[ddbasic][download][branch] = "slagbib"
 
 
 ; easyDDB modules
@@ -385,7 +385,7 @@ projects[kultunaut_events][download][branch]  = "development"
 projects[ding_easyscreen][type]           = "module"
 projects[ding_easyscreen][download][type] = "git"
 projects[ding_easyscreen][download][url]  = "git@github.com:easyting/ding_easyscreen_d7.git"
-projects[ding_easyscreen][download][branch]  = "easyddb"
+projects[ding_easyscreen][download][branch]  = "slagbib"
 
 projects[emailkanon][type]           = "module"
 projects[emailkanon][download][type] = "git"
