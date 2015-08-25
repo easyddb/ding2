@@ -25,7 +25,7 @@ projects[ding_devel][download][tag] = "7.x-2.1.0"
 projects[openruth][type] = "module"
 projects[openruth][download][type] = "git"
 projects[openruth][download][url] = "git@github.com:ding2/openruth.git"
-projects[openruth][download][tag] = "7.x-2.1.0"
+projects[openruth][download][tag] = "7.x-2.2.0"
 ; DDBEASY-639 - OpenRuth is failing
 projects[openruth][patch][] = "https://patch-diff.githubusercontent.com/raw/ding2/openruth/pull/9.patch"
 
@@ -101,6 +101,8 @@ projects[ding_event][download][tag] = "7.x-2.2.0"
 projects[ding_event][patch][] = "https://github.com/ding2/ding_event/pull/15.patch"
 ; Issue 287: Move campaigns to left sidebar.
 projects[ding_event][patch][] = "https://patch-diff.githubusercontent.com/raw/ding2/ding_event/pull/18.patch"
+; Issue 687 - Event without libraries. 
+projects[ding_event][patch][] = "https://patch-diff.githubusercontent.com/raw/ding2/ding_event/pull/19.patch"
 
 projects[ding_permissions][type] = "module"
 projects[ding_permissions][download][type] = "git"
