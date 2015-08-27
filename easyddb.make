@@ -325,10 +325,20 @@ projects[easyddb_frontend_layout][download][type] = "git"
 projects[easyddb_frontend_layout][download][url]  = "git@github.com:easyddb/easyddb_frontend_layout.git"
 projects[easyddb_frontend_layout][download][tag]  = "7.x-2.0.0+easy"
 
+projects[easyddb_search_expand][type]           = "module"
+projects[easyddb_search_expand][download][type] = "git"
+projects[easyddb_search_expand][download][url]  = "git@github.com:easyddb/easyddb_search_expand.git"
+projects[easyddb_search_expand][download][tag]  = "7.x-2.2.0+easy"
+
 projects[easyddb_search_result_reservation][type]           = "module"
 projects[easyddb_search_result_reservation][download][type] = "git"
 projects[easyddb_search_result_reservation][download][url]  = "git@github.com:easyddb/easyddb_search_result_reservation.git"
 projects[easyddb_search_result_reservation][download][tag]  = "7.x-2.0.0+easy"
+
+projects[easyddb_zerohit_redirect][type]           = "module"
+projects[easyddb_zerohit_redirect][download][type] = "git"
+projects[easyddb_zerohit_redirect][download][url]  = "git@github.com:easyddb/easyddb_zerohit_redirect.git"
+projects[easyddb_zerohit_redirect][download][tag]  = "7.x-2.2.0+easy"
 
 projects[easyddb_ipe_filter][type]           = "module"
 projects[easyddb_ipe_filter][download][type] = "git"
