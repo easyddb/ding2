@@ -385,7 +385,7 @@ projects[kultunaut_events][download][branch]  = "development"
 projects[ding_easyscreen][type]           = "module"
 projects[ding_easyscreen][download][type] = "git"
 projects[ding_easyscreen][download][url]  = "git@github.com:easyting/ding_easyscreen_d7.git"
-projects[ding_easyscreen][download][branch]  = "easyddb"
+projects[ding_easyscreen][download][branch]  = "develop"
 
 projects[emailkanon][type]           = "module"
 projects[emailkanon][download][type] = "git"
