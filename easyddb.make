@@ -345,12 +345,17 @@ projects[easyddb_editorial_dashboard][download][branch]  = "development"
 projects[easyddb_materials_display][type]           = "module"
 projects[easyddb_materials_display][download][type] = "git"
 projects[easyddb_materials_display][download][url]  = "git@github.com:easyddb/easyddb_materials_display.git"
-projects[easyddb_materials_display][download][branch]  = "development"
+projects[easyddb_materials_display][download][branch]  = "develop"
 
 projects[easyddb_frontend_layout][type]           = "module"
 projects[easyddb_frontend_layout][download][type] = "git"
 projects[easyddb_frontend_layout][download][url]  = "git@github.com:easyddb/easyddb_frontend_layout.git"
 projects[easyddb_frontend_layout][download][branch]  = "development"
+
+projects[easyddb_search_radios][type]           = "module"
+projects[easyddb_search_radios][download][type] = "git"
+projects[easyddb_search_radios][download][url]  = "git@github.com:easyddb/easyddb_search_radios.git"
+projects[easyddb_search_radios][download][branch]  = "development"
 
 projects[easyddb_search_expand][type]           = "module"
 projects[easyddb_search_expand][download][type] = "git"
