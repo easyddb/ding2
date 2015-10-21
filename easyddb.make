@@ -7,6 +7,9 @@ includes[ding2] = "ding2.make"
 
 
 ; easyDDB contribution modules
+projects[extlink][version]                  = "1.18"
+projects[extlink][subdir]                   = "contrib"
+
 projects[opengraph_meta][version]           = "1.3"
 projects[opengraph_meta][subdir]            = "contrib"
 
@@ -341,6 +344,11 @@ projects[easyddb_editorial_dashboard][type]           = "module"
 projects[easyddb_editorial_dashboard][download][type] = "git"
 projects[easyddb_editorial_dashboard][download][url]  = "git@github.com:easyddb/easyddb_editorial_dashboard.git"
 projects[easyddb_editorial_dashboard][download][branch]  = "development"
+
+projects[easyddb_extlink_settings][type]           = "module"
+projects[easyddb_extlink_settings][download][type] = "git"
+projects[easyddb_extlink_settings][download][url]  = "git@github.com:easyddb/easyddb_extlink_settings.git"
+projects[easyddb_extlink_settings][download][branch]  = "development"
 
 projects[easyddb_materials_display][type]           = "module"
 projects[easyddb_materials_display][download][type] = "git"
