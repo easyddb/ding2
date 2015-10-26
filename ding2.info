@@ -1,6 +1,6 @@
 name = Ding 2
 description = Install a Ding based library site.
-version = 7.x-2.2.0
+version = 7.x-2.3.1
 core = 7.x
 distribution_name = "Ding 2"
 exclusive = TRUE
@@ -40,5 +40,6 @@ dependencies[] = bpi
 ; Cache/performance modules
 dependencies[] = entitycache
 dependencies[] = ding_varnish
+dependencies[] = maintenance_mode_api
 
 files[] = ding2.profile
