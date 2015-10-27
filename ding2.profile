@@ -57,8 +57,6 @@ function ding2_form_alter(&$form, &$form_state, $form_id) {
     // Set default values in ting search form to help aegir/bulk installations.
     if ($form_id == 'ting_admin_ting_settings') {
       $form['ting']['ting_search_url']['#default_value'] = 'http://opensearch.addi.dk/3.0/';
-      $form['ting']['ting_scan_url']['#default_value'] = 'http://openscan.addi.dk/2.0/';
-      $form['ting']['ting_spell_url']['#default_value'] = 'http://openspell.addi.dk/1.2/';
       $form['ting']['ting_recommendation_url']['#default_value'] = 'http://openadhl.addi.dk/1.1/';
     }
 
@@ -672,6 +670,7 @@ function ding2_module_list_as_operations($module_list) {
 function ding2_module_enable(&$install_state) {
   $modules = variable_get('ding_module_selected', array());
   $modules[] = 'l10n_update';
+  $modules[] = 'ting_infomedia';
 
   $operations = ding2_module_list_as_operations($modules);
 
@@ -780,7 +779,7 @@ function ding2_set_cookie_page() {
   $eu_cookie_compliance_da['popup_height'] = '';
   $eu_cookie_compliance_da['popup_width'] = '100%';
   $eu_cookie_compliance_da['popup_delay'] = 1;
-  
+
   // Set cookie compliance variables
   variable_set('eu_cookie_compliance_da', $eu_cookie_compliance_da);
   variable_set('eu_cookie_compliance_cookie_lifetime', 365);
