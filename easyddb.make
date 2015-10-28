@@ -81,7 +81,6 @@ projects[ding_content][type]             = "module"
 projects[ding_content][download][type]   = "git"
 projects[ding_content][download][url]    = "git@github.com:easyddb/ding_content.git"
 projects[ding_content][download][tag]    = "7.x-2.3.1+easy"
-projects[ding_content][patch][]          = "https://patch-diff.githubusercontent.com/raw/ding2/ding_content/pull/14.patch"
 
 projects[ding_facetbrowser][type]             = "module"
 projects[ding_facetbrowser][download][type]   = "git"
