@@ -315,7 +315,7 @@ projects[easyddb_disable_type][download][tag]  = "7.x-2.3.1+easy"
 projects[easyddb_editorial_base][type]           = "module"
 projects[easyddb_editorial_base][download][type] = "git"
 projects[easyddb_editorial_base][download][url]  = "git@github.com:easyddb/easyddb_editorial_base.git"
-projects[easyddb_editorial_base][download][tag]  = "7.x-2.2.0+easy"
+projects[easyddb_editorial_base][download][tag]  = "7.x-2.3.1+easy"
 
 projects[easyddb_editorial_dashboard][type]           = "module"
 projects[easyddb_editorial_dashboard][download][type] = "git"
