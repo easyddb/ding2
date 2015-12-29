@@ -5,6 +5,7 @@ api = 2
 ; Include ding2 make file
 includes[ding2] = "ding2.make"
 
+includes[kulturrummet] = "dab.make"
 
 ; easyDDB contribution modules
 projects[extlink][version]                  = "1.18"
