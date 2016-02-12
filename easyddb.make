@@ -377,7 +377,12 @@ projects[kultunaut_events][download][tag]  = "7.x-2.2.0+easy"
 projects[ding_easyscreen][type]           = "module"
 projects[ding_easyscreen][download][type] = "git"
 projects[ding_easyscreen][download][url]  = "git@github.com:easyting/ding_easyscreen_d7.git"
-projects[ding_easyscreen][download][branch]  = "easyddb"
+projects[ding_easyscreen][download][tag]  = "7.x-1.1"
+
+projects[ding_easyscreen_search][type]           = "module"
+projects[ding_easyscreen_search][download][type] = "git"
+projects[ding_easyscreen_search][download][url]  = "git@github.com:easyting/ding_easyscreen_search_d7.git"
+projects[ding_easyscreen_search][download][tag]  = "7.x-1.1"
 
 projects[emailkanon][type]           = "module"
 projects[emailkanon][download][type] = "git"
